@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+  <!-- This style was edited with the Visual CSL Editor (http://steveridout.com/csl/visualEditor/) -->
   <info>
-    <title>Tesis de Magister en Biotecnologia UNAB </title>
+    <title>American Psychological Association 6th edition</title>
     <title-short>APA</title-short>
-    <id>http://csl.mendeley.com/styles/15146813/apa</id>
+    <id>http://www.zotero.org/styles/apa</id>
     <link href="http://www.zotero.org/styles/apa" rel="self"/>
     <link href="http://owl.english.purdue.edu/owl/resource/560/01/" rel="documentation"/>
     <author>
@@ -17,21 +18,17 @@
       <name>Curtis M. Humphrey</name>
     </contributor>
     <contributor>
-      <name>Sebastian Sariego Benitez</name>
-      <uri>http://www.mendeley.com/profiles/sebastian-sariego-benitez/</uri>
-    </contributor>
-    <contributor>
-      <name>Sebastian Karcher</name>
-    </contributor>
-    <contributor>
       <name>Richard Karnesky</name>
       <email>karnesky+zotero@gmail.com</email>
       <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>
     </contributor>
+    <contributor>
+      <name>Sebastian Karcher</name>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-   <updated>2014-05-19T00:09:11+00:00</updated>
+    <updated>2014-04-12T01:20:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -87,7 +84,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" et-al-min="2" initialize-with=". "/>
+      <name form="short" and="symbol" delimiter=", " initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -132,6 +129,9 @@
       </if>
       <else>
         <choose>
+          <if variable="DOI">
+            <text variable="DOI" prefix="doi:"/>
+          </if>
           <else>
             <choose>
               <if type="webpage">
@@ -167,6 +167,7 @@
         </group>
       </if>
       <else-if type="book graphic  motion_picture report song manuscript speech" match="any">
+        <!---This is a hack until we have a computer program type -->
         <choose>
           <if variable="version">
             <group delimiter=" ">
@@ -357,7 +358,7 @@
         </group>
       </else-if>
       <else-if type="bill legislation" match="any">
-        <date variable="issued" prefix=" " suffix="">
+        <date variable="issued" prefix=" (" suffix=")">
           <date-part name="year"/>
         </date>
       </else-if>
@@ -407,6 +408,7 @@
               <text variable="volume"/>
               <text variable="container-title"/>
               <group delimiter=" ">
+                <!--change to label variable="section" as that becomes available -->
                 <text term="section" form="symbol"/>
                 <text variable="section"/>
               </group>
@@ -420,6 +422,7 @@
                 <else>
                   <text variable="number" prefix="Pub. L. No. "/>
                   <group delimiter=" ">
+                    <!--change to label variable="section" as that becomes available -->
                     <text term="section" form="symbol"/>
                     <text variable="section"/>
                   </group>
