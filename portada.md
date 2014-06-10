@@ -25,8 +25,6 @@ Escuela de Ingeniería en Biotecnología
         \textbf{Director de Tesis:} Dr. Luis Mercado Vianco\\
         \textbf{Institución:} Pontificia Universidad Católica de Valparaíso       
        
-       \vspace{0.8cm}          
-        
              
         
          \vspace{1.5cm}
@@ -39,8 +37,7 @@ Escuela de Ingeniería en Biotecnología
 
         
         
-        \vfill
-  
+ 
         Julio, 2013
         
  
