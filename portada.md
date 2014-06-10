@@ -28,8 +28,6 @@ Escuela de Ingeniería en Biotecnología
        \vspace{0.8cm}          
         
              
-        \vspace{0.5cm}     
-        
         
          \vspace{2cm}
          presentado por:\\

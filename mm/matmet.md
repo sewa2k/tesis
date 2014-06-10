@@ -7,7 +7,7 @@
 	\label {fig:esquema}
 \end{figure}
 
-##Material Biológico$\mu$L
+##Material Biológico
 
 ###Peces
 
