@@ -3,9 +3,9 @@ all:
 	@echo "Generando PDF"
 	@sh pdf.sh
 
-commit:
+git:
 
-	@echo "Haciendo commit"
+	@echo "Haciendo commit y subiendo a GitHub"
 	@git subir
 	@git push
 
