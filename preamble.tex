@@ -1,29 +1,41 @@
 % Set margins
-\usepackage[top=1.25in,bottom=1.25in]{geometry}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 %\usepackage[T1]{fontenc}
+\usepackage[no-math]{fontspec}
+%\fontspec{Minion Pro}
+\setmainfont{Minion Pro}
+\usepackage{MnSymbol}
+\usepackage[mathlf,textlf]{MinionPro}
+\setromanfont{Minion Pro}
 \DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\ }
 %\usepackage[latin1]{iputenc}
+
 \usepackage[spanish, es-tabla]{babel}
 \usepackage{textcomp}
 \usepackage{graphicx}
-\graphicspath{ {gfx/} } 
+\graphicspath{{gfx/}} 
 \usepackage{fancyhdr}
 \usepackage{mathspec}
 \usepackage{amsmath,amsthm}
+\usepackage{xltxtra}
 \usepackage{tabularx}
+\usepackage{titlesec}
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pagestyle{plain}
-% Fonts and typesetting
-%\setmainfont{MinionPro}
-%\setsansfont{Verdana}
-
+\newfontfamily\myriad{Myriad Pro}
+\titleformat*{\section}{\LARGE\myriad}
+\titleformat*{\subsection}{\Large\myriad}
+\titleformat*{\subsubsection}{\large\myriad}
 % Set figure legends and captions to be smaller sized sans serif font
-\usepackage[font={footnotesize}]{caption}
+\usepackage[font={footnotesize,sf}]{caption}
 
-%\usepackage{siunitx}
-
+\usepackage{siunitx}
+\DeclareSIUnit\molar{{M}}
+\DeclareSIUnit\litro{{L}}
+\DeclareSIUnit\metro{{m}}
+\DeclareSIUnit\gramo{{g}}
 % Adjust spacing between lines to 1.5
 \usepackage{setspace}
 \onehalfspacing
@@ -36,6 +48,11 @@
 % Tables
 \usepackage{booktabs}
 \usepackage{threeparttable}
+\renewcommand{\TPTnoteSettings}{\small
+        \setlength\leftmargin{1.8em}%
+        \setlength\labelwidth{1em}%
+        \setlength\labelsep{.1em}%
+}%
 \usepackage{array}
 \newcolumntype{x}[1]{%
 >{\centering\arraybackslash}m{#1}}%
