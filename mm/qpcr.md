@@ -82,7 +82,7 @@ Los partidores se estandarizaron con un mix de varios cDNA en distintas dilucion
 \sffamily
   \begin{center}
     \begin{threeparttable}
-      \caption{Programa Termociclador}
+      \caption{Programa Termociclador para estandarización de Partidores}
       \begin{tabularx}{13cm}{l X l l}
 	\toprule
 	\textbf{Etapa} & \textbf{Temperatura} & \textbf{Tiempo} & \textbf{Ciclos} \\
@@ -91,11 +91,10 @@ Los partidores se estandarizaron con un mix de varios cDNA en distintas dilucion
 	Denaturación & 95º & 00:10 seg & 39\\
 	Annealing en Gradiente & 62º $\rightarrow$ 52$º\textsuperscript{$\dagger$}$ & 00:10 seg & 39 \\
 	Extensión & 60º & 00:10 seg & 39 \\
-\bottomrule
-\end{tabularx}
-\begin{tablenotes}
-  \item Programa termociclador usado para la estandarización de partidores. 
-  $\dagger$\emph{El gradiente varía dentro de esas temperaturas según los partidores}
+	\bottomrule
+      \end{tabularx}
+    \begin{tablenotes}
+      \item $\dagger$\emph{El gradiente varía dentro de esas temperaturas según los partidores}
 \end{tablenotes}
 \end{threeparttable}
 \end{center}

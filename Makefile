@@ -2,6 +2,7 @@
 all:
 	@echo "Generando PDF"
 	@sh pdf.sh
+#	@sh okular pdf/intro.pdf
 
 git:
 

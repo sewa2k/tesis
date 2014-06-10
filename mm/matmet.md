@@ -2,7 +2,7 @@
 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[width=9cm]{esquema} 
+		\includegraphics[width=11cm]{esquema} 
 	\caption {Esquema general de trabajo}
 	\label {fig:esquema}
 \end{figure}
