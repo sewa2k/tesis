@@ -29,7 +29,7 @@ Escuela de Ingeniería en Biotecnología
         
              
         
-         \vspace{2cm}
+         \vspace{1.5cm}
          presentado por:\\
          \vspace{0.1cm}
          \textbf{Sebastián Rodrigo Sariego Benítez}\\
