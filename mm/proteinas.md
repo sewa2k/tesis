@@ -6,6 +6,7 @@ Se agregó una pequeña cantidad de tejido pulverizado a 500\si{\micro\litro} de
 \sffamily
   \begin{center}
     \begin{threeparttable}
+      \captionsetup{font={normalsize,sf}}
       \caption{Composición Buffer de Lisis}\label{tablabufferlisis}
       \begin{tabularx}{10cm}{X l}
 	\toprule
@@ -27,7 +28,7 @@ Se agregó una pequeña cantidad de tejido pulverizado a 500\si{\micro\litro} de
 
 ###Cuantificación de Proteínas
 
-Para cuantificar las proteínas totales extraídas se usó el método del ácido bicinconínico (BCA, por sus siglas en inglés), el cual está basado en la capacidad de este compuesto por formar un intenso complejo purpura con el ion cuproso en un entorno básico, el cual se produce al reaccionar las proteínas con cobre alcalino (método Biuret), y el BCA de cierta forma va censando esta formación [@Smith1985]. Se utilizará el Kit BCA (Pierce), como curva de calibrado se usó albumina de suero bovino (BSA, por sus siglas en inglés) en diferentes concentraciones (1,5; 1,0; 0,75; 0,5; 0,25; 0,125 y 0,0125 \si{\micro\gramo}/\si{\micro\litro}) y se leyeron en un lector espectrofotométrico de microplacas (VersaMax Microplate Reader, Molecular Devices) a 562nm.
+Para cuantificar las proteínas totales extraídas se usó el método del ácido bicinconínico (BCA, por sus siglas en inglés), el cual está basado en la capacidad de este compuesto por formar un intenso complejo purpura con el ion cuproso en un entorno básico, producido al reaccionar las proteínas con cobre alcalino (método Biuret), y el BCA de cierta forma va censando esta formación [@Smith1985]. Se utilizará el Kit BCA (Thermo Pierce), como curva de calibrado se usó albumina de suero bovino (BSA, por sus siglas en inglés) en diferentes concentraciones (1,5; 1,0; 0,75; 0,5; 0,25; 0,125 y 0,0125 \si{\micro\gramo}/\si{\micro\litro}). En una placa de cultivo de 96 pocillos se cargaron 25\si{\micro\litro} de cada concentración de la curva de calibrado y 25\si{\micro\litro} de cada extracto de proteínas en una dilución 1:50, todas las muestras incluyendo la curva se cargaron en duplicado. Luego se agregaron 200 \si{\micro\litro} del reactivo BCA en una relación 50:1 (A:B) siguiendo las instrucciones del fabricante, y se incubó la microplaca a 37ºC. Para la lectura de la placa se usó  un lector espectrofotométrico de microplacas (VersaMax Microplate Reader, Molecular Devices) a una longitud de onda de 562nm.
 
 
 \clearpage

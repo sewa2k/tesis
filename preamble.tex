@@ -1,4 +1,4 @@
-% Set margins
+% βɑγ Set margins
 \usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 %\usepackage[T1]{fontenc}
 \usepackage[no-math]{fontspec}
@@ -11,11 +11,13 @@
 %\usepackage[latin1]{iputenc}
 
 \usepackage[spanish, es-tabla]{babel}
-
+\newcommand{\ga}{ɑ}
 \usepackage{textcomp}
 \usepackage{graphicx}
 \graphicspath{{gfx/}} 
 \usepackage{fancyhdr}
+%\usepackage{mhchem}
+\newcommand{\subindice}[1]{$_{\text{#1}}$}
 \usepackage{mathspec}
 \usepackage{amsmath,amsthm}
 \usepackage{xltxtra}
@@ -24,6 +26,7 @@
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
+%\usepackage{upgreek}
 \pagestyle{plain}
 \newfontfamily\myriad{Myriad Pro}
 \titleformat*{\section}{\LARGE\myriad}
@@ -49,7 +52,7 @@
 % Tables
 \usepackage{booktabs}
 \usepackage{threeparttable}
-\renewcommand{\TPTnoteSettings}{\small
+\renewcommand{\TPTnoteSettings}{\footnotesize
         \setlength\leftmargin{1.8em}%
         \setlength\labelwidth{1em}%
         \setlength\labelsep{.1em}%

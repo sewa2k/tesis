@@ -2,13 +2,12 @@
 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[width=11cm]{esquema} 
+		\includegraphics[width=7cm]{esquema} 
 	\caption {Esquema general de trabajo}
 	\label {fig:esquema}
 \end{figure}
 
 ##Material Biológico
-
 ###Peces
 
 Ejemplares de truchas de aproximadamente x meses de edad, con un peso promedio de 22,26 $\pm$ 1,7397g fueron obtenidas desde la piscicultura de Rio Blanco, ubicada a 35km de Los Andes, en la Quinta región de Valparaíso y fueron trasladados hasta el Centro de Investigaciones en Acuicultura Curauma, ubicado en la provincia de Valparaíso. Fueron aclimatados durante 1 semana y se mantuvieron a 14º C durante toda la investigación.
@@ -17,13 +16,39 @@ Ejemplares de truchas de aproximadamente x meses de edad, con un peso promedio d
 
 Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y conejos, inmunizados con epítopes sintéticos de las moléculas de interés. Estas moléculas han sido validadas en salmónidos, mediante técnicas estandarizadas en el Grupo de Marcadores Inmunológicos del Laboratorio de Genética e Inmunología Molecular de la Pontificia Universidad Católica de Valparaíso (GIM-PUCV) [@Narvaez2010; @Rojas2012; @Santana2012; @Bethke2012]
 
+\begin{table}[h!]
+\sffamily
+  \begin{center}
+    \begin{threeparttable}
+    \captionsetup{font={normalsize,sf}}
+      \caption{Lista de Anticuerpos Usados}\label{tabla:anticuerpos}
+      \begin{tabularx}{16cm}{l l l X l l l}
+	\toprule
+	\multicolumn{4}{c}{} & \multicolumn{3}{c}{Dilución Anticuerpo} \\
+	\cmidrule(r){5-7}
+	Molécula (Anti) & Huesped & Origen & Secuencia Inmunógeno & ELISA & WB & IFAT \\
+	\midrule
+	TNF-$\alpha$ & Conejo & Suero & \texttt{WRKDDGQAFSQGGFE} & 1:2000 & 1:500 & 1:500 \\
+	IL-1$\beta$ & Conejo & Suero &  \texttt{DLLNFLLESAVEEHI} & 1:2000 & 1:500 & 1:500 \\
+	IFN-$\gamma$ & Conejo & Suero & \texttt{ASKLALKIHLKKDN} & 1:2000 & 1:500 & 1:500 \\
+	iNOS & Ratón & Suero & \texttt{CFIYSSGGFHLPAEPSTPVI} & 1:1000 & 1:500 & 1:250 \\
+	IL-12 & Ratón & L.A. & \texttt{TETQVPLLCGDSYQDTE} & 1:1000 & 1:500 & 1:250 \\
+	\bottomrule
+		\end{tabularx}
+\begin{tablenotes}
+  \item *L.A. = Líquido Ascítico, WB = Western Blot, IFAT = \emph{Immunofluorescence Antibody Test}
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table}
+
 ##Desafío y Controles
 
-Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y controles, el primer grupo tendrá una dieta al 3\% de su peso con un agregado del 0,3\%  de Zimosán, los controles tendrán la misma alimentación excepto por el Zimosán, el cual será reemplazado con PBS.
+Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y controles, el primer grupo tendrá una dieta al 3\% de su peso con un agregado del 0,3\% de Zimosán, los controles tendrán la misma alimentación excepto por el Zimosán, el cual será reemplazado con PBS.
 
 ##Muestreo
 
-Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% ) de CENTROVET, Se tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo. Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
+Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% CentroVet), se tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo (Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
 
 \begin{table}[h!]
 \sffamily
@@ -54,7 +79,7 @@ Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 
 \end{tabular}
 \begin{tablenotes}
   \item d = Día Muestreo (0,7,14,21,28); B = Branquia; \\
-  c = Estanque control (1,2); z = Estanques inducidos (3,4)
+  c = Estanques control (1,2); z = Estanques inducidos (3,4)
 \end{tablenotes}
 \end{threeparttable}
 \end{center}

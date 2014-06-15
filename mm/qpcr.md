@@ -22,7 +22,7 @@ Para todas las reacciones de qPCR se utilizaron el Kit  Brilliant III Ultra-Fast
 \caption{Preparación de Master Mix para qPCR}\label{mmix}
 \begin{tabularx}{13cm}{X l}
 \toprule
- & 1 Reacción \\
+ & \textbf{1 Reacción} \\
 \midrule
 Brilliant III Ultra-Fast SYBR Green MM & 5\si{\micro\litro}  \\
 Partidores (F+R) 1,5\si{\micro\molar} & 4\si{\micro\litro} \\
@@ -40,49 +40,45 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 ###Partidores
 
 \begin{table}[h!]
-\sffamily
-  \begin{center}
-    \begin{threeparttable}
-    \captionsetup{font={normalsize,sf}}
-      \caption{Lista de Partidores}
-      \begin{tabularx}{15cm}{l l X l l}
-	\toprule
-	Molécula & Partidor & Secuencia & Amplicón & Tm \\
-	\midrule
-	EF-1$\alpha$ & Fw & \texttt{TGGAGACTGGCACCCTGAAG} & & 58 \\
-		& Rev & \texttt{CCAACATTGTCACCAGGCATGG} & & 58 \\
-	\midrule
-	IL-1$\beta$ & Fw & \texttt{GTCACATTGCCAACCTCATCATCG} & & \\
-	 & Rev & \texttt{GTTGAGCAGGTCCTTGTCCTTGA} & & \\
-	 \midrule
-	 TNF-$\alpha$ & Fw & \texttt{GTGTGGGGTCCTCTTAATAGCAGG} & &  \\
-	 & Rev & \texttt{CTGCATCGTTGACGGTCTTCC} & &  \\
-	 \midrule
-	 IFN-$\gamma$ & Fw & \texttt{GCTGTTCAACGGAAAACCTGTTT} & & \\
-	  & Rev & \texttt{TCACTGTCCTCAAACGTG} & & \\
-	 \midrule
-	 iNOS & Fw & \texttt{TATGCTCTGCCTGCCGTGTC} & & \\
-	  & Rev & \texttt{ATCCTGCGACCCACTTCCTC} & & \\
-	 \midrule
-	 IL-12 & Fw & & & \\
-	   & Rev & & & \\
-\bottomrule
-\end{tabularx}
-\begin{tablenotes}
-	\item Partidores utilizados para la amplificación de los genes en estudio.
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
+	\sffamily
+  	\begin{center}
+    	\begin{threeparttable}
+    	\captionsetup{font={normalsize,sf}}
+      	\caption{Lista de Partidores}\label{tabla:partidores}
+      		\begin{tabularx}{15cm}{l l X r}
+			\toprule
+			\textbf{Molécula} & \textbf{Partidor} & \textbf{Secuencia} & \textbf{Amplicón} \\
+			\midrule
+			EF-1$\alpha$ & Fw & \texttt{TGG AGA CTG GCA CCC TGA AG} & 127 pb \\
+						& Rev & \texttt{CCA ACA TTG TCA CCA GGC ATG G} & \\
+			IL-1$\beta$ & Fw & \texttt{GTC ACA TTG CCA ACC TCA TCA TCG} & 95 pb \\
+	 					& Rev & \texttt{GTT GAG CAG GTC CTT GTC CTT GA} & \\
+			TNF-$\alpha$ & Fw & \texttt{GTG TGG GGT CCT CTT AAT AGC AGG} & 88 pb \\
+				 		& Rev & \texttt{CTG CAT CGT TGA CGG TCT TCC} & \\
+			IFN-$\gamma$ 	& Fw & \texttt{GCT GTT CAA CGG AAA ACC TGT TT} & 51 pb \\
+						& Rev & \texttt{TCA CTG TCC TCA AAC GTG} & \\
+			iNOS 	& Fw & \texttt{TAT GCT CTG CCT GCC GTG TC} & 158 pb \\
+		  			& Rev & \texttt{ATC CTG CGA CCC ACT TCC TC} & \\
+			IL-12 	& Fw & \texttt{TTT AAT CAG CTG TCG GGC CAA GTC} & 123 pb \\
+					& Rev & \texttt{GTG CAA GAT TCC TGG CTG TCA GTA} &  \\
+			\bottomrule
+			\end{tabularx}
+			\begin{tablenotes}
+				\item Tabla de partidores usados para la amplificación de las moléculas en estudio, se indica el tamaño esperado en pares de bases del amplicón. \\ Fw = Forward, Rev= Reverse, pb = Pares de Bases
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
 \end{table}
 
 ### Estandarización de partidores
-Los partidores se estandarizaron con un mix de varios cDNA en distintas diluciones y usando distintos gradientes dependiendo del partidor, seleccionando la mejor temperatura en base a su curva patrón y de fusión.
+Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este estudio usando distintas diluciones y gradientes de temperatura dependiendo del partidor, seleccionando la mejor temperatura de _annealing_ en base a su curva patrón y de fusión (Tabla \ref{tabla:estandar}).
 
 \begin{table}[h!]
 \sffamily
   \begin{center}
     \begin{threeparttable}
-      \caption{Programa Termociclador para estandarización de Partidores}
+      \captionsetup{font={normalsize,sf}}
+      \caption{Programa Termociclador para estandarización de Partidores}\label{tabla:estandar}
       \begin{tabularx}{13cm}{l X l l}
 	\toprule
 	\textbf{Etapa} & \textbf{Temperatura} & \textbf{Tiempo} & \textbf{Ciclos} \\
@@ -94,7 +90,7 @@ Los partidores se estandarizaron con un mix de varios cDNA en distintas dilucion
 	\bottomrule
       \end{tabularx}
     \begin{tablenotes}
-      \item $\dagger$\emph{El gradiente varía dentro de esas temperaturas según los partidores}
+      \item \textsuperscript{$\dagger$}El gradiente varía dentro de esas temperaturas según los partidores
 \end{tablenotes}
 \end{threeparttable}
 \end{center}
