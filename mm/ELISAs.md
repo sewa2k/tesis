@@ -11,7 +11,7 @@ Para bloquear los sitios inespecíficos donde no se unió el antígeno se usó B
 ###Incubación primer anticuerpo
 El anticuerpo primario se usó a una concentración de 1:2000 o 1:1000 según corresponda (Tabla \ref{tabla:anticuerpos}) durante 1 hora a 37ºC con agitación constante y luego se lavó nuevamente la placa 3 veces con PBST 0,05\%
 
-###Incubación segundo anticuerpo
+###Incubación segundo anticuerpo y revelado
 Se incubaron 100\si{\micro\litro} del anticuerpo secundario anti-conejo o anti-ratón según corresponda en una dilución 1:5000 y 1:7000 respectivamente por 1 hora a 37ºC con agitación leve, posteriormente se lavó la placa 3 veces con PBST 0,05\% y se incubó con TMB (3,3', 5,5;-tetrametilbencidina) (Invitrogen) por 30 minutos en oscuridad. Luego se leyó la placa a 650nm y finalmente, deteniendo la reacción con 50\si{\micro\litro} de H\subindice{2}SO\subindice{4} 1N se leyó a 450nm para aumentar la detección usando el software SoftMax 5.2 de Molecular Probes.
 
 \clearpage

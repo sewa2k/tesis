@@ -6,7 +6,11 @@ Para evaluar la disponibilidad de las proteínas en estudio se realizó una inmu
 - TNF-$\alpha$
 - IL-1$\beta$
 
-###Cuantificación de Anticuerpos
+###Cuantificación de Anticuerpos mediante ELISA Directo
+
+Para la activación de la placa de ELISA de 96 pocillos se sembró la curva de calibrado de IgG-normal de ratón o de conejo (Pierce), según corresponda, (IgGN) en duplicado desde una concentración de 1ng/\si{\micro\litro} y haciendo diluciones en una razón de 1:2 hacia abajo hasta llegar a una concentración final de 0,0156 ng/\si{\micro\litro}L en el pocillo G1 y G2 (6 diluciones en total por cada replica) con un volumen final por pocillo de 100µL, todas las diluciones y preparación de soluciones en este paso de activación de placa son realizadas en PBS 1X.
+
+Los antisueros de ratón y conejo fueron sembrados en la placa en duplicado en diluciones 1:1000, 1:2000, 1:4000 y 1:8000. Luego se dejó activando la placa a temperatura ambiente por 1 hora. Posteriormente se realizaron 3 lavados con 200\si{\micro\litro} de PBST 0.05\%. Luego, para bloquear los posibles sitios inespecíficos de unión del anticuerpo se incubó la placa con PBSA 1\% durante 1 hora a 37ºC con agitación constante. Al ser un ensayo de ELISA directo después del bloqueo se incubó el anticuerpo secundario, en este caso anti-IgG de Ratón o Conejo según corresponda en una concentración de 1:7000 o 1:5000 respectivamente, diluído en PBSA 1\%, durante 1 hora a 37ºC   y posteriormente se lavó la placa 3 veces con PBST 0,05\% y se incubó con TMB por 30 minutos en oscuridad. Luego se leyó la placa a 650nm y finalmente, deteniendo la reacción con 50\si{\micro\litro} de H\subindice{2}SO\subindice{4} 1N se leyó a 450nm para aumentar la detección usando el software SoftMax 5.2.
 
 ###Unión Antígeno-Anticuerpo
 
@@ -18,7 +22,7 @@ Se agregaron 60\si{\micro\litro} de Proteína A acoplada a esferas de Agarosa (P
 
 ###SDS-PAGE
 
-Se agregaron 50\si{\micro\litro} de Solución Cargadora 2X/DTT (25\si{\micro\litro}) de Buffer Laemmli 4X y 25\si{\micro\litro} DTT/PBS 3mM) y se agitó vigorosamente con Vortex durante 5 minutos, luego la muestra se hirvió a 100ºC durante 5 minutos en Termo-Block, luego nuevamente se agitó vigorosamente en vortex y finalmente se le dió un spin de 3 minutos para precipitar las esferas de agarosa.
+Se agregaron 50\si{\micro\litro} de Solución Cargadora 2X/DTT (25\si{\micro\litro}) de Buffer Laemmli 4X y 25\si{\micro\litro} DTT/PBS 3mM) y se agitó vigorosamente con Vortex durante 5 minutos, luego la muestra se hirvió a 100ºC durante 5 minutos en termobloque, luego nuevamente se agitó vigorosamente en vortex y finalmente se le dió un spin de 3 minutos para precipitar las esferas de agarosa.
 
 Luego se cargaron 3\si{\micro\litro} estandar de peso molecular (Pageruler Plus, Pierce), 10, 15 y 25\si{\micro\litro} de la inmunoprecipitación para cada condición y cada anticuerpo en distintos pocillos de un gel denaturante de poliacrilamida al 12\% y usando buffer de corrida 1X (Tris-Glicina) se procedió a realizar la electroforesis a 150V durante 1 hora.
 

@@ -29,8 +29,11 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 	Molécula (Anti) & Huesped & Origen & Secuencia Inmunógeno & ELISA & WB & IFAT \\
 	\midrule
 	TNF-$\alpha$ & Conejo & Suero & \texttt{WRKDDGQAFSQGGFE} & 1:2000 & 1:500 & 1:500 \\
+	TNF-$\alpha$ & Ratón & Suero & \texttt{ } & - & 1:500 & - \\
 	IL-1$\beta$ & Conejo & Suero &  \texttt{DLLNFLLESAVEEHI} & 1:2000 & 1:500 & 1:500 \\
+	IL-1$\beta$ & Ratón & L.A. & \texttt{} & - & 1:250 & - \\
 	IFN-$\gamma$ & Conejo & Suero & \texttt{ASKLALKIHLKKDN} & 1:2000 & 1:500 & 1:500 \\
+	IFN-$\gamma$ & Ratón & Suero & \texttt{ } & - & 1:500 & - \\
 	iNOS & Ratón & Suero & \texttt{CFIYSSGGFHLPAEPSTPVI} & 1:1000 & 1:500 & 1:250 \\
 	IL-12 & Ratón & L.A. & \texttt{TETQVPLLCGDSYQDTE} & 1:1000 & 1:500 & 1:250 \\
 	\bottomrule
