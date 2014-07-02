@@ -26,5 +26,3 @@ El montaje fue realizado usando el medio de Montaje VECTASHIELD para Inmunofluor
 ## Microscopía Confocal
 
 La toma de imágenes se realizó con el Microscopio Confocal TCS SP5 II de Leica Microsystems, cortesía del Nucleo Biotecnológico de Curauma (NBC).
-
-\clearpage

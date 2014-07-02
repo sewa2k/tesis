@@ -1,0 +1,118 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ciac.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{666.98767bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.53364629)%
+    \put(0,0){\includegraphics[width=\unitlength]{ciac.eps}}%
+    \put(0.06796576,0.46077285){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.5689164,0.46077285){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.07747148,0.41657293){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.57842197,0.41657293){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.06796576,0.39280938){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.5689164,0.39280938){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.06796576,0.32484605){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.5689164,0.32484605){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.07747148,0.27969559){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.57842197,0.27969559){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.06796576,0.25593203){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.5689164,0.25593203){\makebox(0,0)[lb]{\smash{!"#$%&$}}}%
+    \put(0.07747148,0.19604832){\makebox(0,0)[lb]{\smash{'()*+)*,-&."/"%0"&*,)}}}%
+    \put(0.29990483,0.19604832){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.57842197,0.19604832){\makebox(0,0)[lb]{\smash{'()*+)*,-&."/"%0"&*,)}}}%
+    \put(0.80085547,0.19604832){\makebox(0,0)[lb]{\smash{'()*+)*,-&}}}%
+    \put(0.2656844,0.12808484){\makebox(0,0)[lb]{\smash{1&0%"2$.)0+).3".%"*)/4,$}}}%
+    \put(0.11169205,0.07010206){\makebox(0,0)[lb]{\smash{Flujo agua de cultivo}}}%
+    \put(0.11169205,0.0477645){\makebox(0,0)[lb]{\smash{Flujo agua de recambio}}}%
+    \put(0.11169205,0.02542687){\makebox(0,0)[lb]{\smash{Flujo agua de desecho}}}%
+    \put(0.11169205,0.00308925){\makebox(0,0)[lb]{\smash{Flujo aireación}}}%
+    \put(0.44058929,0.21791064){\makebox(0,0)[lb]{\smash{50+).3"2"*6$}}}%
+    \put(0.10693919,0.13568918){\makebox(0,0)[lb]{\smash{50+).7$#)4,8,9)3)}}}%
+    \put(0.11169205,0.12808484){\makebox(0,0)[lb]{\smash{:.';<5=..;>5>.?}}}%
+    \put(0.77614062,0.11335159){\makebox(0,0)[lb]{\smash{@%)#)/,"&#$A}}}%
+    \put(0.20674898,0.13568918){\makebox(0,0)[lb]{\smash{@%)#)/,"&#$A}}}%
+    \put(0.20294681,0.12808484){\makebox(0,0)[lb]{\smash{B2/$2,2.1&("%2)}}}%
+    \put(0.6050379,0.09861818){\makebox(0,0)[lb]{\smash{:.';<5=.;>5>.?}}}%
+    \put(0.78659688,0.10574725){\makebox(0,0)[lb]{\smash{C><>}}}%
+    \put(0.61121673,0.12095577){\makebox(0,0)[lb]{\smash{!"3..3"}}}%
+    \put(0.60456278,0.11335159){\makebox(0,0)[lb]{\smash{)8*)&#)%,88)3$}}}%
+    \put(0.70769962,0.11335159){\makebox(0,0)[lb]{\smash{@%)#)/,"&#$A}}}%
+    \put(0.60646387,0.24072351){\makebox(0,0)[lb]{\smash{D"*)&#)3$%}}}%
+    \put(0.71340302,0.10574725){\makebox(0,0)[lb]{\smash{E+F/,*$}}}%
+    \put(0.69296577,0.44556417){\makebox(0,0)[lb]{\smash{'2#)&E+".G}}}%
+    \put(0.69296577,0.37760085){\makebox(0,0)[lb]{\smash{'2#)&E+".H}}}%
+    \put(0.69296577,0.30963737){\makebox(0,0)[lb]{\smash{'2#)&E+".I}}}%
+    \put(0.15922052,0.23359444){\makebox(0,0)[lb]{\smash{J"*K&,*$}}}%
+    \put(0.21102657,0.23359444){\makebox(0,0)[lb]{\smash{L,$8-0,*$}}}%
+    \put(0.19201513,0.37760085){\makebox(0,0)[lb]{\smash{'2#)&E+".M}}}%
+    \put(0.19201513,0.30963737){\makebox(0,0)[lb]{\smash{'2#)&E+".N}}}%
+    \put(0.10551323,0.24072351){\makebox(0,0)[lb]{\smash{D"*)&#)3$%}}}%
+    \put(0.16444865,0.24072351){\makebox(0,0)[lb]{\smash{O,8#%$}}}%
+    \put(0.19201513,0.44556417){\makebox(0,0)[lb]{\smash{'2#)&E+".P}}}%
+    \put(0.95152092,0.21791064){\makebox(0,0)[lb]{\smash{50+).3"2"*6$}}}%
+    \put(0.66017101,0.23359444){\makebox(0,0)[lb]{\smash{J"*K&,*$}}}%
+    \put(0.71197721,0.23359444){\makebox(0,0)[lb]{\smash{L,$8-0,*$}}}%
+    \put(0.21577943,0.24072351){\makebox(0,0)[lb]{\smash{O,8#%$}}}%
+    \put(0.27328889,0.24072351){\makebox(0,0)[lb]{\smash{L$/4)}}}%
+    \put(0.94153978,0.2630611){\makebox(0,0)[lb]{\smash{Q6,88"%}}}%
+    \put(0.66539914,0.24072351){\makebox(0,0)[lb]{\smash{O,8#%$}}}%
+    \put(0.71673007,0.24072351){\makebox(0,0)[lb]{\smash{O,8#%$}}}%
+    \put(0.77423953,0.24072351){\makebox(0,0)[lb]{\smash{L$/4)}}}%
+    \put(0.42680612,0.2630611){\makebox(0,0)[lb]{\smash{Q6,88"%}}}%
+    \put(0.73621664,0.52826105){\makebox(0,0)[lb]{\smash{!"#$%&''()''''*+%+',-(}}}%
+    \put(0.2262357,0.52873618){\makebox(0,0)[lb]{\smash{!"#$%&''-)''''*+%+',-(}}}%
+    \put(0.28897329,0.49071478){\makebox(0,0)[lb]{\smash{R%,&*,7)8}}}%
+    \put(0.19961976,0.49071478){\makebox(0,0)[lb]{\smash{"/"%0"&*,)}}}%
+    \put(0.79134974,0.49784385){\makebox(0,0)[lb]{\smash{L8$S"%}}}%
+    \put(0.70579839,0.49784385){\makebox(0,0)[lb]{\smash{L8$S"%}}}%
+    \put(0.29039925,0.49784385){\makebox(0,0)[lb]{\smash{L8$S"%}}}%
+    \put(0.2048479,0.49784385){\makebox(0,0)[lb]{\smash{L8$S"%}}}%
+    \put(0.78992393,0.49071478){\makebox(0,0)[lb]{\smash{R%,&*,7)8}}}%
+    \put(0.70057025,0.49071478){\makebox(0,0)[lb]{\smash{"/"%0"&*,)}}}%
+  \end{picture}%
+\endgroup%

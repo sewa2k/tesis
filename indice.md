@@ -1,6 +1,8 @@
+\pagenumbering{Roman}
 \tableofcontents
 \clearpage
+\cleardoublepage
 \listoffigures
-\clearpage
+\cleardoublepage
 \listoftables
-\clearpage
+

@@ -1,4 +1,4 @@
-#Materiales y Métodos
+\chapter{Materiales y Métodos}
 
 \begin{figure}[h!]
 	\centering
@@ -7,12 +7,20 @@
 	\label {fig:esquema}
 \end{figure}
 
-##Material Biológico
-###Peces
+\section{Material Biológico y Bioensayo}
+\subsection{Peces}
 
-Ejemplares de truchas de aproximadamente x meses de edad, con un peso promedio de 22,26 $\pm$ 1,7397g fueron obtenidas desde la piscicultura de Rio Blanco, ubicada a 35km de Los Andes, en la Quinta región de Valparaíso y fueron trasladados hasta el Centro de Investigaciones en Acuicultura Curauma, ubicado en la provincia de Valparaíso. Fueron aclimatados durante 1 semana y se mantuvieron a 14º C durante toda la investigación.
+Ejemplares de truchas arcoiris con un peso promedio de 22,26 $\pm$ 1,7397g fueron obtenidas desde la piscicultura de Rio Blanco, ubicada a 35km de Los Andes, en la Quinta región de Valparaíso y fueron trasladados hasta el Centro de Investigaciones en Acuicultura Curauma (CIAC), ubicado en la provincia de Valparaíso. Fueron aclimatados durante 1 semana y se mantuvieron a 14º C durante toda la investigación.
 
-###Anticuerpos
+\subsection{Dieta}
+
+La dieta base de las truchas consistió en un pellet que contenía 65\% de harina de pescado, 16,3\% harina de trigo, 16\% aceite de pescado, 0.1\% vitamina C, 1\% Premix Vitamínico, 1\% Premix minerales traza, 0.6\% Colina + Gluten de Maiz
+
+\subsection{Parametros fisicoquimicos del ensayo}
+
+Durante toda la experiencia se midió dia a dia la temperatura, pH, presión y saturación de oxigeno de cada estanque y modulo llenando una planilla dispuesta para ese fin por el CIAC.
+
+\subsection{Anticuerpos}
 
 Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y conejos, inmunizados con epítopes sintéticos de las moléculas de interés. Estas moléculas han sido validadas en salmónidos, mediante técnicas estandarizadas en el Grupo de Marcadores Inmunológicos del Laboratorio de Genética e Inmunología Molecular de la Pontificia Universidad Católica de Valparaíso (GIM-PUCV) [@Narvaez2010; @Rojas2012; @Santana2012; @Bethke2012]
 
@@ -68,11 +76,11 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 \end{center}
 \end{table}
 
-##Desafío y Controles
+\section{Desafío y Controles}
 
 Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y controles, el primer grupo tendrá una dieta al 3\% de su peso con un agregado del 0,3\% de Zimosán, los controles tendrán la misma alimentación excepto por el Zimosán, el cual será reemplazado con PBS.
 
-##Muestreo
+\section{Muestreo}
 
 Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% CentroVet), se tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo (Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
 
