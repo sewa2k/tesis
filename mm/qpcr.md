@@ -1,4 +1,4 @@
-\section{Extracción de RNA}
+\section{Extracción de RNA}\label{extraccionrna}
 
 La extracción de RNA se llevó acabo usando el Kit de OmegaBiotek E.Z.N.A Total RNA Kit II usando las instrucciones del fabricante, para el homogenizado adicional se usó el homogenizador de sobremesa FastPrep24 de MP Biomedicals con un programa de 4,5 movimientos por segundo durante 40 segundos usando como matriz 4 esferas metálicas de 2,388mm de diametro.
 
@@ -10,8 +10,23 @@ El RNA se cuantificó usando el sistema espectrofotométrico ND-1000 de NanoDrop
 La transcripción reversa para generar el DNA complementario al RNA previamente extraido se realizó usando el Kit M-MLV Reverse Transcriptase de Promega usando las instrucciones del fabricante con 1\si{\micro\gram} de RNA, la reacción se hizo en un Termociclador C1000 Touch de Bio-Rad.
 
 \section{PCR en Tiempo Real (qPCR)}
+La cuantificación por PCR a tiempo real permite monitorizar la reacción de PCR al 
+mismo tiempo que ésta tiene lugar. Se empleó como estrategia para realizar la cuantificación el uso de la sonda SYBR Green® del kit Brilliant III Ultra-Fast (Agillent) ([@Wittwer1997]). 
+Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima "\emph{Taq} DNA Polymerase", dNTPs, MgCl2 y el tampón de PCR, e incorpora, como su nombre 
+indica, el colorante SYBR Green I, que detecta DNA de doble hélice, por lo que no es 
+necesario el uso de sondas específicas. Las muestras se amplificaron por duplicado en 
+placas de 96 pocillos para reacciones ópticas (Hard-Shell de Bio-Rad) (Figura \ref{fig:placapcr}).
 
-Para todas las reacciones de qPCR se utilizaron el Kit  Brilliant III Ultra-Fast SYBR Green qPCR Master Mix de Agilent Technologies y el sistema de detección para PCR en Tiempo Real de Bio-Rad CFX96.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=8cm]{placaqpcr}
+	\caption {Diseño de placa para PCR en tiempo real}
+	\label {fig:placapcr}
+\end{figure}
+
+Cada reacción se llevó a cabo en un volumen de 10µl según la Tabla \ref{mmix}. Las 
+condiciones térmicas de la amplificación fueron las siguientes: un ciclo inicial de 3 
+minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a 58º para todos los partidores exceptuando los partidores para IFN-$\gamma$ que fue de 61,5º y 15 segundos a 72ºC (desnaturalización, \emph{annealing} y extensión respectivamente).
 
 \begin{table}[h!]
 \sffamily
@@ -43,7 +58,7 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 	\sffamily
   	\begin{center}
     	\begin{threeparttable}
-    	\captionsetup{font={normalsize,sf}}
+    	\captionsetup{font={normalsize}}
       	\caption{Lista de Partidores}\label{tabla:partidores}
       		\begin{tabularx}{15cm}{l l X r}
 			\toprule
@@ -63,7 +78,7 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 					& Rev & \texttt{GTG CAA GAT TCC TGG CTG TCA GTA} &  \\
 			\bottomrule
 			\end{tabularx}
-			\begin{tablenotes}
+			\begin{tablenotes}[normal,flushleft,rm]
 				\item Tabla de partidores usados para la amplificación de las moléculas en estudio, se indica el tamaño esperado en pares de bases del amplicón. \\ Fw = Forward, Rev= Reverse, pb = Pares de Bases
 			\end{tablenotes}
 		\end{threeparttable}
@@ -95,6 +110,3 @@ Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este est
 \end{threeparttable}
 \end{center}
 \end{table}
-
-\clearpage
-

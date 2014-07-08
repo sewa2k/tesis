@@ -1,15 +1,10 @@
-% βɑγ Set margins
 \usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
-%\usepackage[T1]{fontenc}
 \usepackage[no-math]{fontspec}
-%\fontspec{Minion Pro}
 \setmainfont{Minion Pro}
 \usepackage{MnSymbol}
 \usepackage[mathlf,textlf]{MinionPro}
 \setromanfont{Minion Pro}
 \DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\ }
-%\usepackage[latin1]{iputenc}
-
 \usepackage[spanish, es-tabla]{babel}
 \newcommand{\ga}{ɑ}
 \usepackage{textcomp}
@@ -17,7 +12,6 @@
 \graphicspath{{gfx/}} 
 \usepackage{epstopdf}
 \usepackage{fancyhdr}
-%\usepackage{mhchem}
 \newcommand{\subindice}[1]{$_{\text{#1}}$}
 \usepackage{mathspec}
 \usepackage{amsmath,amsthm}
@@ -27,14 +21,13 @@
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
-%\usepackage{upgreek}
-\pagestyle{plain}
+%\pagestyle{plain}
 \newfontfamily\myriad{Myriad Pro}
-\titleformat*{\section}{\LARGE\myriad}
+\titleformat*{\section}{\Huge\myriad}
 \titleformat*{\subsection}{\Large\myriad}
 \titleformat*{\subsubsection}{\large\myriad}
 % Set figure legends and captions to be smaller sized sans serif font
-\usepackage[font={footnotesize,sf}]{caption}
+\usepackage[font={footnotesize}]{caption}
 
 \usepackage{siunitx}
 \DeclareSIUnit\molar{{M}}
