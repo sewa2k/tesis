@@ -12,7 +12,7 @@ La transcripción reversa para generar el DNA complementario al RNA previamente 
 \section{PCR en Tiempo Real (qPCR)}
 La cuantificación por PCR a tiempo real permite monitorizar la reacción de PCR al 
 mismo tiempo que ésta tiene lugar. Se empleó como estrategia para realizar la cuantificación el uso de la sonda SYBR Green® del kit Brilliant III Ultra-Fast (Agillent) ([@Wittwer1997]). 
-Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima "\emph{Taq} DNA Polymerase", dNTPs, MgCl2 y el tampón de PCR, e incorpora, como su nombre 
+Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima "\emph{Taq} DNA Polimerasa", dNTPs, MgCl2 y el tampón de PCR, e incorpora, como su nombre 
 indica, el colorante SYBR Green I, que detecta DNA de doble hélice, por lo que no es 
 necesario el uso de sondas específicas. Las muestras se amplificaron por duplicado en 
 placas de 96 pocillos para reacciones ópticas (Hard-Shell de Bio-Rad) (Figura \ref{fig:placapcr}).

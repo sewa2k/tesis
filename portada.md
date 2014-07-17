@@ -11,7 +11,7 @@ Escuela de Ingeniería en Biotecnología
 
         \vspace*{1cm}
         
-       \large{ \textbf{ \uppercase{Establecimiento de un modelo molecular de respuesta inmune en tejido branquial de} \emph{Oncorhynchus mykiss} \uppercase{alimentado con $\beta$-glucanos}}}
+       \large{ \textbf{ \uppercase{Establecimiento de un modelo molecular en tejido branquial de \emph{Oncorhynchus mykiss} inmunoestimulado con Zymosán A liberado en dieta}}}
         
         \vspace{0.5cm}
         
