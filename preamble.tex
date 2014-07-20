@@ -11,23 +11,34 @@
 \usepackage{graphicx}
 \graphicspath{{gfx/}}
 \usepackage{epstopdf}
-\usepackage{fancyhdr}
+\usepackage{scrpage2}
 \newcommand{\subindice}[1]{$_{\text{#1}}$}
 \usepackage{mathspec}
 \usepackage{amsmath,amsthm}
 \usepackage{xltxtra}
 \usepackage{tabularx}
-\usepackage{titlesec}
+%\usepackage{titlesec}
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
 %\pagestyle{plain}
 \newfontfamily\myriad{Myriad Pro}
-\titleformat*{\section}{\Huge\myriad}
-\titleformat*{\subsection}{\Large\myriad}
-\titleformat*{\subsubsection}{\large\myriad}
+%\titleformat*{\section}{\Huge\myriad}
+%\titleformat*{\subsection}{\Large\myriad}
+%\titleformat*{\subsubsection}{\large\myriad}
 % Set figure legends and captions to be smaller sized sans serif font
-\usepackage[font={footnotesize}]{caption, subcaption}
+\usepackage[%
+    font={footnotesize},
+    labelfont=bf,
+    format=hang,    
+    format=plain,
+    margin=0pt,
+    width=0.8\textwidth,
+]{caption}
+
+\usepackage{subcaption}
+
+%\usepackage[font={footnotesize}]{caption, subcaption}
 %\usepackage{subcaption}
 \usepackage{siunitx}
 \DeclareSIUnit\molar{{M}}
