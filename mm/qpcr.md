@@ -31,9 +31,7 @@ minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a
 \begin{table}[h!]
 \sffamily
 \begin{center}
-%\sffamily
 \begin{threeparttable}
-\captionsetup{font={normalsize,sf}}
 \caption{Preparación de Master Mix para qPCR}\label{mmix}
 \begin{tabularx}{13cm}{X l}
 \toprule
@@ -55,10 +53,8 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 \subsection{Partidores}
 
 \begin{table}[h!]
-	\sffamily
   	\begin{center}
     	\begin{threeparttable}
-    	\captionsetup{font={normalsize}}
       	\caption{Lista de Partidores}\label{tabla:partidores}
       		\begin{tabularx}{15cm}{l l X r}
 			\toprule
@@ -92,10 +88,9 @@ Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este est
 \sffamily
   \begin{center}
     \begin{threeparttable}
-      \captionsetup{font={normalsize,sf}}
       \caption{Programa Termociclador para estandarización de Partidores}\label{tabla:estandar}
       \begin{tabularx}{13cm}{l X l l}
-	\toprule
+     \toprule
 	\textbf{Etapa} & \textbf{Temperatura} & \textbf{Tiempo} & \textbf{Ciclos} \\
 	\midrule
 	Denaturación Inicial & 95º & 03:00 min & 1 \\

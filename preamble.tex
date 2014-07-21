@@ -17,15 +17,21 @@
 \usepackage{amsmath,amsthm}
 \usepackage{xltxtra}
 \usepackage{tabularx}
-%\usepackage{titlesec}
+\usepackage{titlesec}
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
 %\pagestyle{plain}
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{0.7\linewidth}
+\setlength{\epigraphrule}{0pt}
+\renewcommand*{\textflush}{flushright}
+\renewcommand*{\epigraphsize}{\normalsize\itshape}
 \newfontfamily\myriad{Myriad Pro}
-%\titleformat*{\section}{\Huge\myriad}
-%\titleformat*{\subsection}{\Large\myriad}
-%\titleformat*{\subsubsection}{\large\myriad}
+\newfontfamily\quotefont[Ligatures=TeX]{Myriad Pro}
+\titleformat*{\section}{\Huge\myriad}
+\titleformat*{\subsection}{\Large\myriad}
+\titleformat*{\subsubsection}{\large\myriad}
 % Set figure legends and captions to be smaller sized sans serif font
 \usepackage[%
     font={footnotesize},
@@ -48,7 +54,7 @@
 % Adjust spacing between lines to 1.5
 \usepackage{setspace}
 \onehalfspacing
-\raggedbottom
+%\raggedbottom
 
 % Set colour of links to black so that they don't show up when printed
 \usepackage{hyperref}
@@ -62,6 +68,7 @@
         \setlength\labelwidth{1em}%
         \setlength\labelsep{.1em}%
 }%
-\usepackage{array}
-\newcolumntype{x}[1]{%
->{\centering\arraybackslash}m{#1}}%
+%\usepackage{array}
+%\newcolumntype{x}[1]{%
+%>{\centering\arraybackslash}m{#1}}%
+
