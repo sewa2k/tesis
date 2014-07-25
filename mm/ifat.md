@@ -1,10 +1,27 @@
-\section{Inmunofluorescencia}
+\section{Cortes histológicos}
 
-Para localizar las moleculas en estudio se realizó una prueba de inmuno fluorescencia con anticuerpos (IFAT)
+Desde las branquias previamente aisladas y fijadas en reactivo de Bouin, se formaron bloques emparafinados, para posteriormente llevarlos a un micrótomo, con la finalidad de poder obtener cortes a 5\si{\micro\meter}.
+
+Para evaluar la integridad de los cortes histológicos previamente preparados se procedió a realizar una tinción hematoxilina-eosina, tinción que nos permite distinguir nucleos y otros componentes celulares [@Sharpey-Schafer1938].
+
+\subsection{Tinción Hematoxilina-eosina}
+
+Los cortes se desparafinaron con NeoClear\textregistered (Merck) como sustituto de xileno, luego, para hidratarlos se pasaron los portaobjetos por una batería de alcohol decreciente (100º-96º-70º) y finalmente se sumergieron en agua.
+
+Luego se tiñeron con Hematoxilina de Mayer (Merck) por un minuto y se lavaron en agua por 5 minutos y se pasaron por agua desstilada.
+
+Los cortes se deshidrataron usando una batería creciente de alcoholes (70º-96º) y luego se tiñeron con Eosina durante 1 minuto. Para terminar la deshidratación se pasaron 3 veces por alcohol 100º y finalmente la muestra se aclaró 3 veces con NeoClear\textregistered.
+
+Finalmente, el montaje se realizó usando Entellán (Merck) y se obtuvieron microfotografías usando el Microscopio Leica DM4000B (Leica Microsystems).
+
+
+\section{Inmunofluorescencia}\label{sec:ifat}
+
+Para localizar las moleculas en estudio se realizó una prueba de inmuno fluorescencia con anticuerpos (IFAT).
 
 \subsection{Desparafinización e Hidratación}
 
-Los cortes previamente emparafinados se les quitó la parafina incubandolos 2 veces durante 5 minutos en NeoClear\textregistered (Merck) como sustituto de xileno, para luego hidratar la muestra pasando por una batería de alcoholes de 100\%, 96\% y 50\% durante dos minutos cada uno, para finalizar lavando con Agua \emph{Milli-Q} (MQ) durante 5 minutos.
+Los cortes previamente emparafinados se les quitó la parafina incubandolos 2 veces durante 5 minutos en NeoClear\textregistered como sustituto de xileno, para luego hidratar la muestra pasando por una batería de alcoholes de 100\%, 96\% y 50\% durante dos minutos cada uno, para finalizar lavando con Agua \emph{Milli-Q} (MQ) durante 5 minutos.
 
 \subsection{Bloqueo}
 

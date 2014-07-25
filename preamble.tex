@@ -11,7 +11,18 @@
 \usepackage{graphicx}
 \graphicspath{{gfx/}}
 \usepackage{epstopdf}
-\usepackage{scrpage2}
+\usepackage{acronym}
+
+\usepackage[nouppercase,headsepline,footsepline,plainfootsepline,plainheadsepline]{scrpage2}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\ohead{\rightmark}
+\ihead{\leftmark}
+\cfoot{\pagemark}
+\automark[section]{chapter}
+
+
+
 \newcommand{\subindice}[1]{$_{\text{#1}}$}
 \usepackage{mathspec}
 \usepackage{amsmath,amsthm}
@@ -43,7 +54,7 @@
     format=hang,    
     format=plain,
     margin=0pt,
-    width=0.8\textwidth,
+    width=1\textwidth,
 ]{caption}
 
 \usepackage{subcaption}

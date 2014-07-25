@@ -28,7 +28,6 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 \sffamily
   \begin{center}
     \begin{threeparttable}
-    \captionsetup{font={normalsize,sf}}
       \caption{Lista de Anticuerpos Usados}\label{tabla:anticuerpos}
       \begin{tabularx}{16cm}{l l l X l l l}
 	\toprule
@@ -54,10 +53,8 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 \end{table}
 
 \begin{table}[h!]
-\sffamily
   \begin{center}
     \begin{threeparttable}
-    \captionsetup{font={normalsize,sf}}
       \caption{Lista de Anticuerpos Comerciales Usados}\label{tabla:anticuerpos-comerciales}
       \begin{tabular}{l l l l l}
 	\toprule
@@ -85,14 +82,12 @@ Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y c
 Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% CentroVet), se tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo (Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
 
 \begin{table}[h!]
-\sffamily
 \begin{center}
     \begin{threeparttable}
-    \captionsetup{font={normalsize,sf}}
       \caption{Identificantes de muestras}\label{tablaidentificantes}
       \begin{tabular}{l l l l l l l l l l}
 	\toprule
-	\textbf{ID} & \textbf{Muestra} & \textbf{ID} & \textbf{Muestra} & \textbf{ID} & \textbf{Muestra} & \textbf{ID} & \textbf{Muestra} & \textbf{ID} & \textbf{Muestra}\\
+	ID & Muestra & ID & Muestra & ID & Muestra & ID & Muestra & ID & Muestra\\
 	\midrule
 	B1 & d0B1 & B21 & d7Bz3 & B31 & d14Bz3 & B41 & d21Bz3 & B51 & d28Bz3 \\
 	B2 & d0B2 & B22 & d7Bz3 & B32 & d14Bz3 & B42 & d21Bz3 & B52 & d28Bz3 \\

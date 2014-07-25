@@ -20,7 +20,7 @@ Escuela de Ingeniería en Biotecnología
         Proyecto de tesis presentado como parte de los requisitos para obtener el grado de \\
         \large{\textsc{Magister en Biotecnología}}\\ 
         
-        \vspace{3cm}        
+        \vspace{2.5cm}        
          
         \textbf{Director de Tesis:} Dr. Luis Mercado Vianco\\
         \textbf{Institución:} Pontificia Universidad Católica de Valparaíso       
