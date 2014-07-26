@@ -29,6 +29,7 @@
 \usepackage{xltxtra}
 \usepackage{tabularx}
 \usepackage{titlesec}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{tocbibind}
@@ -49,7 +50,7 @@
 \titleformat*{\subsubsection}{\large\myriad}
 % Set figure legends and captions to be smaller sized sans serif font
 \usepackage[%
-    font={footnotesize},
+    font={small},
     labelfont=bf,
     format=hang,    
     format=plain,
@@ -69,6 +70,7 @@
 % Adjust spacing between lines to 1.5
 \usepackage{setspace}
 \onehalfspacing
+
 %\raggedbottom
 
 % Set colour of links to black so that they don't show up when printed
@@ -78,7 +80,7 @@
 % Tables
 \usepackage{booktabs}
 \usepackage{threeparttable}
-\renewcommand{\TPTnoteSettings}{\footnotesize
+\renewcommand{\TPTnoteSettings}{\small
         \setlength\leftmargin{1.8em}%
         \setlength\labelwidth{1em}%
         \setlength\labelsep{.1em}%

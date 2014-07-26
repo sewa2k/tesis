@@ -3,14 +3,12 @@
 Se agregó una pequeña cantidad de tejido pulverizado a 500\si{\micro\litro} de Buffer de Lisis (Tabla \ref{tablabufferlisis}) y se homogenizó con el equipo FastPrep24 con un programa de 4,5 movimientos por segundo durante 30 segundos usando como matriz 8 esferas de óxido de zirconio, luego se dejaron las muestras en hielo durante 30 minutos para posteriormente centrifugar a máxima velocidad por 5 minutos a 4ºC, se descartó el precipitado y el sobrenadante se almacenó a -80ºC hasta su uso.
 
 \begin{table}[h!]
-\sffamily
   \begin{center}
     \begin{threeparttable}
-      \captionsetup{font={normalsize,sf}}
       \caption{Composición Buffer de Lisis}\label{tablabufferlisis}
       \begin{tabularx}{10cm}{X l}
 	\toprule
-	\textbf{Compuesto} & \textbf{Concentración} \\
+	Compuesto & Concentración \\
 	\midrule
 	Tris pH: 7,5 & 0,02M \\
 	NaCl & 0,1M \\

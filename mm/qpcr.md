@@ -32,7 +32,6 @@ condiciones térmicas de la amplificación fueron las siguientes: un ciclo inici
 minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a 58º para todos los partidores exceptuando los partidores para IFN-$\gamma$ que fue de 61,5º y 15 segundos a 72ºC (desnaturalización, \emph{annealing} y extensión respectivamente).
 
 \begin{table}[h!]
-\sffamily
 \begin{center}
 \begin{threeparttable}
 \caption{Preparación de Master Mix para qPCR}\label{mmix}
@@ -88,22 +87,21 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este estudio usando distintas diluciones y gradientes de temperatura dependiendo del partidor, seleccionando la mejor temperatura de _annealing_ en base a su curva patrón y de fusión (Tabla \ref{tabla:estandar}).
 
 \begin{table}[h!]
-\sffamily
   \begin{center}
     \begin{threeparttable}
       \caption{Programa Termociclador para estandarización de Partidores}\label{tabla:estandar}
       \begin{tabularx}{13cm}{l X l l}
      \toprule
-	\textbf{Etapa} & \textbf{Temperatura} & \textbf{Tiempo} & \textbf{Ciclos} \\
+	Etapa & Temperatura & Tiempo & Ciclos \\
 	\midrule
 	Denaturación Inicial & 95º & 03:00 min & 1 \\
 	Denaturación & 95º & 00:10 seg & 39\\
-	Annealing en Gradiente & 62º $\rightarrow$ 52$º\textsuperscript{$\dagger$}$ & 00:10 seg & 39 \\
+	Annealing en Gradiente & 62º $\rightarrow$ 52* & 00:10 seg & 39 \\
 	Extensión & 60º & 00:10 seg & 39 \\
 	\bottomrule
       \end{tabularx}
     \begin{tablenotes}
-      \item \textsuperscript{$\dagger$}El gradiente varía dentro de esas temperaturas según los partidores
+      \item El gradiente varía dentro de esas temperaturas según los partidores
 \end{tablenotes}
 \end{threeparttable}
 \end{center}
