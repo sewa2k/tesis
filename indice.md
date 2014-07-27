@@ -12,6 +12,11 @@
 	\acro{rna}[RNA]{\emph{Ribonucleic Acid}, Ácido ribonucléico}
 	\acro{pcr}[PCR]{\emph{Polimerase Chain Reaction}, Reacción en cadena de la polimerasa}
 	\acro{qpcr}[qPCR]{\emph{(semi)Quantitative PCR}}, PCR Cuantitativa
+	\acro{ifat}[IFAT]{\emph{Immunofluorescence antibody test}, Prueba de inmunofluorescencia con anticuerpos}
+	\acro{elisa}[ELISA]{\emph{Enzyme linked immuno-sorbent assay}, Ensayo de inmunoabsorción ligado a enzimas}
+	\acro{sdspage}[SDS-PAGE]{\emph{SDS-Polyacrilamide gel electrophoresis}}
+	\acro{sds}[SDS]{\emph{Sodium dodecyl sulfate}, Dodecil sulfato de sodio}
+	\acro{tmb}[TMB]{3,3'-5,5'-tetrametillbencidine}
 	\acro{rt}[RT]{Retrotranscripción}
 	\acro{om}[OM]{\emph{Oncorhynchus mykiss}}
 	\acro{il}[IL]{Interleuquina}
