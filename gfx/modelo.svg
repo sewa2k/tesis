@@ -732,14 +732,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="365.54776"
-     inkscape:cy="764.85292"
+     inkscape:zoom="0.64"
+     inkscape:cx="200.26622"
+     inkscape:cy="698.67357"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="718"
+     inkscape:window-height="723"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="1" />
@@ -991,81 +991,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#6b8cb3"
-       inkscape:connector-curvature="0"
-       d="m 263.47983,1213.956 v 99.592 h 599.924 v -88.592 -10.727 c -98.607,-29.396 -208.186,-45.771 -323.607,-45.771 -97.28,0 -190.409,11.632 -276.317,32.888 v 12.61 z"
-       id="path7675" />
-    <path
-       style="fill:#184877"
-       inkscape:connector-curvature="0"
-       d="m 863.40383,1228.23 c -98.607,-29.396 -208.186,-45.771 -323.607,-45.771 -97.28,0 -190.409,11.632 -276.317,32.888 v -14 c 85.908,-21.256 179.037,-32.888 276.317,-32.888 115.422,0 225,16.376 323.607,45.771 v 14 z"
-       id="path7677" />
-    <path
        id="path7686"
        d="m 107.81408,401.87297 c 3.291,3.11605 7.08405,4.57664 8.4723,3.26174 1.38825,-1.31454 -0.15386,-4.90636 -3.44465,-8.0226 -3.29081,-3.11586 -7.08406,-4.57645 -8.47232,-3.26155 -1.38844,1.31435 0.15406,4.90617 3.44467,8.02241 z"
        inkscape:connector-curvature="0"
        style="fill:url(#radialGradient12551)" />
-    <line
-       style="fill:none;stroke:#000000;stroke-width:6"
-       x1="498.26883"
-       y1="1143.174"
-       x2="498.14685"
-       y2="1215.174"
-       id="line10064" />
-    <line
-       style="fill:none;stroke:#000000;stroke-width:6"
-       x1="519.35785"
-       y1="1175.6229"
-       x2="519.23584"
-       y2="1216.2889"
-       id="line10066" />
-    <line
-       style="fill:none;stroke:#000000;stroke-width:6"
-       x1="545.28082"
-       y1="1175.6229"
-       x2="545.15881"
-       y2="1216.2889"
-       id="line10068" />
-    <rect
-       style="fill:url(#SVGID_16_)"
-       x="491.62582"
-       y="1118.0569"
-       width="13.286"
-       height="50.233002"
-       id="rect10077" />
-    <rect
-       style="fill:url(#SVGID_17_)"
-       x="491.50284"
-       y="1190.0569"
-       width="13.286"
-       height="50.233002"
-       id="rect10086" />
-    <rect
-       style="fill:url(#SVGID_18_)"
-       x="512.65381"
-       y="1198.9559"
-       width="13.286"
-       height="34.667"
-       id="rect10095" />
-    <rect
-       style="fill:url(#SVGID_19_)"
-       x="538.57684"
-       y="1202.9559"
-       width="13.286"
-       height="22"
-       id="rect10104" />
-    <text
-       style="font-size:28px;font-family:LucidaSans"
-       font-size="28"
-       id="text10108"
-       x="516.47931"
-       y="1145.6233">Fc Receptor</text>
-    <text
-       style="font-size:28px;fill:#ffffff;font-family:LucidaSans"
-       font-size="28"
-       id="text10110"
-       x="666.47931"
-       y="1289.6233">Effector Cell</text>
     <path
        id="path7686-4"
        d="m 116.57153,406.47515 c -0.14704,3.56521 0.95274,6.50566 2.45693,6.56753 1.50396,0.0621 2.84263,-2.77763 2.98989,-6.34282 0.14703,-3.565 -0.95286,-6.50556 -2.45704,-6.56744 -1.50396,-0.0623 -2.84242,2.77765 -2.98978,6.34273 z"
@@ -1133,7 +1062,7 @@
          x="160.65071"
          y="139.60078">Zimosán</tspan></text>
     <path
-       style="fill:#797c00;fill-opacity:1;stroke:none"
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
        d="m 132.02703,119.60542 9.79729,21.95946 -8.1081,0 21.28378,34.7973 -9.45946,-30.06757 7.77027,-0.67567 L 139.7973,116.22705 130,115.88921 z"
        id="path12782"
        inkscape:connector-curvature="0" />

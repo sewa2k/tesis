@@ -1,4 +1,3 @@
-\frontmatter
 \tableofcontents
 \clearpage
 \cleardoublepage
