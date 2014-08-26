@@ -9,7 +9,7 @@ La placa de 96 pocillos PolySorp\textregistered (_nunc\texttrademark_) se activ�
 Para la validación de anticuerpos en vez de sembrar una muestra de proteinas totales, se sembró en concentración decreciente (8 diluciones seriadas 1:2 desde 3ng/\si{\micro\litro}) el péptido (inmunógeno) especifico para cada anticuerpo.
 
 \subsection{Bloqueo de sitios inespecíficos}
-Para bloquear los sitios inespecíficos donde no se unió el antígeno se usó BSA diluida (200\si{\micro\litro} por pocillo)en PBS 1X al 1\% (PBSA 1\%) incubando la placa cubierta con parafilm por 2 horas a 37ºC con agitación leve y luego lavando la placa 3 veces con 200\si{\micro\litro} PBST 0,05% usando un lavador de microplacas. 
+Para bloquear los sitios inespecíficos donde no se unió el antígeno se usó BSA diluida (200\si{\micro\litro} por pocillo)en PBS 1X al 1\% (PBSA 1\%) incubando la placa cubierta con parafilm por 2 horas a 37ºC con agitación leve y luego lavando la placa 3 veces con 200\si{\micro\litro} PBST 0,05\% usando un lavador de microplacas. 
 
 \subsection{Incubación primer anticuerpo}
 El anticuerpo primario se usó a una concentración de 1:2000 o 1:1000 según corresponda (Tabla \ref{tabla:anticuerpos}) durante 1 hora a 37ºC con agitación constante y luego se lavó nuevamente la placa 3 veces con PBST 0,05\%

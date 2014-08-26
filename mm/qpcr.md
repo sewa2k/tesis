@@ -32,24 +32,24 @@ condiciones térmicas de la amplificación fueron las siguientes: un ciclo inici
 minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a 58º para todos los partidores exceptuando los partidores para IFN-$\gamma$ que fue de 61,5º y 15 segundos a 72ºC (desnaturalización, \emph{annealing} y extensión respectivamente).
 
 \begin{table}[h!]
-\begin{center}
-\begin{threeparttable}
-\caption{Preparación de Master Mix para qPCR}\label{mmix}
-\begin{tabularx}{13cm}{X l}
-\toprule
- & \textbf{1 Reacción} \\
-\midrule
-Brilliant III Ultra-Fast SYBR Green MM & 5\si{\micro\litro}  \\
-Partidores (F+R) 1,5\si{\micro\molar} & 4\si{\micro\litro} \\
-Muestra (1:4) & 1\si{\micro\litro} \\
-\textbf{Total por reacción} & 10m\si{\litro} \\
-\bottomrule
-\end{tabularx}
-\begin{tablenotes}
-	\item Tabla de reactivos para 1 reacción de qPCR
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
+	\begin{center}
+		\begin{threeparttable}
+			\caption{Preparación de Master Mix para qPCR}\label{mmix}
+				\begin{tabularx}{13cm}{X l}
+					\toprule
+					 										& \textbf{1 Reacción} \\
+					\midrule
+					Brilliant III Ultra-Fast SYBR Green MM 	& 5\si{\micro\litro} \\
+					Partidores (F+R) 1,5\si{\micro\molar} 	& 4\si{\micro\litro} \\
+					Muestra (1:4) 							& 1\si{\micro\litro} \\
+					\textbf{Total por reacción} 			& 10m\si{\litro} \\
+					\bottomrule
+				\end{tabularx}
+				\begin{tablenotes}
+					\item Tabla de reactivos para 1 reacción de qPCR
+				\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
 \end{table}
 
 \subsection{Partidores}
@@ -57,24 +57,24 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 \begin{table}[h!]
   	\begin{center}
     	\begin{threeparttable}
-      	\caption{Lista de Partidores}\label{tabla:partidores}
+      		\caption{Lista de Partidores}\label{tabla:partidores}
       		\begin{tabularx}{15cm}{l l X r}
-			\toprule
-			\textbf{Molécula} & \textbf{Partidor} & \textbf{Secuencia} & \textbf{Amplicón} \\
-			\midrule
-			EF-1$\alpha$ & Fw & \texttt{TGG AGA CTG GCA CCC TGA AG} & 127 pb \\
-						& Rev & \texttt{CCA ACA TTG TCA CCA GGC ATG G} & \\
-			IL-1$\beta$ & Fw & \texttt{GTC ACA TTG CCA ACC TCA TCA TCG} & 95 pb \\
-	 					& Rev & \texttt{GTT GAG CAG GTC CTT GTC CTT GA} & \\
-			TNF-$\alpha$ & Fw & \texttt{GTG TGG GGT CCT CTT AAT AGC AGG} & 88 pb \\
-				 		& Rev & \texttt{CTG CAT CGT TGA CGG TCT TCC} & \\
-			IFN-$\gamma$ 	& Fw & \texttt{GCT GTT CAA CGG AAA ACC TGT TT} & 51 pb \\
-						& Rev & \texttt{TCA CTG TCC TCA AAC GTG} & \\
-			iNOS 	& Fw & \texttt{TAT GCT CTG CCT GCC GTG TC} & 158 pb \\
-		  			& Rev & \texttt{ATC CTG CGA CCC ACT TCC TC} & \\
-			IL-12 	& Fw & \texttt{TTT AAT CAG CTG TCG GGC CAA GTC} & 123 pb \\
-					& Rev & \texttt{GTG CAA GAT TCC TGG CTG TCA GTA} &  \\
-			\bottomrule
+				\toprule
+				\textbf{Molécula} 	& \textbf{Partidor} & \textbf{Secuencia} & \textbf{Amplicón} \\
+				\midrule
+				EF-1$\alpha$		& Fw 	& \texttt{TGG AGA CTG GCA CCC TGA AG} 		& 127 pb	\\
+									& Rev 	& \texttt{CCA ACA TTG TCA CCA GGC ATG G} 	& 			\\
+				IL-1$\beta$		 	& Fw 	& \texttt{GTC ACA TTG CCA ACC TCA TCA TCG} 	& 95 pb 	\\
+			 						& Rev 	& \texttt{GTT GAG CAG GTC CTT GTC CTT GA} 	& 			\\
+				TNF-$\alpha$ 		& Fw 	& \texttt{GTG TGG GGT CCT CTT AAT AGC AGG} 	& 88 pb 	\\
+					 				& Rev 	& \texttt{CTG CAT CGT TGA CGG TCT TCC} 		& 			\\
+				IFN-$\gamma$ 		& Fw 	& \texttt{GCT GTT CAA CGG AAA ACC TGT TT} 	& 51 pb 	\\
+									& Rev 	& \texttt{TCA CTG TCC TCA AAC GTG} 			& 			\\
+				iNOS 				& Fw 	& \texttt{TAT GCT CTG CCT GCC GTG TC} 		& 158 pb 	\\
+				 					& Rev 	& \texttt{ATC CTG CGA CCC ACT TCC TC} 		& 			\\
+				IL-12 				& Fw 	& \texttt{TTT AAT CAG CTG TCG GGC CAA GTC} 	& 123 pb 	\\
+									& Rev 	& \texttt{GTG CAA GAT TCC TGG CTG TCA GTA} 	&  			\\
+				\bottomrule							
 			\end{tabularx}
 			\begin{tablenotes}[normal,flushleft,rm]
 				\item Tabla de partidores usados para la amplificación de las moléculas en estudio, se indica el tamaño esperado en pares de bases del amplicón. \\ Fw = Forward, Rev= Reverse, pb = Pares de Bases
@@ -84,25 +84,25 @@ Muestra (1:4) & 1\si{\micro\litro} \\
 \end{table}
 
 \subsection{Estandarización de partidores}
-Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este estudio usando distintas diluciones y gradientes de temperatura dependiendo del partidor, seleccionando la mejor temperatura de _annealing_ en base a su curva patrón y de fusión (Tabla \ref{tabla:estandar}).
+Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este estudio usando distintas diluciones y gradientes de temperatura dependiendo del partidor, seleccionando la mejor temperatura de \emph{annealing} en base a su curva patrón y de fusión (Tabla \ref{tabla:estandar}).
 
 \begin{table}[h!]
-  \begin{center}
-    \begin{threeparttable}
-      \caption{Programa Termociclador para estandarización de Partidores}\label{tabla:estandar}
-      \begin{tabularx}{13cm}{l X l l}
-     \toprule
-	Etapa & Temperatura & Tiempo & Ciclos \\
-	\midrule
-	Denaturación Inicial & 95º & 03:00 min & 1 \\
-	Denaturación & 95º & 00:10 seg & 39\\
-	Annealing en Gradiente & 62º $\rightarrow$ 52* & 00:10 seg & 39 \\
-	Extensión & 60º & 00:10 seg & 39 \\
-	\bottomrule
-      \end{tabularx}
-    \begin{tablenotes}
-      \item El gradiente varía dentro de esas temperaturas según los partidores
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
+	\begin{center}
+    	\begin{threeparttable}
+      		\caption{Programa Termociclador para estandarización de Partidores}\label{tabla:estandar}
+      		\begin{tabularx}{13cm}{l X l l}
+	     		\toprule
+				Etapa & Temperatura & Tiempo & Ciclos \\
+				\midrule
+				Denaturación Inicial & 95º & 03:00 min & 1 \\
+				Denaturación & 95º & 00:10 seg & 39\\
+				Annealing en Gradiente & 62º $\rightarrow$ 52* & 00:10 seg & 39 \\
+				Extensión & 60º & 00:10 seg & 39 \\
+				\bottomrule
+			\end{tabularx}
+			\begin{tablenotes}
+      			\item El gradiente varía dentro de esas temperaturas según los partidores
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
 \end{table}

@@ -14,6 +14,7 @@
 	\acro{ifat}[IFAT]{\emph{Immunofluorescence antibody test}, Prueba de inmunofluorescencia con anticuerpos}
 	\acro{elisa}[ELISA]{\emph{Enzyme linked immuno-sorbent assay}, Ensayo de inmunoabsorción ligado a enzimas}
 	\acro{sdspage}[SDS-PAGE]{\emph{SDS-Polyacrilamide gel electrophoresis}}
+	\acro{mq}[MQ]{\emph{Milli-q}}
 	\acro{sds}[SDS]{\emph{Sodium dodecyl sulfate}, Dodecil sulfato de sodio}
 	\acro{tmb}[TMB]{3,3'-5,5'-tetrametillbencidine}
 	\acro{rt}[RT]{Retrotranscripción}

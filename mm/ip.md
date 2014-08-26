@@ -2,9 +2,11 @@
 
 Para evaluar la disponibilidad de las proteínas en estudio se realizó una inmunoprecipitación seguida de un western blot, por disponibilidad de anticuerpos la inmunoprecipitación se realizó solo para las siguientes moleculas:
 
-- IFN-$\gamma$
-- TNF-$\alpha$
-- IL-1$\beta$
+\begin{itemize}
+	\item IFN-$\gamma$
+	\item TNF-$\alpha$
+	\item IL-1$\beta$
+\end{itemize}
 
 ###Cuantificación de Anticuerpos mediante ELISA Directo
 
