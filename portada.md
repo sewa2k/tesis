@@ -11,7 +11,7 @@ Escuela de Ingeniería en Biotecnología
 
         \vspace*{1cm}
         
-       \large{ \textbf{ \uppercase{Establecimiento de un modelo molecular en tejido branquial de \emph{Oncorhynchus mykiss} inmunoestimulado con Zymosán A liberado en dieta}}}
+       \large{ \textbf{Modelo molecular en tejido branquial de \emph{Oncorhynchus mykiss} inmunoestimulado con el $\beta$-glucano con \emph{Zymosán A} liberado en dieta}}
         
         \vspace{0.5cm}
         
@@ -21,24 +21,25 @@ Escuela de Ingeniería en Biotecnología
         \large{\textsc{Magister en Biotecnología}}\\ 
         
         \vspace{2.5cm}        
-         
-        \textbf{Director de Tesis:} Dr. Luis Mercado Vianco\\
-        \textbf{Institución:} Pontificia Universidad Católica de Valparaíso       
+        presentado por:\\
+		\vspace{0.1cm} 
+        \textbf{Sebastián Rodrigo Sariego Benítez}\\
+        \textbf{Viña del Mar, Chile}
+		
        
              
         
          \vspace{1.5cm}
-         presentado por:\\
-         \vspace{0.1cm}
-         \textbf{Sebastián Rodrigo Sariego Benítez}\\
-         \textbf{Viña del Mar, Chile}
+         
+	\textbf{Director de Tesis:} Dr. Luis Mercado Vianco\\
+       \textbf{Institución:} Pontificia Universidad Católica de Valparaíso
          
        
 
         
         
  
-        Julio, 2014
+        Agosto, 2014
         
  
  
