@@ -1,57 +1,88 @@
-\BOOKMARK [0][-]{chapter.1}{Introducción}{}% 1
-\BOOKMARK [1][-]{section*.4}{El género Oncorhynchus}{chapter.1}% 2
-\BOOKMARK [2][-]{figure.caption.5}{Situación actual en Chile}{chapter.1}% 3
-\BOOKMARK [1][-]{figure.caption.6}{Sistema\040inmune\040en\040peces}{chapter.1}% 4
-\BOOKMARK [1][-]{figure.caption.6}{Inmunoestimulantes}{chapter.1}% 5
-\BOOKMARK [2][-]{section*.7}{-glucanos}{figure.caption.6}% 6
-\BOOKMARK [0][-]{chapter.2}{Hipótesis}{}% 7
-\BOOKMARK [0][-]{chapter.3}{Objetivo\040General}{}% 8
-\BOOKMARK [1][-]{section*.10}{Objetivos Específicos}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Materiales y Métodos}{}% 10
-\BOOKMARK [1][-]{figure.caption.11}{Material Biológico y Bioensayo}{chapter.4}% 11
-\BOOKMARK [2][-]{section*.12}{Peces}{figure.caption.11}% 12
-\BOOKMARK [2][-]{section*.12}{Dieta}{figure.caption.11}% 13
-\BOOKMARK [2][-]{section*.12}{Parametros\040fisicoquimicos\040del\040ensayo}{figure.caption.11}% 14
-\BOOKMARK [2][-]{section*.12}{Anticuerpos}{figure.caption.11}% 15
-\BOOKMARK [1][-]{table.caption.16}{Desafío y Controles}{chapter.4}% 16
-\BOOKMARK [1][-]{table.caption.16}{Muestreo}{chapter.4}% 17
-\BOOKMARK [1][-]{table.caption.18}{Extracción de RNA}{chapter.4}% 18
-\BOOKMARK [2][-]{section*.19}{Cuantificación e Integridad de RNA}{table.caption.18}% 19
-\BOOKMARK [2][-]{section*.19}{Sintesis\040de\040cDNA}{table.caption.18}% 20
-\BOOKMARK [1][-]{section*.19}{PCR\040en\040Tiempo\040Real\040\(qPCR\)}{chapter.4}% 21
-\BOOKMARK [2][-]{table.caption.22}{Partidores}{section*.19}% 22
-\BOOKMARK [2][-]{table.caption.24}{Estandarización de partidores}{section*.19}% 23
-\BOOKMARK [1][-]{table.caption.26}{Extracción de Proteínas}{chapter.4}% 24
-\BOOKMARK [2][-]{table.caption.28}{Cuantificación de Proteínas}{table.caption.26}% 25
-\BOOKMARK [1][-]{table.caption.28}{ELISA\040Indirecto}{chapter.4}% 26
-\BOOKMARK [2][-]{section*.29}{Activación de la placa}{table.caption.28}% 27
-\BOOKMARK [2][-]{section*.29}{Bloqueo de sitios inespecíficos}{table.caption.28}% 28
-\BOOKMARK [2][-]{section*.29}{Incubación primer anticuerpo}{table.caption.28}% 29
-\BOOKMARK [2][-]{section*.29}{Incubación segundo anticuerpo y revelado}{table.caption.28}% 30
-\BOOKMARK [1][-]{section*.29}{Inmunoprecipitación}{chapter.4}% 31
-\BOOKMARK [2][-]{section*.30}{Cuantificación de Anticuerpos mediante ELISA Directo}{section*.29}% 32
-\BOOKMARK [2][-]{section*.30}{Unión Antígeno-Anticuerpo}{section*.29}% 33
-\BOOKMARK [2][-]{section*.30}{Unión a Proteína A - Agarosa}{section*.29}% 34
-\BOOKMARK [2][-]{section*.30}{SDS-PAGE}{section*.29}% 35
-\BOOKMARK [2][-]{section*.30}{Western-Blot}{section*.29}% 36
-\BOOKMARK [1][-]{section*.30}{Inmunofluorescencia}{chapter.4}% 37
-\BOOKMARK [2][-]{section*.31}{Desparafinización e Hidratación}{section*.30}% 38
-\BOOKMARK [2][-]{section*.31}{Bloqueo}{section*.30}% 39
-\BOOKMARK [2][-]{section*.31}{Incubación de anticuerpo primario}{section*.30}% 40
-\BOOKMARK [2][-]{section*.31}{Incubación anticuerpo secundario y tinción de DNA \(Núcleos\)}{section*.30}% 41
-\BOOKMARK [2][-]{section*.31}{Montaje}{section*.30}% 42
-\BOOKMARK [1][-]{section*.31}{Microscopía Confocal}{chapter.4}% 43
-\BOOKMARK [1][-]{section*.31}{Analisis Estadístico}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 45
-\BOOKMARK [1][-]{section*.32}{Bioensayo}{chapter.5}% 46
-\BOOKMARK [1][-]{figure.caption.34}{Extracción y Cuantificación de RNA}{chapter.5}% 47
-\BOOKMARK [1][-]{table.caption.36}{Estandarización de Partidores}{chapter.5}% 48
-\BOOKMARK [2][-]{section*.37}{EF-1}{table.caption.36}% 49
-\BOOKMARK [2][-]{section*.37}{IL-12}{table.caption.36}% 50
-\BOOKMARK [2][-]{figure.caption.38}{TNF-}{table.caption.36}% 51
-\BOOKMARK [2][-]{figure.caption.39}{IFN-}{table.caption.36}% 52
-\BOOKMARK [2][-]{figure.caption.40}{IL-1}{table.caption.36}% 53
-\BOOKMARK [2][-]{figure.caption.41}{iNOS}{table.caption.36}% 54
-\BOOKMARK [1][-]{figure.caption.42}{PCR\040en\040tiempo\040real}{chapter.5}% 55
-\BOOKMARK [1][-]{figure.caption.45}{Extracción y Cuantificación de Proteínas}{chapter.5}% 56
-\BOOKMARK [1][-]{table.caption.48}{ELISAs\040Indirectos}{chapte
+\BOOKMARK [0][-]{chapter*.1}{Resumen}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Índice general}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{Lista\040de\040abreviaturas}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{Índice de figuras}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{Índice de tablas}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introducción}{}% 7
+\BOOKMARK [1][-]{section.1.1}{El género Oncorhynchus}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1}{Situación actual en Chile}{section.1.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Sistema\040inmune\040en\040peces}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{Inmunidad\040en\040mucosas}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.3.1}{Inmunidad\040Branquial}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Inmunomoduladores}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.4.1}{-glucanos}{section.1.4}% 14
+\BOOKMARK [0][-]{chapter.2}{Hipótesis}{}% 15
+\BOOKMARK [0][-]{chapter.3}{Objetivo\040General}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Objetivos Específicos}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Materiales y Métodos}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Material Biológico y Bioensayo}{chapter.4}% 19
+\BOOKMARK [2][-]{subsection.4.1.1}{Peces}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.2}{Dieta}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.3}{Parametros\040fisicoquimicos\040del\040ensayo}{section.4.1}% 22
+\BOOKMARK [2][-]{subsection.4.1.4}{Anticuerpos}{section.4.1}% 23
+\BOOKMARK [1][-]{section.4.2}{Desafío y Controles}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Muestreo}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{Extracción de RNA}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.1}{Cuantificación e Integridad de RNA}{section.4.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.2}{Sintesis\040de\040cDNA}{section.4.4}% 28
+\BOOKMARK [1][-]{section.4.5}{PCR\040en\040Tiempo\040Real\040\(qPCR\)}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.5.1}{Partidores}{section.4.5}% 30
+\BOOKMARK [2][-]{subsection.4.5.2}{Estandarización de partidores}{section.4.5}% 31
+\BOOKMARK [1][-]{section.4.6}{Extracción de Proteínas}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.6.1}{Cuantificación de Proteínas}{section.4.6}% 33
+\BOOKMARK [1][-]{section.4.7}{ELISA\040Indirecto}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.7.1}{Activación de la placa}{section.4.7}% 35
+\BOOKMARK [2][-]{subsection.4.7.2}{Bloqueo de sitios inespecíficos}{section.4.7}% 36
+\BOOKMARK [2][-]{subsection.4.7.3}{Incubación primer anticuerpo}{section.4.7}% 37
+\BOOKMARK [2][-]{subsection.4.7.4}{Incubación segundo anticuerpo y revelado}{section.4.7}% 38
+\BOOKMARK [1][-]{section.4.8}{Cortes histológicos}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.8.1}{Tinción Hematoxilina-eosina}{section.4.8}% 40
+\BOOKMARK [1][-]{section.4.9}{Inmunofluorescencia}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.9.1}{Desparafinización e Hidratación}{section.4.9}% 42
+\BOOKMARK [2][-]{subsection.4.9.2}{Bloqueo}{section.4.9}% 43
+\BOOKMARK [2][-]{subsection.4.9.3}{Incubación de anticuerpo primario}{section.4.9}% 44
+\BOOKMARK [2][-]{subsection.4.9.4}{Incubación anticuerpo secundario y tinción de DNA \(Núcleos\)}{section.4.9}% 45
+\BOOKMARK [2][-]{subsection.4.9.5}{Montaje}{section.4.9}% 46
+\BOOKMARK [1][-]{section.4.10}{Microscopía Confocal}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.11}{Analisis Estadístico}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.11.1}{Coeficiente de correlación de Pearson \(R\)}{section.4.11}% 49
+\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 50
+\BOOKMARK [1][-]{section.5.1}{Bioensayo}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.2}{Extracción y Cuantificación de RNA}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.3}{Estandarización de Partidores}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.3.1}{EF-1}{section.5.3}% 54
+\BOOKMARK [2][-]{subsection.5.3.2}{IL-12}{section.5.3}% 55
+\BOOKMARK [2][-]{subsection.5.3.3}{TNF-}{section.5.3}% 56
+\BOOKMARK [2][-]{subsection.5.3.4}{IFN-}{section.5.3}% 57
+\BOOKMARK [2][-]{subsection.5.3.5}{IL-1}{section.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.3.6}{iNOS}{section.5.3}% 59
+\BOOKMARK [1][-]{section.5.4}{PCR\040en\040tiempo\040real}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.4.1}{TNF-}{section.5.4}% 61
+\BOOKMARK [2][-]{subsection.5.4.2}{IFN-}{section.5.4}% 62
+\BOOKMARK [2][-]{subsection.5.4.3}{IL-1}{section.5.4}% 63
+\BOOKMARK [2][-]{subsection.5.4.4}{iNOS}{section.5.4}% 64
+\BOOKMARK [2][-]{subsection.5.4.5}{IL-12}{section.5.4}% 65
+\BOOKMARK [1][-]{section.5.5}{Extracción y Cuantificación de Proteínas}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.6}{Validación de anticuerpos}{chapter.5}% 67
+\BOOKMARK [2][-]{subsection.5.6.1}{Anticuerpos\040producidos\040en\040conejo}{section.5.6}% 68
+\BOOKMARK [2][-]{subsection.5.6.2}{Anticuerpos producidos en ratón}{section.5.6}% 69
+\BOOKMARK [1][-]{section.5.7}{ELISAs\040Indirectos}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.7.1}{TNF-}{section.5.7}% 71
+\BOOKMARK [2][-]{subsection.5.7.2}{IFN-}{section.5.7}% 72
+\BOOKMARK [2][-]{subsection.5.7.3}{IL-1}{section.5.7}% 73
+\BOOKMARK [2][-]{subsection.5.7.4}{iNOS}{section.5.7}% 74
+\BOOKMARK [2][-]{subsection.5.7.5}{IL-12}{section.5.7}% 75
+\BOOKMARK [1][-]{section.5.8}{Tinción Hematoxilina-eosina}{chapter.5}% 76
+\BOOKMARK [1][-]{section.5.9}{Inmunofluorescencia}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.9.1}{TNF-}{section.5.9}% 78
+\BOOKMARK [2][-]{subsection.5.9.2}{IFNg-}{section.5.9}% 79
+\BOOKMARK [2][-]{subsection.5.9.3}{IL-1}{section.5.9}% 80
+\BOOKMARK [2][-]{subsection.5.9.4}{iNOS}{section.5.9}% 81
+\BOOKMARK [1][-]{section.5.10}{Correlación}{chapter.5}% 82
+\BOOKMARK [0][-]{chapter.6}{Discusiones}{}% 83
+\BOOKMARK [1][-]{section.6.1}{Objetivo\0401}{chapter.6}% 84
+\BOOKMARK [1][-]{section.6.2}{Objetivo\0402}{chapter.6}% 85
+\BOOKMARK [1][-]{section.6.3}{Objetivo\0403}{chapter.6}% 86
+\BOOKMARK [0][-]{chapter.7}{Conclusiones}{}% 87
+\BOOKMARK [0][-]{chapter.8}{Bibliografía}{}% 88
