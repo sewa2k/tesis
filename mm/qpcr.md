@@ -14,7 +14,7 @@ Para asegurar que las amplificaciones eran obtenidas a partir del cDNA y no de r
 
 \section{PCR en Tiempo Real (qPCR)}
 La cuantificación por PCR a tiempo real permite monitorizar la reacción de PCR al 
-mismo tiempo que ésta tiene lugar. Se empleó como estrategia para realizar la cuantificación el uso de la sonda SYBR Green® del kit Brilliant III Ultra-Fast (Agillent) ([@Wittwer1997]). 
+mismo tiempo que ésta tiene lugar. Se empleó como estrategia para realizar la cuantificación el uso de la sonda SYBR Green® del kit Brilliant III Ultra-Fast (Agillent) [@Wittwer1997]. 
 Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima ``\emph{Taq} DNA Polimerasa'', dNTPs, MgCl2 y el tampón de PCR, e incorpora, como su nombre 
 indica, el colorante SYBR Green I, que detecta DNA de doble hélice, por lo que no es 
 necesario el uso de sondas específicas. Las muestras se amplificaron por duplicado en 
@@ -27,32 +27,7 @@ placas de 96 pocillos para reacciones ópticas (Hard-Shell de Bio-Rad) (Figura \
 	\label {fig:placapcr}
 \end{figure}
 
-Cada reacción se llevó a cabo en un volumen de 10µl según la Tabla \ref{mmix}. Las 
-condiciones térmicas de la amplificación fueron las siguientes: un ciclo inicial de 3 
-minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a 58º para todos los partidores exceptuando los partidores para IFN-$\gamma$ que fue de 61,5º y 15 segundos a 72ºC (desnaturalización, \emph{annealing} y extensión respectivamente).
-
-\begin{table}[h!]
-	\begin{center}
-		\begin{threeparttable}
-			\caption{Preparación de Master Mix para qPCR}\label{mmix}
-				\begin{tabularx}{13cm}{X l}
-					\toprule
-					 										& \textbf{1 Reacción} \\
-					\midrule
-					Brilliant III Ultra-Fast SYBR Green MM 	& 5\si{\micro\litro} \\
-					Partidores (F+R) 1,5\si{\micro\molar} 	& 4\si{\micro\litro} \\
-					Muestra (1:4) 							& 1\si{\micro\litro} \\
-					\textbf{Total por reacción} 			& 10m\si{\litro} \\
-					\bottomrule
-				\end{tabularx}
-				\begin{tablenotes}
-					\item Tabla de reactivos para 1 reacción de qPCR
-				\end{tablenotes}
-		\end{threeparttable}
-	\end{center}
-\end{table}
-
-\subsection{Partidores}
+\subsection{Estandarización de partidores}
 
 \begin{table}[h!]
   	\begin{center}
@@ -83,8 +58,7 @@ minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a
 	\end{center}
 \end{table}
 
-\subsection{Estandarización de partidores}
-Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este estudio usando distintas diluciones y gradientes de temperatura dependiendo del partidor, seleccionando la mejor temperatura de \emph{annealing} en base a su curva patrón y de fusión (Tabla \ref{tabla:estandar}).
+Usando un mix de varios cDNA al azar (controles e inducidos) se estandarizaron los distintos partidores usados en el ensayo, usando diluciones en agua DEPC 1:1 1:2 1:4 1:8 de este mix en cada placa (1µL en total), por cada partidor, luego el software CFX Manager (Bio-Rad) entregó las informaciones necesarias para determinar el uso o no de un partidor en base a un programa del termociclador y un gradiente de temperaturas (Tabla \ref{tabla:estandar}). 
 
 \begin{table}[h!]
 	\begin{center}
@@ -106,3 +80,41 @@ Los partidores se estandarizaron con un mix de varios cDNA obtenidos en este est
 		\end{threeparttable}
 	\end{center}
 \end{table}
+
+\subsection{Master Mix para cada reacción}
+Cada reacción se llevó a cabo en un volumen de 10µl según la Tabla \ref{mmix}. Las 
+condiciones térmicas de la amplificación fueron las siguientes: un ciclo inicial de 3 
+minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a 58º para todos los partidores exceptuando los partidores para IFN-$\gamma$ que fue de 61,5º y 15 segundos a 72ºC (desnaturalización, \emph{annealing} y extensión respectivamente).
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{threeparttable}
+			\caption{Preparación de Master Mix para qPCR}\label{mmix}
+				\begin{tabularx}{13cm}{X l}
+					\toprule
+					 										& \textbf{1 Reacción} \\
+					\midrule
+					Brilliant III Ultra-Fast SYBR Green MM 	& 5\si{\micro\litro} \\
+					Partidores (F+R) 1,5\si{\micro\molar} 	& 4\si{\micro\litro} \\
+					Muestra (1:4) 							& 1\si{\micro\litro} \\
+					\textbf{Total por reacción} 			& 10m\si{\litro} \\
+					\bottomrule
+				\end{tabularx}
+				\begin{tablenotes}
+					\item Tabla de reactivos para 1 reacción de qPCR
+				\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
+\end{table}
+
+\subsection{Cuantificación relativa}
+Para evaluar la cuantificación relativa de cada gen en estudio frente al gen de referencia, en este caso el factor de elongación 1 alfa (EF-1$\alpha$), se utilizó la metodología llamada $\Delta\Delta C_T$ [@Pfaffl2001], la cual consiste en lo siguiente: el valor $\Delta C_T$ se determina restando la media de los valores $C_T$ obtenidos para el gen de referencia de la media de los valores $C_T$
+del gen problema.
+
+El cálculo del valor $\Delta\Delta C_T$ implica restar a cada $\Delta C_T$ el valor del $\Delta C_T$ de un calibrador, que es una muestra utilizada como base para los resultados relativos. Al ser una resta de un valor arbitrario, la desviación del $\Delta\Delta C_T$ es la misma que la del $\Delta C_T$ . Una vez obtenidos estos valores, la cantidad de un gen problema, normalizado a una referencia endógena y relativa a un calibrador, viene dada por la fórmula: 
+
+\begin{displaymath}
+\scalebox{1.5}{
+$2^{-\Delta\Delta C_T}$
+}
+\end{displaymath}

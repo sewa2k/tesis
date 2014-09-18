@@ -1,3 +1,5 @@
+\clearpage
+
 \section{Extracción de Proteínas}
 
 Se agregó una pequeña cantidad de tejido pulverizado a 500\si{\micro\litro} de Buffer de Lisis (Tabla \ref{tablabufferlisis}) y se homogenizó con el equipo FastPrep24 con un programa de 4,5 movimientos por segundo durante 30 segundos usando como matriz 8 esferas de óxido de zirconio, luego se dejaron las muestras en hielo durante 30 minutos para posteriormente centrifugar a máxima velocidad por 5 minutos a 4ºC, se descartó el precipitado y el sobrenadante se almacenó a -80ºC hasta su uso.

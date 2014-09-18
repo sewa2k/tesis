@@ -33,7 +33,7 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 				\toprule
 				\multicolumn{4}{c}{} & \multicolumn{3}{c}{Dilución Anticuerpo} \\
 				\cmidrule(r){5-7}
-				Molécula (Anti) & Huesped & Origen & Secuencia Inmunógeno & ELISA & WB & IFAT \\
+				Molécula (Anti) & Huesped & Origen & Secuencia epítope & ELISA & WB & IFAT \\
 				\midrule
 				TNF-$\alpha$ & Conejo & Suero & \texttt{WRKDDGQAFSQGGFE} & 1:2000 & 1:500 & 1:500 \\
 				TNF-$\alpha$ & Ratón & Suero & \texttt{ } & - & 1:500 & - \\
@@ -79,7 +79,7 @@ Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y c
 
 \section{Muestreo}
 
-Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% CentroVet), se tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo (Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
+Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\% (Benzocaína 20\% CentroVet), se pesaron los peces y luego tomaron muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su par respectivo en cada día de muestreo (Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos grupos, primero se tomaron ejemplares de branquias y se fijaron con solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\% formaldehído y 5\% ácido acético glacial) por 7 horas y luego se lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su posterior uso. Para el otro grupo se procedió a pulverizar con Nitrógeno Líquido usando un mortero, para ser usado en las extracciones de RNA y Proteínas.
 
 \begin{table}[h!]
 	\begin{center}

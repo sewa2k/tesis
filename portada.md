@@ -39,7 +39,7 @@ Escuela de Ingeniería en Biotecnología
         
         
  
-        Agosto, 2014
+        Septiembre, 2014
         
  
  
