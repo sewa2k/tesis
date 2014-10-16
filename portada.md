@@ -11,7 +11,7 @@ Escuela de Ingeniería en Biotecnología
 
         \vspace*{1cm}
         
-       \large{ \textbf{Modelo molecular en tejido branquial de \emph{Oncorhynchus mykiss} inmunoestimulado con el $\beta$-glucano con \emph{Zymosán A} liberado en dieta}}
+       \large{ \textbf{Tejido branquial de \emph{Oncorhynchus mykiss} como modelo de evaluación del efecto inmunomodulador del $\beta$-glucano \emph{Zymosán A} liberado en dieta}}
         
         \vspace{0.5cm}
         
@@ -39,7 +39,7 @@ Escuela de Ingeniería en Biotecnología
         
         
  
-        Septiembre, 2014
+        Octubre, 2014
         
  
  
