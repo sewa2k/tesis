@@ -26,6 +26,8 @@
 	\acro{ifng}[IFN-$\gamma$]{Interferón gama}
 	\acro{tnfa}[TNF-$\alpha$]{Factor de necrosis tumoral alfa}
 	\acro{pbs}[PBS]{\emph{Phosphate Buffered Saline}, Tampón fosfato salino}
+	\acro{nk}[NK]{Natural Killer}
+	\acro{nkef}[NKEF]{\emph{Natural-Killer Enhancing Factor}, Factor potenciador de células NK}
 	\end{acronym}
 \clearpage
 \listoffigures

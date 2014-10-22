@@ -6,6 +6,8 @@ La pérdida del equilibrio Ambiente$\leftrightarrow$Patógeno$\leftrightarrow$Ho
 
 Los inmunoestimulantes han surgido como una opción viable, escalable y económica para solventar parte de los problemas de la acuicultura, fortaleciendo, en distintos estadíos de desarrollo, la capacidad de respuesta inmune de los organismos cultivados. No obstante existen distintas estrategias de inducción de la inmunomodulación, como por ejemplo vacunas, suspensión oral y liberación en el alimento, entre otras.
 
+La liberación en dieta es una estrategia que ha demostrado ser una opción viable y no invasiva para la entrega de vacunas o inmunomoduladores. Un tema crucial es establecer la evaluación del efecto modulador de los inmunoestimulantes.
+
 En este estudio se utilizó una dieta en base a harina de pescado y otros nutrientes con la cualidad de contener Zimosán A para ser liberado en la alimentación de especímenes de trucha arcoiris. Durante 28 días de tratamiento muestras de tejido branquial fueron obtenidas para evaluar la capacidad de respuesta inmune que refleja el organismo con este inmunoestimulante en su dieta. La capacidad de respuesta inmune fue cuantificada y caracterizada considerando la expresión y disponibilidad de moléculas reguladoras y efectoras de inmunidad. Por estar involucrados en la primera fase de respuesta inmune los marcadores seleccionados a estudiar fueron: TNF-$\alpha$, IFN-$\gamma$, IL-1$\beta$, IL-12 e iNOS.
 Mediante ensayos de PCR en tiempo real se pudo evaluar que la respuesta reflejada a la inducción por este $\beta$-glucano empieza a levantarse con respecto a los controles con dieta sin inmunoestimulante pasado el día 14 del estudio. Teniendo en común estas fechas para todos los marcadores evaluados. 
 
