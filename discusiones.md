@@ -1,4 +1,4 @@
-\chapter{Discusiones}
+\chapter{Discusion}
 
 La perdida del equilibrio Ambiente$\Leftrightarrow$Patógeno$\Leftrightarrow$Hospedero es la causa de la mayoría de las enfermedades presentes en la acuicultura, y es por eso que es estrictamente necesario cimentar las bases de una comprensión íntegra del sistema inmune, para así, poder generar tecnología que pueda sobreponerse a estos paradigmas. Esto tiene suma importancia sobretodo en la industria acuícola, la cual produce anualmente, y con un crecimiento constante, 148 millones de toneladas de pescado [@FAO2012], las cuales se traducen aproximadamente en 217.500 millones de dólares (USD), mas aún, de toda esa producción, 128 millones de toneladas fueron exclusivamente destinados a consumo humano, por lo que las perdidas por un brote de alguna enfermedad ascienden a millones de dólares, brotes que amenazan las año a año las operaciones acuícolas al rededor del mundo.
 
