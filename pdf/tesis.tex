@@ -69,6 +69,9 @@
 \usepackage{amsmath,amsthm}
 \usepackage{xltxtra}
 \usepackage{tabularx}
+\usepackage{tabulary}
+\usepackage{rotating}
+\newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
 \usepackage{titlesec}
 \usepackage[usenames,dvipsnames,svgnames]{xcolor}
 \usepackage{multirow}
@@ -111,6 +114,8 @@
 % Adjust spacing between lines to 1.5
 \usepackage{setspace}
 	\onehalfspacing
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0.5cm}}
+\renewcommand*{\chapterheadendvskip}{\vspace{1cm}}
 
 %\raggedbottom
 
@@ -144,7 +149,7 @@ Escuela de Ingeniería en Biotecnología
 
         \vspace*{1cm}
         
-       \large{ \textbf{Modelo molecular en tejido branquial de \emph{Oncorhynchus mykiss} inmunoestimulado con el $\beta$-glucano con \emph{Zymosán A} liberado en dieta}}
+       \large{ \textbf{Tejido branquial de \emph{Oncorhynchus mykiss} como modelo de evaluación del efecto inmunomodulador del $\beta$-glucano \emph{Zymosán A} liberado en dieta}}
         
         \vspace{0.5cm}
         
@@ -172,7 +177,7 @@ Escuela de Ingeniería en Biotecnología
         
         
  
-        Agosto, 2014
+        Octubre, 2014
         
  
  
@@ -186,127 +191,183 @@ Escuela de Ingeniería en Biotecnología
 
 \chapter{Resumen}
 
-La perdida del equilibrio
-Ambiente\(\Leftrightarrow\)Patógeno\(\Leftrightarrow\)Hospedero es la
-causa de la mayoría de las enfermedades presentes en la acuicultura, y
-es por eso que es estrictamente necesario cimentar las bases de una
-comprensión íntegra del sistema inmune, para así, poder generar
-tecnología que pueda sobreponerse a estos paradigmas. Esto tiene suma
-importancia sobretodo en la industria acuícola, la cual produce
-anualmente, y con un crecimiento constante, 158 millones de toneladas de
-pescado, las cuales se traducen aproximadamente en 217.500 millones de
-dólares (USD), más aún, de toda esa producción, 136 millones de
-toneladas fueron exclusivamente destinadas a consumo humano. Esto
-demuestra el potencial presente en esta industria, industria que se ve
-año a año afectada por la mortalidad de las distintas especies por la
-perdida del equilibrio antes mencionado, generándose cuantiosas perdidas
-a nivel comercial y de capital humano.
+La pérdida del equilibrio Ambiente \(\leftrightarrow\) Patógeno
+\(\leftrightarrow\) Hospedero es la causa de la mayoría de las
+enfermedades presentes en la acuicultura, y es por eso que es
+estrictamente necesario cimentar las bases de una comprensión íntegra
+del sistema inmune de peces, para así, poder generar tecnología que
+pueda sobreponerse a estos paradigmas. Esto tiene suma importancia
+sobretodo en la industria acuícola, la cual produce anualmente, 158
+millones de toneladas de pescado, las cuales se traducen aproximadamente
+en 217.500 millones de dólares (USD), más aún, de toda esa producción,
+136 millones de toneladas son exclusivamente destinadas a consumo
+humano. Esto demuestra el potencial presente en esta industria, la que
+se ve año a año afectada por mortalidades debidas a la perdida del
+equilibrio antes mencionado, generándose cuantiosas pérdidas a nivel
+comercial.
 
 Los inmunoestimulantes han surgido como una opción viable, escalable y
 económica para solventar parte de los problemas de la acuicultura,
-fortaleciendo la capacidad de respuesta inmune de los organismos
-cultivados en distintos estadíos de desarrollo. Dentro de las formas en
-las cuales se pueden desplegar estos inmunoestimulantes podemos
-encontrar vacunas, suspensión oral y liberación en el alimento, entre
+fortaleciendo, en distintos estadíos de desarrollo, la capacidad de
+respuesta inmune de los organismos cultivados. No obstante existen
+distintas estrategias de inducción de la inmunomodulación, como por
+ejemplo vacunas, suspensión oral y liberación en el alimento, entre
 otras.
+
+La liberación en dieta es una estrategia que ha demostrado ser una
+opción viable y no invasiva para la entrega de vacunas o
+inmunomoduladores. Un tema crucial es establecer la evaluación del
+efecto modulador de los inmunoestimulantes.
+
+La inmunidad de mucosas en teleósteos ha sido recientemente objeto de
+investigación en los últimos años, debido a su diversidad y
+características. Las branquias de los peces son, en término de
+superficie expuesta, el mayor tejido en muchas especies de teléosteos,
+siendo el órgano principal para mantener la homeostasis del pez por la
+ingesta de nutrientes y sustancias, así como también formando una
+barrera activa en contra de la entrada de patógenos. Existen
+antecedentes de la presencia células relacionadas con la respuesta
+inmune, como macrófagos, granulocitos, y linfocitos B y T, evidenciando
+el potencial de este órgano para evaluar el efecto de moléculas
+inmunomoduladoras y su efecto en la ingesta del pez.
 
 En este estudio se utilizó una dieta en base a harina de pescado y otros
 nutrientes con la cualidad de contener Zimosán A para ser liberado en la
-alimentación de especímenes de Trucha arcoiris. Durante 28 días de
-tratamiento se generaron muestreos de branquias, para así, evaluar la
-capacidad de respuesta inmune que levanta el organismo frente a la
-suplementación de este inmunoestimulante en su dieta. La respuesta se
-midió en base a distintos marcadores, reguladores y efectores de la
-inmunidad, a nivel de expresión y de disponibilidad de estos. Por estar
-involucrados en la primera fase de respuesta inmune los marcadores
-seleccionados a estudiar fueron: El factor de necrosis tumoral alfa,
-interferón gamma, interleuquinas 1 beta y 12, y finalmente la enzima
-oxido nítrico sintasa de carácter inducible. Mediante ensayos de PCR en
-tiempo real se pudo evaluar que la respuesta frente a la inducción por
-este \(\beta\)-glucano empieza a levantarse pasado el día 14 del
-tratamiento, teniendo en común estas fechas para todos los marcadores
+alimentación de especímenes de trucha arcoiris. Durante 28 días de
+tratamiento muestras de tejido branquial fueron obtenidas para evaluar
+la capacidad de respuesta inmune que refleja el organismo con este
+inmunoestimulante en su dieta. La capacidad de respuesta inmune fue
+cuantificada y caracterizada considerando la expresión y disponibilidad
+de moléculas reguladoras y efectoras de inmunidad. Por su rol en la
+respuesta inmune los marcadores seleccionados a estudiar fueron:
+TNF-\(\alpha\), IL-1\(\beta\), IL-1\(\beta\), IL-12, IFN-\(\gamma\) e
+iNOS. Mediante ensayos de PCR en tiempo real se pudo evaluar que la
+respuesta reflejada a la inducción por este \(\beta\)-glucano empieza a
+levantarse con respecto a los controles con dieta sin inmunoestimulante
+pasado el día 14 del estudio y se mantiene hasta el día 28 en la mayoría
+de los casos. Teniendo en común estas fechas para todos los marcadores
 evaluados.
 
-Para evaluar la disponibilidad de estas moléculas se utilizaron dos
-alcances, uno a nivel de ELISA, ensayo en el cual pudimos obtener
-resultados de aumento de disponibilidad entre los días 21 y 28 de
-muestreo; y a nivel de inmunohistoquímica de fluorescencia, teniendo en
-cuenta los días elevados mostrados por el ensayo anterior, se pudieron
-observar marcajes de las distintas moléculas estudiadas en muestras de
-tejido branquial.
+La disponibilidad de estas moléculas fue evaluada mediante ELISA
+indirecto, obteniendo resultados de aumento de esta a partir del día 21
+de muestro. Mediante inmunohistoquímica de fluorescencia en el propio
+tejido, se comprobó que el incremento de la actividad transcripcional se
+corresponde posteriormente con la disponibilidad tisular de las
+moléculas.
+
+De esta forma con los datos obtenidos se generó una matriz de
+correlación donde se pudo determinar que la inmunoestimulación vía dieta
+con \emph{Zimosán A} puede ser evaluada a partir de la tercera semana de
+alimentación en base a parámetros de cuantificación, tanto a nivel
+transcripcional como de proteínas, especialmente en el pro-inflamatorio
+TNF-\(\alpha\) y el activador de macrófagos IFN-\(\gamma\).
+
+Las herramientas generadas en esta tesis son un gran aporte para mejorar
+los análisis de campo, usando un método de entrega de inmunoestimulantes
+no invasivo y estableciendo los marcadores y los tiempos para evaluar la
+respuesta inmune de los peces en cultivo.
 
 \chapter{Abstract}
 
-The loss of balance between
-Environment\(\Leftrightarrow\)Pathogen\(\Leftrightarrow\)Host is one of
-the main causes of the most of diseases presents in the global
-aquaculture, and that is why it's absolutely necessary to cement the
-foundation for a comprehensive understanding of the immune system, thus,
-to generate technology that can overcome these paradigms. This is
-especially important in the aquaculture industry, which produces
-annually, and with steady growth, 158 million tons of fish, which
-translates into approximately 217,500 million dollars, even more, of all
-that production, 136 million tons were used exclusively for human
+\textbf{\emph{Oncorhynchus mykiss} gill tissue as a model for evaluation of the immunomodulatory effect of $\beta$-glucan \emph{Zymosan A} released in diet}
+
+The loss of balance between Environment \(\leftrightarrow\) Pathogen
+\(\leftrightarrow\) Host is one of the main causes of the most of
+diseases presents in the global aquaculture, and that is why it's
+absolutely necessary to cement the foundation for a comprehensive
+understanding of the fish immune system, thus, to generate technology
+that can overcome these paradigms. This is especially important in the
+aquaculture industry, which produces annually, 158 million tons of fish,
+which translates into approximately 217,500 million dollars, even more,
+of all that production, 136 million tons were used exclusively for human
 consumption. This demonstrates the potential in this industry, an
 industry that is affected by mortality of different species every year,
 by the loss of the aforementioned balance, generating substantial losses
 in commercial and human capital.
 
 Immunostimulants have emerged as viable, scalable and economical option
-to solve in part the problems of aquaculture, strengthening the immune
-responsiveness of farmed species at different stages of development.
-Among the ways in whic they can deploy these immunostimulants we find
-vaccines, oral suspension and food release, among others.
+to solve in part the problems of aquaculture, strengthening at different
+stages of development, the immune responsiveness capacity of farmed
+species. However there are different strategies for inducing
+immunomodulation, such as vaccines, oral suspension and release into the
+food, among others.
 
-In this study we used a diet based on fish meal and other nutrients,
+The release in diet is a strategy that has proven to be a viable option
+for non-invasive delivery of vaccines or immunomodulators. A crucial
+issue is to establish the evaluation of the immuno-modulating effect.
+
+Mucosal immunity in teleosts has recently been researched in the last
+years due to its diversity and features. The gills of fish are, in term
+of surface exposed, the largest tissue in many teleost species, being
+the main organ to maintain homeostasis of the fish because of the intake
+of nutrients and substances, so by forming an active barrier against
+pathogen entry. There are precedents of the presence of related immune
+response cells, such as macrophages, granulocytes and lymphocytes B and
+T, showing the potential of this organ to assess the effect of
+immunomodulatory molecules and their intake effect on fish.
+
+In this study we tested a diet based on fish meal and other nutrients,
 supplemented with Zymosán A (0,3\%) to be released in the feeding of
 rainbow trout specimens. During 28 days of treatment, gills were taken
 in order to evaluate the ability of immune response that raises the
 organism facing this immunostimulant supplementation in their diet. The
-response was measured based on different markers, regulators and
-effectors of immunity, at expression and bioavailability levels.
+response was quantified and characterized considering the expression and
+availability of regulatory and effector immune molecules.
 
-Being involved at the first stage of immune response, selected markers
-sudied were: tumor necrosis factor alpha, interferon gamma, interleukin
-1-beta and 12, and finally the inducible nitric oxide synthase. Through
-real-time PCR assays could be assessed that the response to this
-induction with this \(\beta\)-glucan begins to rise past the 14th day of
-treatment, having in common these days for all the tested markers.
+For their role in the immune response, selected markers studied were:
+TNF-\(\alpha\), IL-1\(\beta\), IL-1\(\beta\), IL-12, IFN-\(\gamma\) and
+iNOS. Through real-time PCR assays it was found that the response to
+this induction with this \(\beta\)-glucan begins to rise past the 14th
+day of treatment, and maintained until day 28 in most cases, having in
+common these days for all the tested markers.
 
-To evaluate the bioavailability of these molecules we've used two
-scopes, using ELISA assay in which we get results from increased
-bioavailability between 21 and 28 days, and, immunohistochemistry with
-fluorescence, considering the high days displayed by the ELISA results
-was possible to observe the different studied moleculas in gills tissue
-samples. \tableofcontents
+The availability of these molecules was evaluated by indirect ELISA,
+obtaining the rise of the signal from day 21 sampling. Through
+immunohistochemical fluorescence analysis in the tissue itself, it was
+found that the increase in transcriptional activity were subsequently
+corresponding with the tissue aavailability of these molecules.
+
+Thus, with the data obtained, a correlation matrix was generated; where
+it was determined that the immunostimulation with Zymosan A via diet can
+be evaluated from the third week of feeding, using quantification
+parameters, either at the transcriptional level as well as availability
+of proteins, especially in the pro-inflammatory TNF-\(\alpha\) and the
+macrophage activator IFN-\(\gamma\).
+
+The tools generated in this thesis are a great contribution to improve
+field analysis, using a non-invasive method of delivery of
+immunostimulants, and setting markers and the times to evaluate the
+immune response of fish in culture. \tableofcontents
 \clearpage
 \cleardoublepage
 \chapter{Lista de abreviaturas}
 
 \begin{acronym}
-    \acro{fao}[FAO]{\emph{Food and Agriculture Organization of the United Nations}, Organización de las Naciones Unidas para la Alimentación y la Agricultura}
-    \acro{ciac}[CIAC]{Centro de Investigacíones en Acuicultura Curauma}
     \acro{bsa}[BSA]{\emph{Bovine albumine serum}, Albúmina de suero bovino}
-    \acro{dna}[DNA]{\emph{Deoxyribonucleic Acid}, Ácido desoxirribonucleico}
     \acro{cdna}[cDNA]{DNA complementario}
-    \acro{rna}[RNA]{\emph{Ribonucleic Acid}, Ácido ribonucleico}
+    \acro{ciac}[CIAC]{Centro de Investigacíones en Acuicultura Curauma}
+    \acro{dna}[DNA]{\emph{Deoxyribonucleic Acid}, Ácido desoxirribonucleico}
+    \acro{elisa}[ELISA]{\emph{Enzyme linked immuno-sorbent assay}, Ensayo de inmunoabsorción ligado a enzimas}
+    \acro{fao}[FAO]{\emph{Food and Agriculture Organization of the United Nations}, Organización de las Naciones Unidas para la Alimentación y la Agricultura}
+    \acro{gialt}[GIALT]{\emph{Gill associated lymphoid tissue}, Tejido linfoide asociado a branquias}
+    \acro{ifat}[IFAT]{\emph{Immunofluorescence antibody test}, Prueba de inmunofluorescencia con anticuerpos}
+    \acro{ifng}[IFN-$\gamma$]{Interferón gama}
+    \acro{il}[IL]{Interleuquina}
+    \acro{il12}[IL-12]{Interleuquina 12}
+    \acro{il1b}[IL-1$\beta$]{Interleuquina 1-beta}
+    \acro{mq}[MQ]{\emph{Milli-q}}
+    \acro{nk}[NK]{Natural Killer}
+    \acro{nkef}[NKEF]{\emph{Natural-Killer Enhancing Factor}, Factor potenciador de células NK}
+    \acro{om}[OM]{\emph{Oncorhynchus mykiss}}
+    \acro{pbs}[PBS]{\emph{Phosphate Buffered Saline}, Tampón fosfato salino}
     \acro{pcr}[PCR]{\emph{Polimerase Chain Reaction}, Reacción en cadena de la polimerasa}
     \acro{qpcr}[qPCR]{\emph{(semi)Quantitative PCR}}, PCR Cuantitativa
-    \acro{ifat}[IFAT]{\emph{Immunofluorescence antibody test}, Prueba de inmunofluorescencia con anticuerpos}
-    \acro{elisa}[ELISA]{\emph{Enzyme linked immuno-sorbent assay}, Ensayo de inmunoabsorción ligado a enzimas}
-    \acro{sdspage}[SDS-PAGE]{\emph{SDS-Polyacrilamide gel electrophoresis}}
-    \acro{mq}[MQ]{\emph{Milli-q}}
-    \acro{sds}[SDS]{\emph{Sodium dodecyl sulfate}, Dodecil sulfato de sodio}
-    \acro{tmb}[TMB]{3,3'-5,5'-tetrametillbencidine}
-    \acro{gialt}[GIALT]{\emph{Gill associated lymphoid tissue}, Tejido linfoide asociado a branquias}
+    \acro{rna}[RNA]{\emph{Ribonucleic Acid}, Ácido ribonucleico}
     \acro{rt}[RT]{Retrotranscripción}
-    \acro{om}[OM]{\emph{Oncorhynchus mykiss}}
-    \acro{il}[IL]{Interleuquina}
-    \acro{il1b}[IL-1$\beta$]{Interleuquina 1-beta}
-    \acro{il12}[IL-12]{Interleuquina 12}
-    \acro{ifng}[IFN-$\gamma$]{Interferón gama}
+    \acro{sds}[SDS]{\emph{Sodium dodecyl sulfate}, Dodecil sulfato de sodio}
+    \acro{sdspage}[SDS-PAGE]{\emph{SDS-Polyacrilamide gel electrophoresis}}
+    \acro{tmb}[TMB]{3,3'-5,5'-tetrametillbencidine}
     \acro{tnfa}[TNF-$\alpha$]{Factor de necrosis tumoral alfa}
-    \acro{pbs}[PBS]{\emph{Phosphate Buffered Saline}, Tampón fosfato salino}
     \end{acronym}
 
 \clearpage
@@ -327,39 +388,39 @@ había realizado un catastro de las posibles especies de salmónidos que
 podrían ser introducidos en nuestro país, el cual reconoce el potencial
 poder económico de estos salmónidos e introduce, junto a la creación de
 la Piscicultura Río Blanco, tres especies traídas desde Francia, la
-Trucha Fario, la Trucha arcoiris (\emph{Oncorhynchus mykiss}) y el
-Salmón del atlántico (\emph{Salmo salar}).
+trucha fario, la trucha arcoiris (\emph{Oncorhynchus mykiss}) y el
+salmón del atlántico (\emph{Salmo salar}).
 
 \section{El género \emph{Oncorhynchus}}
 
 Onchorhyncus corresponde a uno de los 10 géneros de la familia
-Salmonidae y tiene alrededor de 12 especies, incluyendo \emph{O.mykiss}
-(trucha arcoiris), \emph{O. nerka} (salmón rojo), \emph{O. gorbuscha}
-(salmón rosado), \emph{O. tshawytscha} (salmón chinook),
-\emph{O. kisutch} (salmón coho) , entre otros. Se distribuyen principal
-y naturalmente por una vasta zona que comprende desde California hasta
-el mar de Behring y el océano ártico (C. Groot y Margolis, 1991).
+Salmonidae y tiene alrededor de 12 especies, incluyendo \emph{O.mykiss},
+\emph{O. nerka} (salmón rojo), \emph{O. gorbuscha} (salmón rosado),
+\emph{O. tshawytscha} (salmón chinook), \emph{O. kisutch} (salmón coho)
+, entre otros. Se distribuyen principal y naturalmente por una vasta
+zona que comprende desde California hasta el mar de Behring y el océano
+ártico (Groot y Margolis, 1991; Lucas y Southgate, 2012).
 
 Algunas características principales de este género son las siguientes
 
 \begin{itemize}
     \item Son peces anádromos, es decir emigran al mar cuando son juveniles y luego vuelven al agua dulce para reproducirse.
-    \item A su vez, en su mayoría solo se reproducen una vez, por lo tanto son semélparos.
-    \item Tienen baja tasa de fecundidad (2 a 5mil ovas) y grandes huevos (5-8mm)
+    \item A su vez, en su mayoría sólo se reproducen una vez, por lo tanto son semélparos.
+    \item Tienen baja tasa de fecundidad (2 a 5 mil ovas) y grandes huevos (5-8mm)
 \end{itemize}
 
-En Chile encontramos la trucha arcoiris, el salmón coho
-(\emph{Oncorhynchus kisutch}) y el salmón chinook
-(\emph{Oncorhynchus tshawytscha}) como representantes de este género.
+En Chile encontramos la trucha arcoiris, el salmón coho y el salmón
+chinook como representantes de este género.
 
-La trucha arcoiris, descrita inicialmente por Walbaum en 1972 tiene un
+La trucha arcoiris, descrita inicialmente por Walbaum en 1792 tiene un
 cuerpo alargado fusiforme con 60 a 66 vértebras, con 3 a 4 espinas
 dorsales, 10 a 12 rayos dorsales blandos, 3 a 4 espinas anales, 8 a 12
 rayos anales blandos y 19 rayos caudales. Presentan una aleta con gran
 tejido adiposo, la cual usualmente contiene un borde negro. Tienen como
 coloración principal tonalidades de azul a verde oliva, sobre una banda
 rosa a lo largo de la linea lateral y plateada por debajo de ella,
-configuración cromática que le da su nombre \emph{arcoiris}.
+configuración cromática que le da su nombre \emph{arcoiris} (Fornshell,
+2002; Pulcini et~al., 2013).
 
 \begin{figure}[h!]
     \centering
@@ -399,188 +460,263 @@ producción respectivamente. La explicación de esto radica en la pérdida
 del equilibrio ambiente-patógeno-hospedero, lo cual genera las
 condiciones que hacen aumentar la enfermedad y mortalidad en el cultivo;
 y por otra parte el estrés en que se ven sometidos los organismos
-(Georgiadis et~al., 2001; FAO, 2012). Estas enfermedades, cualquiera sea
-su origen, pueden tener un alto impacto negativo en la producción
-mundial, lo que equivale a grandes pérdidas económicas (Z. J. Shao,
-2001). Para comprender y crear soluciones se requiere conocer aspectos
-fundamentales de la defensa, especialmente del sistema inmune.
+(Georgiadis et~al., 2001; FAO, 2012; Zwollo et~al., 2014). Estas
+enfermedades, cualquiera sea su origen, pueden tener un alto impacto
+negativo en la producción mundial, lo que equivale a grandes pérdidas
+económicas (Shao, 2001). Para comprender y crear soluciones se requiere
+conocer aspectos fundamentales de la defensa, especialmente del sistema
+inmune.
 
 \section{Sistema inmune en peces}
 
 La comprensión de la funcionalidad del sistema inmune de peces,
 especialmente en teleósteos, al igual que en vertebrados superiores se
 puede entender como una respuesta innata o inespecífica y una respuesta
-adaptativa o especifica (Olabuenaga, 2000; Fernández et~al., 2002).
-
-La respuesta inmune innata o inespecífica en peces es muy importante, ya
+adaptativa o especifica (Olabuenaga, 2000; Fernández et~al., 2002). La
+respuesta inmune innata o inespecífica en peces es muy importante, ya
 que constituye la primera y más importante línea de defensa del pez
 frente a un gran número de patógenos, en esta respuesta convergen
-factores humorales y celulares (Olabuenaga, 2000; Fernández et~al.,
-2002; L.-Y. Zhu et~al., 2012). Este tipo de inmunidad está basado en el
-reconocimiento no clonal de los componentes estructurales o secretados
-de los patógenos microbianos (Athman y Philpott, 2004), los cuales son
-llamados patrones moleculares asociados a patógenos (o PAMPs, por sus
-siglas en inglés), estos a su vez son reconocidos por receptores de
-reconocimiento de patrón (PRR, por sus siglas en inglés) (Gordon, 2002),
-entre los cuales se encuentran receptores de tipo Toll (TLR, por sus
-siglas en inglés), el receptor de complemento tipo-3 (CR3), Dectina-1,
-proteína C-reactiva, entre otros (Rondon-Barragan, 2010). Entre los
-PAMPs más clásicos se puede encontrar a las secuencias de ADN CpG sin
-metilar, los lipopolisacáridos (LPS) y el RNA bicatenario viral. La
-interacción entre los PRR (como los TLR) y los PAMP es la reacción que
-desencadenará e iniciará la transducción de señales intracelular que
+factores humorales y celulares ({Reyes Cerpa} et~al., 2012; Zhu et~al.,
+2012). El sistema inmune tiene que ser efectivo en distinguir ``lo
+propio'' de lo ``no propio'' y así poder combatir los patógenos (Athman
+y Philpott, 2004). Los receptores de reconocimiento de patrones (PRR,
+por sus siglas en inglés) de macrofagos, neutrofilos y células
+dendríticas reconocen moléculas simples y patrones regulares de
+estructuras moleculares conocidos como patrones moleculares asociados a
+patógenos (PAMPs, por sus siglas en inglés), las cuales son moléculas
+exógenas producidos solo por patógenos potenciales (Medzhitov y Janeway,
+2000; Gordon, 2002; Kawai y Akira, 2010). Estos PRR reconocen
+estructuras como oligosacáridos ricos en manosa, peptidoglicanos y
+lipopolisacaridos en la pared celular bacteriana, así como también DNA
+CpG no metilado, los que son comunes entre los patógenos y han sido
+conservados durante la evolución (Roach et~al., 2005).
+
+Los PRR tienen distintas funciones: estimular la ingestión y digestión
+de los patógenos que reconocen, guiar las células al sitio de infección
+e inducir la producción de moléculas efectoras, y se han encontrado
+varios análogos de PRR de mamíferos en teleósteos y podemos encontrar
+receptores de tipo Toll (TLR, por sus siglas en inglés), lectinas que
+unen manosas (MBL, por sus siglas en inglés), receptores del
+complemento, proteína C-reactiva, Dectina-1, entre otros
+(Rondon-Barragan, 2010; Zhang et~al., 2014a). (Tabla \ref{tabla:prr})
+
+\begin{table}[h!]
+    \begin{center}
+        \begin{threeparttable}
+            \caption{Receptores de reconocimiento de patrones en Mamíferos y sus análogos en Teleósteos}\label{tabla:prr}
+            \begin{tabularx}{\textwidth}{m{3cm} l X l}
+                \toprule
+                Familia & Taxón & Miembros & Referencia\\
+                \midrule
+                \multirow{8}{*}{\minitab[l]{TLRs}}                          &   Mamíferos               & TLR1, TLR2, TLR3, TLR4, TLR5, TLR6, TLR7, TLR8, TLR9, TLR10, TLR11, TLR12, TLR13          & \multirow{2}{*}{\minitab[l]{Jault et al., 2004 \\ Roach et al., 2005 \\ M. S. Lee y Kim, 2007}}       \\ \cline{2-3}
+                                                                            &   Peces Teleósteos        & TLR1, TLR2, TLR3, TLR4, TLR5, sTLR5, TLR7, TLR8, TLR9, TLR14, TLR21, TLR22, TLR23         &                                       \\
+                \midrule
+                \multirow{3}{*}{\minitab[l]{Lectinas}}                      &   Mamíferos               & MBL, Intelectina, Pentraxinas, Dectina-1                                                  & \multirow{2}{*}{\minitab[l]{Russell y Lumsden, 2005 \\ M. S. Lee y Kim, 2007}} \\ \cline{2-3}
+                                                                            &   Peces Teleósteos        & MBL, Intelectina, Pentraxinas                                                             &       \\
+                \midrule
+                \multirow{3}{*}{\minitab[l]{Receptores \\del complemento}}  &   Mamíferos               & CR3 y CR4 (Integrinas), C5aR                                                              & \multirow{2}{*}{\minitab[l]{Boshra et al., 2004 \\ M. S. Lee y Kim, 2007}} \\ \cline{2-3}
+                                                                            &   Peces Teleósteos        & CD18 (Cadena $\beta$ de CR3 y CR4), C5aR                                                  & \\
+                \midrule
+                \multirow{3}{*}{\minitab[l]{NLRs}}                          & Mamíferos                 & NOD1, NOD2, NALPs, IPAF, NAIPS                                                            & \multirow{2}{*}{\minitab[l]{M. S. Lee y Kim, 2007 \\ Stein et al., 2007}} \\\cline{2-3}
+                                                                            & Peces Teleósteos          & NOD1, NOD2                                                                                & \\
+                \midrule
+                \multirow{2}{*}{\minitab[l]{Helicasas CARD}}                & Mamíferos                 & RIG-1, MDA5                                                                               & \multirow{2}{*}{\minitab[l]{M. S. Lee y Kim, 2007 \\ M. Chang et al., 2011}} \\ \cline{2-3}
+                                                                            & Peces Teleósteos          & RLR (RIG-1-Like receptor)                                                                 & \\
+                \bottomrule
+            \end{tabularx}
+            \begin{tablenotes}
+                \item 
+            \end{tablenotes}
+        \end{threeparttable}
+    \end{center}
+\end{table}
+
+Entre los PAMPs más clásicos se puede encontrar a las secuencias de ADN
+CpG sin metilar, los lipopolisacáridos (LPS) y el RNA bicatenario viral.
+La interacción entre los PRR (como los TLR) y los PAMP es la reacción
+que desencadenará e iniciará la transducción de señales intracelular que
 resultara en la expresión de genes involucrados en la inflamación,
 respuesta antiviral y maduración de células con fenotipo dendrítico
 (Aghaallaei et~al., 2010); TLRs individuales activan factores de
 transcripción únicos y comunes a través de diferentes vías de
 señalización para generar una respuesta biológica especifica ante
-microorganismos (N. C. Bols et~al., 2001; A. E. Ellis, 2001; Kawai y
-Akira, 2005)
+microorganismos (Kawai y Akira, 2005; Boltaña et~al., 2011)
+
+\begin{table}[h!]
+    \begin{center}
+        \begin{threeparttable}
+            \caption{PAMPs y los patógenos que los producen}\label{tabla:pamps}
+            \begin{tabularx}{0.7\textwidth}{l X}
+                \toprule
+                PAMP & Patógeno \\
+                \midrule
+                Lipopolisacárido (LPS)      & Bacteria gram-negativa                    \\
+                \midrule
+                Peptidoglicano              & \multirow{4}{*}{Bacteria gram-positiva}   \\
+                Ácido Lipoteicóico          &                                           \\
+                Lipopéptidos                &                                           \\
+                Lipoarabinomanosa           &                                           \\
+                \midrule
+                Quitina                     & \multirow{2}{*}{Hongos y Levaduras}       \\
+                Glucanos                    &                                           \\
+                \midrule
+                DNA CpG no-metilado         & Bacterias                                 \\
+                \midrule
+                DNA Doble y simple hebra    & Virus                                     \\
+                \midrule
+                Flagelina                   & Bacterias flageladas                      \\
+                \bottomrule
+                \end{tabularx}
+                \begin{tablenotes}
+                    \item
+                \end{tablenotes}
+                \end{threeparttable}    
+                \end{center}
+                \end{table}
 
 Entre las células involucradas la fase celular inespecífica de la
-respuesta inmune están las células citotóxicas no específicas (NCC, por
-sus siglas en inglés), células fagocíticas, y granulocitos (A. E. Ellis,
-1977; Ainsworth, 1992). Las células NCC en peces se encuentran
-principalmente en el riñón cefálico, el bazo, sangre periférica y el
-timo, son células citotóxicas inespecíficas, es decir ejercen su acción
-en diferentes células diana sin un reconocimiento previo, las cuales
-requieren un contacto célula-célula para poder efectuar la lisis celular
-(Graves et~al., 1984). Dentro de las células fagocíticas los neutrófilos
-representan aproximadamente en promedio a un 11\% de los leucocitos en
-sangre, son también llamados polimorfonucleares o leucocitos
-específicos, su capacidad fagocítica es baja, ya que ingieren poco
-material extraño, aunque poseen la mayoría de la batería enzimática para
-este trabajo. Los eosinófilos y basófilos son los granulocitos con menor
-presencia en peces, aunque en el caso de los eosinófilos se han logrado
-encontrar en peritoneo u otros tejidos como el intestino, mientras que
-los basófilos tienen escasa presencia en estos organismos (D. Palić
-et~al., 2011).
+respuesta inmune podemos encontrar las células citotóxicas no
+específicas (NCC, por sus siglas en inglés), además se ha encontrado
+evidencia que plantea la presencia de células tipo NK en peces, así
+también como el reclutamiento de estas mediante células fagocíticas,
+granulocitos y el factor NKEF (Athanasopoulou et~al., 2009; Bethke
+et~al., 2012; Gomez et~al., 2013). Las células NCC en peces se
+encuentran principalmente en el riñón cefálico, el bazo, sangre
+periférica y el timo, son células citotóxicas inespecíficas, es decir
+ejercen su acción en diferentes células diana sin un reconocimiento
+previo, las cuales requieren un contacto célula-célula para poder
+efectuar la lisis celular (Fischer et~al., 2013; Gomez et~al., 2013).
+Dentro de las células fagocíticas los neutrófilos representan
+aproximadamente en promedio a un 11\% de los leucocitos en sangre, son
+también llamados polimorfonucleares o leucocitos específicos, su
+capacidad fagocítica es baja, ya que ingieren poco material extraño,
+aunque poseen la mayoría de la batería enzimática para este trabajo
+(Palić et~al., 2011).
 
 Dentro del sistema fagocítico mononuclear, podemos encontrar a los
-monocitos y a los macrófagos (derivados de estas últimas), los primeros
-son móviles y generalmente más grandes que los demás leucocitos, en el
-caso de los macrófagos, pueden fagocitar partículas mucho más grandes,
-son abundantes en el bazo y riñón cefálico, aunque también se han
-encontrado en mucosa olfatoria (Olabuenaga, 2000; R Castro et~al.,
-2011).
+monocitos y a los macrófagos, los primeros son móviles y generalmente
+más grandes que los demás leucocitos, y en el caso de los macrófagos,
+estos pueden fagocitar partículas mucho más grandes, y abundan en el
+bazo y riñón cefálico, aunque también se han encontrado en tejido
+linfoide asociado a mucosas (Olabuenaga, 2000; Castro et~al., 2011;
+Gomez et~al., 2013).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{citoquinas} 
+    \caption {Representación esquemática de las redes de citoquinas conocidas, involucradas en la regulación de funciones celulares en los peces, incluyendo la diferenciación, proliferación, supervivencia o apoptosis celular, y numerosas expresiones génicas. Tomada de Zhu et al., 2012}
+    \label {fig:citoquinas}
+\end{figure}
 
 Entre los componentes moleculares asociados a la respuesta innata del
-sistema inmune de peces podemos encontrar a las citoquinas, las cuales
-son una familia de proteínas de bajo peso molecular (comúnmente
-glicosiladas) y secretadas por células del sistema inmune activadas
-previamente frente a la exposición de diferentes componentes patógenos
-(Salazar-Mather y Hokeness, 2006)⁠. Estas citoquinas pueden dividirse en
-interferones (IFNs), interleuquinas (ILs), factores de necrosis
-tumorales (TNFs, por sus siglas en inglés), factores estimuladores de
-colonias y quimioquinas (Savan y Sakai, 2006)⁠. Las interleuquinas son
-citoquinas producidas principalmente por linfocitos T CD4+, aunque
-también son secretadas por una gran variedad de tipos celulares, como
-por ejemplo los macrófagos/monocitos y las células endoteliales (C. J.
-Secombes et~al., 2011), las quimioquinas, o también llamadas citoquinas
-quimiotácticas (o quimioatractantes) son una familia de citoquinas que
-son liberadas por la mayoría de tejidos infectados en los estadíos
-tempranos de infección. Las citoquinas pueden dividirse en distintas
-familias según sea la organización de sus cisteínas.
+sistema inmune de peces se encuentran las citoquinas (Figura
+\ref{fig:citoquinas}), moléculas de señalización celular particularmente
+importantes en orquestar y regular la respuesta inmune. Son una familia
+de proteínas de bajo peso molecular (comúnmente glicosiladas) y
+secretadas por células del sistema inmune activadas previamente frente a
+la exposición de diferentes componentes patógenos (Wang y Secombes,
+2013). La respuesta inmune innata en mamíferos y peces está iniciada por
+citoquinas de la familia de las interleuquinas (IL-1\(\beta\), IL-2,
+IL-6), TNF-\(\alpha\) e IFN-\(\gamma\) (Uribe et~al., 2011), siendo
+estas llamadas citoquinas pro-inflamatorias debido a a su rol en la
+génesis de la respuesta inflamatoria (Savan y Sakai, 2006).
 
-Dentro de la familia de las interleuquinas podemos encontrar la
-Interleuquina 1 \(\beta\), la citoquina proinflamatoria mas estudiada,
-todo debido a su rol mediador de enfermedades autoinflamatorias. Es
-producida principalmente por macrófagos activados, celulas dendríticas y
-monocitos, y afecta a casi cualquier tipo celular, jugando un rol
-central en la generación de respuestas sistémicas y locales a la
-infección, asi como también en respuesta a daños y desafíos
+\begin{table}[h!]
+    \begin{center}
+        \begin{threeparttable}
+            \caption{Interleuquinas de peces}\label{tabla:ils}
+            \begin{tabular}{@{}lll@{}}
+\toprule
+Interleuquina & Organismo $^*$          & Referencia                \\ \midrule
+IL-1$\beta$   & \textit{O.mykiss}   & Zou et al., 1999          \\
+IL-18         & \textit{T.rubripes} & Huising et al., 2004      \\
+IL-6          & \textit{T.rubripes} & Bird et al., 2005a        \\
+IL-11         & \textit{O.mykiss}   & Wang et al., 2005         \\
+IL-2          & \textit{T.rubripes} & Bird et al., 2005b        \\
+IL-4          & \textit{T.rubripes} & Li et al., 2007           \\
+IL-7          & \textit{T.rubripes} & Kono et al., 2008         \\
+IL-15         & \textit{T.rubripes} & Bei et al., 2006          \\
+IL-21         & \textit{T.rubripes} & Bird et al., 2005b        \\
+IL-10         & \textit{T.rubripes} & Zou et al., 2003          \\
+IL-22         & \textit{T.rubripes} & Zou et al., 2004          \\
+IL-17         & \textit{D.rerio}    & Gunimaladevi et al., 2006 \\
+IL-12         & \textit{T.rubripes} & Yoshiura et al., 2003     \\ \bottomrule
+            \end{tabular}
+                \begin{tablenotes}
+                    \item $^*$ Se nombra el primer organismo donde fue reportada
+                \end{tablenotes}
+                \end{threeparttable}    
+                \end{center}
+                \end{table}
+
+Las interleuquinas son citoquinas producidas principalmente por
+linfocitos T CD4+, aunque también son secretadas por una gran variedad
+de tipos celulares, como por ejemplo los macrófagos/monocitos y las
+células endoteliales. En peces se ha descrito gran parte de las
+interleuquinas presentes en mamiferos (Tabla \ref{tabla:ils}) (Secombes
+et~al., 2011). Dentro de la familia de las interleuquinas podemos
+encontrar la Interleuquina 1\(\beta\), la citoquina proinflamatoria mas
+estudiada, todo debido a su rol mediador de enfermedades
+autoinflamatorias. Es producida principalmente por macrófagos activados,
+células dendríticas y monocitos, y afecta a casi cualquier tipo celular,
+jugando un rol central en la generación de respuestas sistémicas y
+locales a la infección, así como también en respuesta a daños y desafíos
 inmunológicos (Reis et~al., 2012). Esta citoquina potencialmente induce
-la proliferación, diferenciación y activación de celulas no específicas,
-como NK, macrofagos, etc\ldots{}, así como también una respuesta inmune
-específica, activando linfocitos B y T (Hong et~al., 2004;
-Taechavasonyoo et~al., 2013). Junto con IL-1\(\beta\) existe otro
-marcador que sirve para evaluar si es que los inmunoestimulantes inducen
-o no una respuesta inflamatoria, este otro marcador es el Factor de
-necrosis tumoral (TNF-\(\alpha\)). este factor tiene una variedad de
-funciones inmunológicas, regulando la inflamación y la respuesta inmune
-celular(J. Zou et~al., 2003; T. Wang et~al., 2004; Teles et~al., 2011).
-Promueve la necrósis hemorrágica de tumores, así como también mejora la
-fagocitosis y citotoxicidad de neutrofilos. Mejora la sintesis de
-prostaglandina E2 y oxido nítrico (NO), y modula la expresión de muchas
-citoquinas, incluyendo IL-1, IL-6 y algunas quimioquinas. IL-1\(\beta\)
-y TNF-\(\alpha\) son ampliamente usados como marcadores de respuesta
-inmune innata (Z. Zhang et~al., 2009).
+la proliferación, diferenciación y activación de células no específicas,
+como NK y macrófagos, así como también una respuesta inmune específica,
+activando linfocitos B y T (Hong et~al., 2004; Taechavasonyoo et~al.,
+2013). Junto con IL-1\(\beta\) existe otro marcador que sirve para
+evaluar si es que los inmunoestimulantes inducen o no una respuesta
+inflamatoria, este otro marcador es el Factor de necrosis tumoral
+(TNF-\(\alpha\)). este factor tiene una variedad de funciones
+inmunológicas, regulando la inflamación y la respuesta inmune celular
+(Zou et~al., 2003b; Wang et~al., 2004; Teles et~al., 2011). Promueve la
+necrosis hemorrágica de tumores, así como también mejora la fagocitosis
+y citotoxicidad de neutrófilos. Mejora la síntesis de prostaglandina E2
+y oxido nítrico (NO), y modula la expresión de muchas citoquinas,
+incluyendo IL-1, IL-6 y algunas quimioquinas. IL-1\(\beta\) y
+TNF-\(\alpha\) son ampliamente usados como marcadores de respuesta
+inmune innata (Zhang et~al., 2009). La interleuquina 12 (IL-12) es una
+citoquina heterodimérica, compuesta por la subunidades P35 y P40, la
+primera miembro de la familia de la interleuquina 6 con 4
+\(\alpha\)-hélices en su topología y p40 recuerda una forma asociada a
+un receptor de citoquinas solubles(Yoshiura et~al., 2003b; Huising
+et~al., 2006). Esta citoquina pro-inflamatoria es producida en las
+etapas iniciales de la respuesta inmune por monocitos, macrófagos,
+celulas dendríticas y neutrófilos, y una de sus principales funciones es
+inducir la síntesis de otras citoquinas, como IFN-\(\gamma\) (Zhang
+et~al., 2014b).
 
-Otra citoquina importante en el proceso inmunitario es Interferón Gamma
-(IFN-\(\gamma\)), perteneciente a la familia de los Interferones,
-moleculas encargadas principalmente en la respuesta viral, aunque
-también son importantes reguladores del sistema inmunitario innato y
-adaptativo (Savan y Sakai, 2006). El IFN-\(\gamma\) es producido en una
-primera etapa por celulas NK estimuladas por las interleuquinas 12 y 18,
-las cuales son producidas por fagocitos mononucleares y celulas
-presentadoras de antígenos (APCs, por sus siglas en inglés). Al ser
-secretada esta molécula se une a su receptor y por la via Jak/STAT
-promueve la activación de macrófagos aumentando la sintesis de la
-fagocito oxidasa dependiente de NADPH (\si{gp91^{phox}} y
+Interferón Gamma (IFN-\(\gamma\)), perteneciente a la familia de los
+Interferones de tipo II, importantes reguladores del sistema inmunitario
+innato y adaptativo (Savan y Sakai, 2006). El IFN-\(\gamma\) es
+producido en una primera etapa por celulas NK estimuladas por NKEF e
+interleuquinas 12 y 18, las cuales son producidas por fagocitos
+mononucleares y celulas presentadoras de antígenos (APCs, por sus siglas
+en inglés). Al ser secretada esta molécula se une a su receptor y por la
+via Jak/STAT promueve la activación de macrófagos aumentando la síntesis
+de la fagocito oxidasa dependiente de NADPH (\si{gp91^{phox}} y
 \si{p67^{phox}}), la oxido nítrico sintasa 2 (NOS2), p47 GTP-asa y la
-proteina de union a guanilato, así como también aumenta las moleculas de
-MHC de clase 2 en macrofagos y otras APCs (U. Boehm et~al., 1997). Por
-lo tanto en contraste con los interferones de tipo I
+proteína de unión a guanilato, así como también aumenta las moléculas de
+MHC de clase 2 en macrófagos y otras APCs (Boehm et~al., 1997). Por lo
+tanto en contraste con los interferones de tipo I
 (IFN-\(\alpha\)/\(\beta\)) el IFN-\(\gamma\) juega un rol clave en la
-activación de macrofagos para aumentar destrucción de patógenos
+activación de macrófagos para aumentar destrucción de patógenos
 bacterianos, protozoos y virales (Fields et~al., 2007).
 
-La interleuquina 12 (IL-12) es una citoquina heterodimérica, compuesta
-por la subunidades P35 y P40, la primera miembro de la familia de la
-interleuquina 6 con 4 \(\alpha\)-helices en su topología y p40 recuerda
-una forma asociada a un receptor de citoquinas solubles(Yoshiura et~al.,
-2003; Huising et~al., 2006). Esta citoquina pro-inflamatoria es
-producida en las etapas iniciales de la respuesta inmune por monocitos,
-macrófagos, celulas dendríticas y neutrofilos, y una de sus principales
-funciones es inducir la sintesis de otras citoquinas, como el
-anteriormente nombrado IFN-\(\gamma\), que sirve como orquestador en la
-maduración de un linfocito T \emph{naive} a un fenotipo Th1 (Nascimento
-et~al., 2007), y es gracias a esta función se considera como un
-medidador entre la respuesta innata y adaptativa de la inmunidad (Lu
-Zhang et~al., 2014).
-
-Dentro de las moleculas efectoras de la respuesta inmune la oxido
+Dentro de las moléculas efectoras de la respuesta inmune la oxido
 nítrico sintasa de tipo inducible (iNOS), propia de fagocitos (Wu
 et~al., 2008; Zhao et~al., 2010), aumenta su expresión durante eventos
 de inflamación, y a su vez, es propia del estallido respiratorio de los
-macrófagos proveyendo así a la celula de un ambiente citotóxico ideal
+macrófagos proveyendo así a la célula de un ambiente citotóxico ideal
 para los eventos pro-inflamatorios por la producción de Oxido Nítrico
 (NO), catalizando la oxídación de L-arginina (Yang et~al., 2013). Esta
-molecula, puede ser activada en monocitos, macrófagos, células
-dendríticas, neutrofilos y células NK ya sea por citoquinas,
+molécula, puede ser activada en monocitos, macrófagos, células
+dendríticas, neutrófilos y células NK ya sea por citoquinas,
 endotoxinas, o ambas (MacMicking et~al., 1997; Bogdan, 2001). estas
 características demuestran la importancia del rol de iNOS y su producto
-gaseoso NO en el sistema inmune, ya que a diferencia de las otras NOS,
-la neuronal (nNOS) y la endotelial (eNOS) esta no tiene una sintesis
-basal ni constitutiva, haciendo de esta molecula un marcador
+gaseoso NO en el sistema inmune, haciendo de esta molécula un marcador
 inmunológico de importancia para estudiar procesos inmunológicos.
-
-Otras moléculas efectoras presentes en la respuesta innata frente a
-patógenos son los péptidos anti-microbianos (AMP, por sus siglas en
-inglés), moléculas con la capacidad de destruir y/o neutralizar
-microorganismos patógenos directamente, son moléculas pequeñas,
-anfipáticas y catiónicas (L. Mercado et~al., 2005), y están ampliamente
-extendidos por los reinos vegetal y animales (Zasloff, 2002). Los
-mecanismos de acción anti-bacteriana de estos AMP pueden entenderse
-desde dos puntos de vista diferentes: 1. La estructura anfipática puede
-unirse selectivamente a la membrana bacteriana y generar poros
-transmembrana, los cuales destruyen a la bacteria desintegrando la
-membrana, y 2, los AMP pueden directamente entrar a la bacteria e
-interactuar específicamente con factores de crecimiento y metabolismo
-bacteriano eventualmente generando la muerte bacteriana (Wimley, 2010;
-L.-Y. Zhu et~al., 2012). Entre los péptidos anti microbianos descritos
-en peces podemos encontrar cuatro grandes grupos, las defensinas,
-proteínas de macrófagos asociadas a resistencia natural (Pramps, por sus
-siglas en inglés), NK-lisina y hepcidinas.
-
-Otra familia de péptidos antimicrobianos son las Catelicidinas,
-presentes generalmente en neutrófilos y superficies de mucosas, su
-actividad se centra principalmente en su interacción con la membrana
-plasmática de la bacteria para eventualmente destruirla, fueron
-primeramente descritas en mamíferos y luego se han encontrado en
-distintos peces teleósteos, algunos casos son los de trucha arcoíris
-(C.-i. Chang et~al., 2005), bacalao (Maier et~al., 2008), salmón del
-atlántico (C.-I. Chang et~al., 2006), entre otras.
 
 Además de poseer una estructurada y bien desarrollada respuesta inmune
 innata como se explicaba anteriormente, los peces también cuentan con
@@ -588,9 +724,9 @@ una respuesta adaptativa, con componentes celulares y humorales
 (Alvarez-Pellitero, 2008), en este último grupo se encuentran los
 anticuerpos, los cuales son proteínas pertenecientes al grupo de las
 inmunoglobulinas (Ig), en el caso de los peces producen inmunoglobulinas
-del tipo M, T y D (Bengtén et~al., 2002; Ling Zhang et~al., 2011; L.-Y.
-Zhu et~al., 2012), siendo la primera la más importante, estando presente
-en el suero, el mucus y la bilis. Los anticuerpos son producidos por
+del tipo M, T y D (Bengtén et~al., 2002; Zhang et~al., 2011; Zhu et~al.,
+2012), siendo la primera la más importante, estando presente en el
+suero, el mucus y la bilis. Los anticuerpos son producidos por
 linfocitos B activados al reconocer algún antígeno, ya sea en solución o
 presentado por alguna célula presentadora de antígeno, que en el caso de
 los peces principalmente son macrófagos, y tienen variadas funciones,
@@ -621,7 +757,7 @@ un desafío antigénico aparecen linfocitos B en el bazo, teniendo
 parámetros similares a los presentados por estas células en otros
 órganos como el riñón cefálico.
 
-\section{Inmunidad en mucosas}
+\section{Inmunidad de mucosas}
 
 La mayoría de las infecciones empiezan o afectan las mucosas epiteliales
 de los animales. El campo de la investigación en inmunología de mucosas
@@ -629,11 +765,11 @@ ha crecido sin precedentes durante los últimos años, así como también
 nuestro conocimiento en la materia, específicamente como las superficies
 de las mucosas responden a los variados antígenos que constantemente
 invaden estos tejidos. En teleósteos los principales tejidos con
-mucosas, y por ende las primeras mas accesibles barreras inmunológicas
-son el intestino, la piel y las branquias (Gomez et~al., 2013). El
-intestino, la piel y las branquias contienen tejido linfóide asociado a
-mucosa (MALT, por sus siglas en inglés) que tiene un rol fundamental en
-el mantenimiento de la homeostasis en la mucosa. Este tejido linfoide
+mucosas, y por ende las primeras barreras inmunológicas, son el
+intestino, la piel y las branquias (Gomez et~al., 2013). El intestino,
+la piel y las branquias contienen tejido linfoide asociado a mucosa
+(MALT, por sus siglas en inglés) que tiene un rol fundamental en el
+mantenimiento de la homeostasis en la mucosa. Este tejido linfoide
 asociado a mucosa está dividido en tejidos linfoides asociados a
 intestino, piel y branquias (GALT, SALT y GIALT, respectivamente, por
 sus siglas en inglés). Estas superficies mucosas están cubiertas por una
@@ -644,18 +780,19 @@ lectinas, mucinas, peptidos antimicrobianos, toxinas e inmunoglobulinas
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\textwidth]{mucosalimmunity} 
-    \caption {Representación esquemática de las similitudes y diferencias entre las superficies mucosas de teleósteos como piel, intestino y branquias y de mamiferos como piel y mucosa de tipo 1. Adaptado y traducido desde ``The mucosal immune system of fish: The evolution of tolerating commensals while fighting pathogens'' por D. Gomez, I. Salinas y J.Sunyer, 2013, \emph{Fish \& Shellfish immunology}, 35, p. 1730. \copyright 2013, Elsevier Ltd.}
+    \caption {Representación esquemática de las similitudes y diferencias entre las superficies mucosas de teleósteos como piel, intestino y branquias y de mamiferos como piel y mucosa de tipo 1. Adaptado y traducido desde Gomez et al., 2013}
     \label {fig:mucosal}
 \end{figure}
 
 Las principales diferencias estructurales y funcionales entre las
-superficies mucosas de mamiferos tipo 1 con las de teléosteos son la
-falta de tejido linfoide organizado como los parches de Peyer, así como
-también células M como tal o la inmunoglobulina A secretora (SIgA, por
-sus siglas en inglés) todavía no han sido descritas en peces (J. H. W.
-M. Rombout et~al., 2011). A pesar de estas diferencias los intestinos,
-piel y branquias de los peces comparten muchas características con las
-superficies mucosas de tipo 1 en mamíferos (Fig. \ref{fig:mucosal}).
+superficies mucosas de mamíferos tipo 1 con las de teléosteos son la
+falta de tejido linfoide organizado como los placas de Peyer, así como
+también células M como tal o la inmunoglobulina A secretada
+(\(\mathrm{_{sec}}\)IgA, por sus siglas en inglés) todavía no han sido
+descritas en peces (Rombout et~al., 2011). A pesar de estas diferencias
+los intestinos, piel y branquias de los peces comparten muchas
+características con las superficies mucosas de tipo 1 en mamíferos (Fig.
+\ref{fig:mucosal}).
 
 \subsection{Inmunidad Branquial}
 
@@ -666,33 +803,32 @@ pez por la ingesta de nutrientes y sustancias, así como también formando
 una barrera activa en contra de la entrada de patógenos (Oikawa y
 Itazawa, 1985). Morfológicamente, las branquias consisten en una
 laminilla, la cual comprende la principal superficie respiratoria del
-pez (J. M. Wilson y Laurent, 2002). El epitelio presente en las
-branquias contiene una a cuatro capas cúbicas o escamosas de células, a
-su vez también presenta células caliciformes, encargadas de la
-producción de mucus. La ubicación morfológica de las branquias le
-confieren un lugar expuesto al ambiente acuático, por lo que es un sitio
-esencial para que bacterias y otros patógenos entren al organismo del
-pez, siendo un sitio con una sustancial exposición a distintos tipos de
-antígenos. El GIALT cuenta con macrófagos y granulocitos (I. Mulero
-et~al., 2008), componentes de la respuesta adaptativa como células B y T
-(G. Scapigliati et~al., 1999; N. M. dos Santos et~al., 2001; Salinas
-et~al., 2011), así como también e una alta expresión de los genes
-relacionados con células T (Boschi et~al., 2011).
+pez (Wilson y Laurent, 2002). El epitelio presente en las branquias
+contiene una a cuatro capas cúbicas o escamosas de células, a su vez
+también presenta células caliciformes, encargadas de la producción de
+mucus. La ubicación morfológica de las branquias le confieren un lugar
+expuesto al ambiente acuático, por lo que es un sitio esencial para que
+bacterias y otros patógenos entren al organismo del pez, siendo un sitio
+con una sustancial exposición a distintos tipos de antígenos. El GIALT
+cuenta con macrófagos y granulocitos (Mulero et~al., 2008), componentes
+de la respuesta adaptativa como células B y T (Scapigliati et~al., 1999;
+Santos et~al., 2001; Salinas et~al., 2011), así como también e una alta
+expresión de los genes relacionados con células T (Boschi et~al., 2011).
 
 \section{Inmunomoduladores}
 
 Los inmunomoduladores han sido descritos como componentes necesarios
 para la acuicultura, ya que mejoran la respuesta innata y proveen
-resistencia a patógenos. Diferentes de estas sustancias, como los
+resistencia frente a diferentes patógenos. Estas sustancias, como los
 \(\beta\)-glucanos, productos bacterianos y constituyentes de las
 plantas pueden iniciar directamente la activación de mecanismos de
 defensa innata actuando en receptores y desencadenando la activación de
-distintos genes que puedan resultar en la producción de moleculas
+distintos genes que puedan resultar en la producción de moléculas
 antimicrobianas (Bricknell y Dalmo, 2005; Kumari y Sahoo, 2006). A pesar
 de la evidencia demostrada sobre el uso benéfico de estas sustancias
 como potenciales inmunomoduladores de la respuesta frente a distintos
 patógenos en la acuicultura (Bricknell y Dalmo, 2005; Dalmo y Bøgwald,
-2008; S. Bilen et~al., 2011; Abarca et~al., 2012; Chettri et~al., 2013),
+2008; Bilen et~al., 2011; Abarca et~al., 2012; Chettri et~al., 2013),
 las actuales soluciones comerciales están de cierta manera restringidas
 por ser derivadas de algunas levaduras, como por ejemplo los \(\beta\)
 1-3, \(\beta\) 1-6 glucanos que son vendidos bajo la marca MacroGard® y
@@ -700,11 +836,11 @@ sus distintos derivados. Existe también un producto comercial llamado
 Ergosan, el cual está hecho de una mezcla de distintos componentes de un
 alga, la cual es rica en alginatos y polisacáridos. Una dosis individual
 de 1mg de Ergosan aumenta significativamente la proporción de
-neutrofilos, aumentan el grado de fagocitosis, la actividad del
+neutrófilos, aumentan el grado de fagocitosis, la actividad del
 estallido respiratorio y la expresión de interleuquina 1\(\beta\)
 (IL-1\(\beta\)), interleuquina 8 (IL-8) y el factor de necrosis tumoral
 alfa (TNF-\(\alpha\)) en leucocitos peritoneales de trucha arcoíris a 1
-dia post inyección (S. Peddie et~al., 2002).
+dia post inyección (Peddie et~al., 2002).
 
 \subsection{$\beta$-glucanos}
 
@@ -716,7 +852,7 @@ dia post inyección (S. Peddie et~al., 2002).
             \caption{Estructuras de $\beta$-Glucanos según su origen}\label{tablaglucanos}
             \begin{tabularx}{13cm}{l c X}
                 \toprule
-                \textbf{Origen} & \textbf{Estructura} & \textbf{Función} \\
+                Origen & Estructura & Función \\
                 \midrule
                 Bacteriano & \includegraphics[width=3cm]{bgbacteriano} & $\beta$1,3-Glucano lineal con ramificaciones largas de $\beta$1,6-Glucano\\
                 Levadura & \includegraphics[width=3cm]{bglevadura} & $\beta$1,3-Glucano Lineal \\ 
@@ -741,63 +877,125 @@ sus estructuras moleculares y sus posibles ramificaciones (Tabla
 \ref{tablaglucanos}) (Volman et~al., 2008; Skov et~al., 2012).
 
 \begin{table}[h!]
-    \sffamily
+    \renewcommand{\arraystretch}{0.8}% Tighter
     \begin{center}
         \begin{threeparttable}
-            \captionsetup{font={normalsize,sf}}
             \caption{Efectos inmunomoduladores de $\beta$-glucanos en peces}\label{tabla:glucanos}
-            \begin{tabularx}{13cm}{l l l X l}
+            \begin{tabularx}{\textwidth}{l l l X l}
                 \toprule
-                \textbf{ $\beta$-Glucano} & \textbf{Administración} & \textbf{Especie} & \textbf{Efecto} & \textbf{Referencia}\\
+                $\beta$-Glucano & Entrega & Especie & Efecto & Referencia\\
                 \midrule
-                Macrogard   &   Dieta           & \emph{Cyprinus carpio}        & \uparrow CRP \uparrow C3          & @Pionnier2014 \\
-                Macrogard   &   Inyección IP    & \emph{Dicentrarchus labrax}   & \uparrow HSP \uparrow Lisozima    & @Bagni2005    \\
-                            &                   &                               & \uparrow Complemento              &               \\
+                Macrogard                       &   Oral                & \emph{C.carpio}               & $\uparrow$ CRP $\uparrow$ C3                  & Pionnier \emph{et al}., 2014          \\
+                & & & & \\
+                Macrogard                       &   IIP                 & \emph{D.labrax}               & $\uparrow$ HSP $\uparrow$ Lisozima                    & Bagni et al., 2005            \\
+                                                &                       &                               & $\uparrow$ Complemento            &                       \\
+                & & & & \\
+                Laminarán                       &   IIP                 & \emph{O.mykiss}               & $\uparrow$ IL-1$\beta$ $\uparrow$ IL-6            & Løvoll et al., 2007       \\
+                                                &                       &                               & $\uparrow$ C3-1   $\uparrow$ C3-2 $\uparrow$ C3-3         &                       \\
+                & & & & \\
+                Paramylon                       &   Baño                & \emph{O.mykiss}               & $\uparrow$ Hepcidina  $\uparrow$ Factor B             & Chettri et al., 2013      \\  
+                                                &                       &                               & $\uparrow$ Preceberelina $\uparrow$ C3            &                       \\
+                & & & & \\
+                $\beta$1,3-Glucano              &   Baño, IIP           & \emph{C.carpio}               & $\uparrow$ Leucocitos Sanguíneos  & Selvaraj et al., 2005         \\
+                \emph{S. cerevisiae}            &   Oral                &                               & $\downarrow$ Mortalidad $\uparrow$ IL-1$\beta$ mRNA           &                       \\
+                                                &                       &                               & $\uparrow$ Producción anticuerpos &                       \\                                              
+                & & & & \\
+                Laminarán                       &   Oral, IIP           & \emph{O.mykiss}               & $\uparrow$ TNF-$\alpha$ $\uparrow$ IL-8           & Morales-Lange et al., 2014    \\
+                                                &                       &                               & $\uparrow$ AF $\uparrow$ CF                   &                       \\
+                & & & & \\
+                $\beta$1,3-Glucano              &   Oral                & \emph{L.crocea}               & $\downarrow$ Mortalidad $\uparrow$ AF             & Ai et al., 2007               \\
+                \emph{S.cerevisiae}             &                       &                               & $\uparrow$ Estallido Respiratorio                     &                       \\
+                & & & & \\
+                $\beta$-D-Glucano               &   IIP                 & \emph{L.rohita}               & $\downarrow$ Mortalidad           & Misra et al., 2006            \\
+                Cebada                          &                       &                               & $\uparrow$ Lisozima $\uparrow$ AF $\uparrow$ AB               &                       \\
+                & & & & \\
+                Macrogard                       &   Oral                & \emph{C.carpio}               & $\uparrow$ Gen MX $\uparrow$ TLR3,1               & Falco et al., 2014            \\
+                                                &                       &                               & $\uparrow$ IL-1$\beta$ $\uparrow$ TNF-$\alpha$            &                       \\
+                & & & & \\
+                $\beta$1,3-Glucano              &   Baño                & \emph{O.mykiss}               & $\uparrow$ IFN-$\gamma$ $\uparrow$ TNF-$\alpha$           & Skov et al., 2012             \\
+                \emph{E.gracilis}               &                       &                               & $\uparrow$ Hepcidina          &                       \\
                 \bottomrule
             \end{tabularx}
             \begin{tablenotes}
-                \item Estructuras de $\beta$-Glucanos según su origen
+                \item IIP: Inyección intra-peritoneal, AF: Actividad Fagocítica, CF: Capacidad Fagocítica \\
             \end{tablenotes}
         \end{threeparttable}
     \end{center}
 \end{table}
 
-\%Macrogard Dieta D.labrax \^{}HSP \^{}Lisozima \^{}Complemento
-Bagni2005 \%Laminarán Inyección IP O.mykiss \^{}IL-1B \^{}IL-6 \^{}C3-1
-\^{}C3-2 \^{}C3-3 Lovoll2007 \%Paramylon Baño O.mykiss \^{}Hepcidina
-\^{}Preceberelina \^{}C3 \^{}Factor B Chettri2013a \%B1,3-S.cerevisiae
-Baño, Inyección, Dieta C.carpio \^{}Leucocitos sanguíneos
-\^{}Supervivencia \^{}IL-1B mRNA \^{}Producción anticuerpos Selvaraj2005
-\%Laminarán Dieta, Inyección IP O.mykiss \^{}TNFa \^{}IL-8 \^{}Actividad
-Fagocítica \^{}Capacidad Fagocitia Morales-Lange2014 \%B1,3-S.cerevisiae
-Dieta L.Crocea \^{}Supervivencia \^{}Actividad Fagocítica \^{}Estallido
-Respiratorio Ai2007 \%B-D-Glucano Cebada Inyección IP L.rohita
-\^{}Supervivencia \^{}Actividad Fagocitica \^{}Actividad Bactericida
-\^{}Lisozima Misra2006 \%Macrogard Dieta C.carpio \^{}Mx \^{}TLR3,1
-\^{}TNFa \^{}IL-1b Falco2014, Falco2012 \%B1,3-Euglena gracilis Baño
-O.mykiss \^{}IFN-y \^{}TNFa \^{}Hepcidina Skov2012
+\(\beta\)-glucanos derivados de diferentes especies pueden variar en su
+estructura y su bioactividad (Akramiene et~al., 2007). Las diferencias
+como el largo de su cadena de polisacáridos, la presencia o no de
+ramificaciones, y el largo de esas ramificaciones pueden influenciar
+finalmente en el método de extracción, los componentes insolubles e
+incluso en los pesos moleculares (Akramiene et~al., 2007). Diferencias
+como el método de extracción o su solubilidad pueden afectar la
+bioactividad de estos componentes, sobretodo teniendo en cuenta que
+existen estudios que han demostrado que el \(\beta\)-(1,3/1,6)-glucano
+tiene mejor actividad biológica que su forma soluble
+(\(\beta\)-(1,3/1,6)-glucano) (Ooi y Liu, 2000).
 
-En peces ha sido demostrado el uso de \(\beta\)-glucanos como
-inmunoestimulantes, en distintas especies, como en ciprinidos
-(\emph{Cyprinus koi, Cyprinus carpio}) (S. Lin et~al., 2011; Kühlwein
-et~al., 2014), salmónidos (Abarca, 2011; Skov et~al., 2012), pez cebra
-(\emph{Danio rerio}) (Rodríguez et~al., 2009), entre otros (W.-S. Wang
-et~al., 2007; Lokesh et~al., 2012), pero como se mencionó anteriormente
-todavía existe, a pesar de los antecedentes científicos, cierta
-desconfianza en estos inmunoestimulantes.
+En peces ha sido estudiado el uso de \(\beta\)-glucanos como
+inmunoestimulantes, en distintas especies, como en ciprínidos
+(\emph{C.koi, C.carpio}) (Lin et~al., 2011; Kühlwein et~al., 2014),
+salmónidos (Abarca, 2011; Skov et~al., 2012), pez cebra
+(\emph{Danio rerio}) (Rodríguez et~al., 2009), entre otros (Wang et~al.,
+2007; Lokesh et~al., 2012), demostrando que estos inmunomoduladores
+pueden estimular la actividad fagocítica de macrófagos, promoviendo la
+producción de proteínas líticas como la lisozima y el complemento,
+generando un \emph{boost} en la respuesta innata del pez.
+
+En mamíferos el principal receptor de \(\beta\)-glucanos pertenece la
+familia de las Lectinas de tipo C y es llamado Dectina-1 (Brown y
+Gordon, 2001). En peces existe muy poca información relevante a los
+receptores específicos para \(\beta\)-glucanos. En macrófagos de
+\emph{Salmo salar} estimulados con un \(\beta\)-1,3-glucano de levaduras
+sugieren la presencia de un receptor específico que podría reconocer
+cadenas de \(\beta\)-glucanos (Engstad y Robertsen, 1994). Finalmente,
+un estudio realizado en 2013, usando Zimosán y agonistas específicos
+para los receptores Dectina-1 demostraron que los macrófagos de la carpa
+son poco, pero no insensibles a los agonistas selectivos de Dectina-1,
+sugiriendo que el reconocimiento de \(\beta\)-glucanos puede ser
+efectuado por múltiples PRR, incluyendo receptores TLR y no-TLR
+(Pietretti et~al., 2013).
+
+Existen evidencias a nivel de GIALT de respuesta inmune sistémica
+(Bethke et~al., 2012) y además se ha demostrado que el consumo en dieta
+o la suplementación por inyección de \(\beta\)-glucanos modifica la
+disponibilidad de TNF-\(\alpha\) e IL-8 en trucha arcoíris
+(Morales-Lange et~al., 2014).
+
+La inmunoestimulación oral afecta distintos parámetros inmunológicos, y
+a su vez existen antecedentes de estos cambios a nivel de mucosas como
+la piel, los intestinos y las branquias.
+
+No obstante no existe un modelo molecular que indique el espectro de
+moléculas reguladoras y efectoras de inmunidad a evaluar, ni existe un
+consenso con los tiempos asociados a la expresión y disponibilidad de
+éstas. Teniendo en cuenta que los estudios disponibles a la fecha solo
+usan una aproximación a nivel de transcrito, habiendo pocos estudios
+sobre disponibilidad de proteínas, es necesario que la evaluación de
+estos parámetros relacione su nivel de transcripción con la
+disponibilidad de proteínas, para saber qué, cuándo y con qué método
+evaluar al momento de suplementar la alimentación de estos organismos
+con \(\beta\)-glucanos como inmunomoduladores.
+
+Se requiere un analisis que correlacione la cuantificación de ambos
+parametros para establecer cual es el mejor indicador molecular del
+efecto inmunomodulador de \(\beta\)-glucanos.
 
 \chapter{Hipótesis}
 
-La respuesta inmune generada por la liberación en dieta del
-\(\beta\)-glucano zymosán A en \emph{O.mykiss} es cuantificable en
-tejido branquial lo que permite establecer un modelo de la expresión de
-moléculas reguladoras y efectoras de la inmunidad.
-\chapter{Objetivo General}
+La inmunomodulación en tejido branquial de \emph{O.mykiss} generada por
+la liberación en dieta del \(\beta\)-glucano \emph{Zimosán A} es
+cuantificable, lo que permite establecer un modelo y relacionar los
+niveles de la expresión y disponibilidad de moléculas reguladoras y
+efectoras de la inmunidad. \chapter{Objetivo General}
 
-Establecer un modelo molecular basado en la cuantificación de diferentes
-parámetros de respuesta inmunológica expresada en tejido branquial
-\emph{O.mykiss} en respuesta a la liberación en dieta del
-\(\beta\)-glucano Zymosan A.
+Establecer un modelo molecular basado en la magnitud de la expresión y
+disponibilidad de diferentes parámetros de respuesta inmunológica en
+tejido branquial de \emph{O.mykiss} en respuesta a la liberación en
+dieta del \(\beta\)-glucano Zymosan A.
 
 \section{Objetivos Específicos}
 
@@ -816,9 +1014,8 @@ parámetros de respuesta inmunológica expresada en tejido branquial
   respuesta inmune en tejido branquial de \emph{O.mykiss} tratados con
   Zimosán A liberado en dieta.
 \item
-  Relacionar el nivel de expresión y detección de moléculas de respuesta
-  inmune evaluadas en tejido branquial con el nivel de dosificación oral
-  de zimosán.
+  Correlacionar el nivel de expresión y detección de moléculas de
+  respuesta inmune evaluadas en tejido branquial.
 \end{enumerate}
 
 \clearpage
@@ -861,8 +1058,8 @@ ratones y conejos, inmunizados con epítopes sintéticos de las moléculas
 de interés. Estas moléculas han sido validadas en salmónidos, mediante
 técnicas estandarizadas en el Grupo de Marcadores Inmunológicos del
 Laboratorio de Genética e Inmunología Molecular de la Pontificia
-Universidad Católica de Valparaíso (GIM-PUCV) (Narváez et~al., 2010; J.
-Bethke et~al., 2012; V. Rojas et~al., 2012; Santana et~al., 2012)
+Universidad Católica de Valparaíso (GIM-PUCV) (Narváez et~al., 2010;
+Bethke et~al., 2012; Rojas et~al., 2012; Santana et~al., 2012)
 
 \begin{table}[h!]
     \sffamily
@@ -873,7 +1070,7 @@ Bethke et~al., 2012; V. Rojas et~al., 2012; Santana et~al., 2012)
                 \toprule
                 \multicolumn{4}{c}{} & \multicolumn{3}{c}{Dilución Anticuerpo} \\
                 \cmidrule(r){5-7}
-                Molécula (Anti) & Huesped & Origen & Secuencia Inmunógeno & ELISA & WB & IFAT \\
+                Molécula (Anti) & Huesped & Origen & Secuencia epítope & ELISA & WB & IFAT \\
                 \midrule
                 TNF-$\alpha$ & Conejo & Suero & \texttt{WRKDDGQAFSQGGFE} & 1:2000 & 1:500 & 1:500 \\
                 TNF-$\alpha$ & Ratón & Suero & \texttt{ } & - & 1:500 & - \\
@@ -924,15 +1121,15 @@ PBS.
 \section{Muestreo}
 
 Los peces se sacrificaron con sobredosis del sedante Kalmagin 20\%
-(Benzocaína 20\% CentroVet), se tomaron muestras los días 0, 7, 14, 21 y
-28, 5 peces por condición, intercalando 3 peces de un estanque y 2 de su
-par respectivo en cada día de muestreo (Tabla
-\ref{tablaidentificantes}). Las muestras se tomaron en dos grupos,
-primero se tomaron ejemplares de branquias y se fijaron con solución de
-Bouin (71\% solución saturada al 1,2\% de Ácido pícrico, 24\%
-formaldehido y 5\% ácido acético glacial) por 7 horas y luego se lavaron
-3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su
-posterior uso. Para el otro grupo se procedió a pulverizar con Nitrogeno
+(Benzocaína 20\% CentroVet), se pesaron los peces y luego tomaron
+muestras los días 0, 7, 14, 21 y 28, 5 peces por condición, intercalando
+3 peces de un estanque y 2 de su par respectivo en cada día de muestreo
+(Tabla \ref{tablaidentificantes}). Las muestras se tomaron en dos
+grupos, primero se tomaron ejemplares de branquias y se fijaron con
+solución de Bouin (71\% solución saturada al 1,2\% de Ácido pícrico,
+24\% formaldehído y 5\% ácido acético glacial) por 7 horas y luego se
+lavaron 3 veces con Etanol al 70\% , dejándolos en este alcohol hasta su
+posterior uso. Para el otro grupo se procedió a pulverizar con Nitrógeno
 Líquido usando un mortero, para ser usado en las extracciones de RNA y
 Proteínas.
 
@@ -1005,7 +1202,7 @@ estuviese totalmente libre de DNA genómico.
 La cuantificación por PCR a tiempo real permite monitorizar la reacción
 de PCR al mismo tiempo que ésta tiene lugar. Se empleó como estrategia
 para realizar la cuantificación el uso de la sonda SYBR Green® del kit
-Brilliant III Ultra-Fast (Agillent) ((Wittwer et~al., 1997)). Las
+Brilliant III Ultra-Fast (Agillent) (Wittwer et~al., 1997). Las
 reacciones de PCR se llevaron a cabo en un termociclador a tiempo real
 CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y
 listo para su uso, la enzima ``\emph{Taq} DNA Polimerasa'', dNTPs, MgCl2
@@ -1022,36 +1219,7 @@ de Bio-Rad) (Figura \ref{fig:placapcr}).
     \label {fig:placapcr}
 \end{figure}
 
-Cada reacción se llevó a cabo en un volumen de 10µl según la Tabla
-\ref{mmix}. Las condiciones térmicas de la amplificación fueron las
-siguientes: un ciclo inicial de 3 minutos a 95ºC (activación
-enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a
-58º para todos los partidores exceptuando los partidores para
-IFN-\(\gamma\) que fue de 61,5º y 15 segundos a 72ºC (desnaturalización,
-\emph{annealing} y extensión respectivamente).
-
-\begin{table}[h!]
-    \begin{center}
-        \begin{threeparttable}
-            \caption{Preparación de Master Mix para qPCR}\label{mmix}
-                \begin{tabularx}{13cm}{X l}
-                    \toprule
-                                                            & \textbf{1 Reacción} \\
-                    \midrule
-                    Brilliant III Ultra-Fast SYBR Green MM  & 5\si{\micro\litro} \\
-                    Partidores (F+R) 1,5\si{\micro\molar}   & 4\si{\micro\litro} \\
-                    Muestra (1:4)                           & 1\si{\micro\litro} \\
-                    \textbf{Total por reacción}             & 10m\si{\litro} \\
-                    \bottomrule
-                \end{tabularx}
-                \begin{tablenotes}
-                    \item Tabla de reactivos para 1 reacción de qPCR
-                \end{tablenotes}
-        \end{threeparttable}
-    \end{center}
-\end{table}
-
-\subsection{Partidores}
+\subsection{Estandarización de partidores}
 
 \begin{table}[h!]
     \begin{center}
@@ -1082,13 +1250,13 @@ IFN-\(\gamma\) que fue de 61,5º y 15 segundos a 72ºC (desnaturalización,
     \end{center}
 \end{table}
 
-\subsection{Estandarización de partidores}
-
-Los partidores se estandarizaron con un mix de varios cDNA obtenidos en
-este estudio usando distintas diluciones y gradientes de temperatura
-dependiendo del partidor, seleccionando la mejor temperatura de
-\emph{annealing} en base a su curva patrón y de fusión (Tabla
-\ref{tabla:estandar}).
+Usando un mix de varios cDNA al azar (controles e inducidos) se
+estandarizaron los distintos partidores usados en el ensayo, usando
+diluciones en agua DEPC 1:1 1:2 1:4 1:8 de este mix en cada placa (1µL
+en total), por cada partidor, luego el software CFX Manager (Bio-Rad)
+entregó las informaciones necesarias para determinar el uso o no de un
+partidor en base a un programa del termociclador y un gradiente de
+temperaturas (Tabla \ref{tabla:estandar}).
 
 \begin{table}[h!]
     \begin{center}
@@ -1110,6 +1278,63 @@ dependiendo del partidor, seleccionando la mejor temperatura de
         \end{threeparttable}
     \end{center}
 \end{table}
+
+\subsection{Master Mix para cada reacción}
+
+Cada reacción se llevó a cabo en un volumen de 10µl según la Tabla
+\ref{mmix}. Las condiciones térmicas de la amplificación fueron las
+siguientes: un ciclo inicial de 3 minutos a 95ºC (activación
+enzimática), seguido por 39 ciclos de 5 segundos a 95ºC, 5 segundos a
+58º para todos los partidores exceptuando los partidores para
+IFN-\(\gamma\) que fue de 61,5º y 15 segundos a 72ºC (desnaturalización,
+\emph{annealing} y extensión respectivamente).
+
+\begin{table}[h!]
+    \begin{center}
+        \begin{threeparttable}
+            \caption{Preparación de Master Mix para qPCR}\label{mmix}
+                \begin{tabularx}{13cm}{X l}
+                    \toprule
+                                                            & \textbf{1 Reacción} \\
+                    \midrule
+                    Brilliant III Ultra-Fast SYBR Green MM  & 5\si{\micro\litro} \\
+                    Partidores (F+R) 1,5\si{\micro\molar}   & 4\si{\micro\litro} \\
+                    Muestra (1:4)                           & 1\si{\micro\litro} \\
+                    \textbf{Total por reacción}             & 10m\si{\litro} \\
+                    \bottomrule
+                \end{tabularx}
+                \begin{tablenotes}
+                    \item Tabla de reactivos para 1 reacción de qPCR
+                \end{tablenotes}
+        \end{threeparttable}
+    \end{center}
+\end{table}
+
+\subsection{Cuantificación relativa}
+
+Para evaluar la cuantificación relativa de cada gen en estudio frente al
+gen de referencia, en este caso el factor de elongación 1 alfa
+(EF-1\(\alpha\)), se utilizó la metodología llamada \(\Delta\Delta C_T\)
+(Pfaffl, 2001), la cual consiste en lo siguiente: el valor
+\(\Delta C_T\) se determina restando la media de los valores \(C_T\)
+obtenidos para el gen de referencia de la media de los valores \(C_T\)
+del gen problema.
+
+El cálculo del valor \(\Delta\Delta C_T\) implica restar a cada
+\(\Delta C_T\) el valor del \(\Delta C_T\) de un calibrador, que es una
+muestra utilizada como base para los resultados relativos. Al ser una
+resta de un valor arbitrario, la desviación del \(\Delta\Delta C_T\) es
+la misma que la del \(\Delta C_T\) . Una vez obtenidos estos valores, la
+cantidad de un gen problema, normalizado a una referencia endógena y
+relativa a un calibrador, viene dada por la fórmula:
+
+\begin{displaymath}
+\scalebox{1.5}{
+$2^{-\Delta\Delta C_T}$
+}
+\end{displaymath}
+
+\clearpage
 
 \section{Extracción de Proteínas}
 
@@ -1166,7 +1391,7 @@ la lectura de la placa se usó un lector espectrofotométrico de
 microplacas (VersaMax Microplate Reader, Molecular Devices) a una
 longitud de onda de 562nm.
 
-\section{ELISA Indirecto}
+\section{ELISA Indirecto}\label{ELISAs}
 
 Para validar los anticuerpos en estudio y ademas, determinar
 posteriormente la presencia de las moléculas en estudio se realizaron
@@ -1182,13 +1407,6 @@ extraidas de branquias usando PBS 1X para diluir según sea necesario.
 Todas las muestras se sembraron en duplicado, y como blanco se utilizó
 PBS 1X. Luego se lavó 3 veces cada pocillo con 200\si{\micro\litro} de
 PBS 1X-Tween20 0,05\% (PBST 0,05\%).
-
-\subsubsection{Validación de anticuerpos}
-
-Para la validación de anticuerpos en vez de sembrar una muestra de
-proteinas totales, se sembró en concentración decreciente (8 diluciones
-seriadas 1:2 desde 3ng/\si{\micro\litro}) el péptido (inmunógeno)
-especifico para cada anticuerpo.
 
 \subsection{Bloqueo de sitios inespecíficos}
 
@@ -1216,6 +1434,17 @@ Luego se leyó la placa a 650nm y finalmente, deteniendo la reacción con
 50\si{\micro\litro} de H\subindice{2}SO\subindice{4} 1N se leyó a 450nm
 para aumentar la detección usando el software SoftMax 5.2 de Molecular
 Probes.
+
+\subsection{Validación de anticuerpos}
+
+Con el fin de validar cualitativamente los anticuerpos policlonales
+mono-específicos sintetizados por el grupo de marcadores inmunológicos
+en organismos acuáticos (Tabla \ref{tabla:anticuerpos}), se sembró en
+concentración decreciente (8 diluciones seriadas 1:2 desde
+3ng/\si{\micro\litro}) el péptido sintético con el cual fue inmunizado
+el huésped, y posteriormente se realizó la técnica de ELISA indirecto,
+descrita en la sección \ref{ELISAs}, usando como curva de calibrado las
+IgG Normal de Conejo y Ratón (Sigma).
 
 \section{Cortes histológicos}
 
@@ -1328,7 +1557,6 @@ con la siguiente ecuación
 
 \chapter{Resultados}
 
-\vfill
 Los resultados se expresarán en base a su relación con los objetivos
 específicos. \vfill
 \clearpage
@@ -1338,30 +1566,30 @@ específicos. \vfill
 \section{Bioensayo}
 
 Se implementó el sistema de alimentación para las truchas arcoiris en el
-CIAC, donde se contó con 2 modulos de 3 estanques cada uno, dos de los
+CIAC, donde se contó con 2 módulos de 3 estanques cada uno, dos de los
 cuales fueron destinados a la alimentación con la dieta suplementada con
-zimosán (estanques 2 y 5) y otros dos a la dieta control (estanques 1 y
-4) (Fig. \ref{fig:ciac}).
+zimosán (estanques 2 y 5) y otros dos a la dieta control (estanques 3 y
+6) (Fig. \ref{fig:ciac}).
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics[width=13cm]{ciac}}
+    \includegraphics[width=1\textwidth]{ciac}
     \caption {Diagrama de flujo Centro de Investigaciones en Acuicultura Curauma}
     \label {fig:ciac}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics[width=7cm]{peso}}
+    \includegraphics[width=10cm]{peso}
     \caption {Crecimiento promedio de truchas en estudio}
     \label {fig:pesos}
 \end{figure}
 
-Al momento de sacrificar las truchas por sobre-sedación se procedió a
-pesarlas, comparando la dieta control y la con \(\beta\)-glucanos para
-evaluar si la alimentación generaba algun cambio de peso comparando con
-el control (Figura \ref{fig:pesos}). Tampoco hubo otra causa de muerte
-que no fuera el sacrificio en el bioensayo.
+No se observó ningún cambio significativo entre los pesos registrados
+para la dieta control y la dieta suplementada con Zimosán (Figura
+\ref{fig:pesos}), lo que indica que este \(\beta\)-glucano no genera un
+crecimiento a nivel de masa muscular comparado con el grupo sin
+tratamiento.
 
 \clearpage
 
@@ -1369,7 +1597,8 @@ que no fuera el sacrificio en el bioensayo.
 
 \section{Extracción y Cuantificación de RNA}
 
-Se obtuvieron las siguientes cuantificaciones de RNA
+Para cada una de las muestras realizadas se obtuvo las siguientes
+cuantificaciones de RNA (Tabla \ref{tablaRNA}).
 
 \begin{table}[h!]
     \begin{center}
@@ -1395,27 +1624,16 @@ Se obtuvieron las siguientes cuantificaciones de RNA
     \end{center}
 \end{table}
 
-Luego teniendo esas concentraciones se procedió a la síntesis del cDNA
-usando 1µg de RNA para poder realizar los ensayos de PCR en tiempo real.
+Las muestras dispuestas en la tabla \ref{tablaRNA} fueron llevadas para
+la obtención de cDNA. \section{Estandarización de Partidores}
 
-\section{Estandarización de Partidores}
-
-Usando un mix de varios cDNA al azar (controles e inducidos) se
-estandarizaron los distintos partidores usados en el ensayo, usando
-diluciones en agua DEPC 1:1 1:2 1:4 1:8 de este mix en cada placa, por
-cada partidor, luego el software CFX Manager (BioRad) entregará las
-informaciones necesarias para determinar el uso o no de un partidor,
-para los resultados de este tema se muestran las temperaturas de
-annealing para las cuales los partidores dieron solo un producto, como
-se demuestra en las curvas de disociación o de fusión, y hayan tenido
-una eficacia cercana al 100\%.
+Para cada molécula en estudio se obtuvieron las siguientes
+estandarizaciones de partidores.
 
 \subsection{EF-1$\alpha$}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
-(Figura \ref{fig:ef1a}).
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+58ºC (Figura \ref{fig:ef1a}).
 
 \begin{figure}[h]
     \centering
@@ -1431,10 +1649,8 @@ como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
 
 \subsection{IL-12}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 58ºC.
-(Figura \ref{fig:il12})
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+58ºC. (Figura \ref{fig:il12})
 
 \begin{figure}[h!]
     \centering
@@ -1450,10 +1666,8 @@ como mejor curva estándar, eficiencia y curva de fusión a los 58ºC.
 
 \subsection{TNF-$\alpha$}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
-(Figura \ref{fig:tnfa}).
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+58ºC (Figura \ref{fig:tnfa}).
 
 \begin{figure}[h!]
 \centering
@@ -1469,10 +1683,8 @@ como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
 
 \subsection{IFN-$\gamma$}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 61.5ºC
-(Figura \ref{fig:ifng}).
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+61.5ºC (Figura \ref{fig:ifng}).
 
 \begin{figure}[h!]
 \centering
@@ -1488,10 +1700,8 @@ como mejor curva estándar, eficiencia y curva de fusión a los 61.5ºC
 
 \subsection{IL-1$\beta$}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
-(Figura \ref{fig:il1b}).
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+58ºC (Figura \ref{fig:il1b}).
 
 \begin{figure}[h!]
 \centering
@@ -1507,10 +1717,8 @@ como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
 
 \subsection{iNOS}
 
-Se cargó 1µL de cada dilución del mix de cDNA y usando el programa del
-termociclador correspondiente (Tabla \ref{tabla:estandar}), teniendo
-como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
-(Figura \ref{fig:inos}).
+Se obtuvo la mejor curva estándar, eficiencia y curva de fusión a los
+58ºC (Figura \ref{fig:inos}).
 
 \begin{figure}[h!]
 \centering
@@ -1524,40 +1732,36 @@ como mejor curva estándar, eficiencia y curva de fusión a los 58ºC
     \label {fig:inos}
 \end{figure}
 
-Al ya tener las temperaturas de \emph{annealing} definidas para cada
-partidor se procedió a realizar el PCR en tiempo real para todas las
-muestras en estudio y posteriormente evaluar la expresión n relativa al
-gen de referencia.
+\begin{table}[h!]
+    \centering
+    \begin{threeparttable}
+        \caption{Síntesis: Temperaturas de annealing estandarizadas para cada partidor} \label{tabla:sintesispartidores}
+        \begin{tabularx}{0.5\textwidth}{X l}
+            \toprule
+            Partidor & TA \\
+            \midrule
+            EF-1$\alpha$ & 58ºC \\
+            IL-1$\beta$ & 58ºC \\
+            TNF-$\alpha$ & 58ºC \\
+            IFN-$\gamma$ & 61,5ºC \\
+            iNOS & 58ºC \\
+            \bottomrule
+        \end{tabularx}
+    \begin{tablenotes}
+        \item $T_A$= Temperatura de \emph{annealing}
+    \end{tablenotes}
+    \end{threeparttable}
+\end{table}
 
 \section{PCR en tiempo real}
 
-Para evaluar la cuantificación relativa de cada gen en estudio frente al
-gen de referencia, en este caso el factor de elongación 1 alfa
-(EF-1\(\alpha\)), se utilizo la metodología llamada \(\Delta\Delta C_T\)
-(M. W. Pfaffl, 2001), la cual consiste en lo siguiente: el valor
-\(\Delta C_T\) se determina restando la media de los valores \(C_T\)
-obtenidos para el gen de referencia de la media de los valores \(C_T\)
-del gen problema.
+Se procedió a realizar la PCR en tiempo real usando las temperaturas de
+annealing obtenidas en la Tabla \ref{tabla:sintesispartidores}.
 
-Por otra parte, en todas las muestras el valor de \(C_T\) obtenido para
-el gen EF-1\(\alpha\) fue similar, lo que indicaba que las
-amplificaciones se desarrollaron de forma correcta y que en todas las
-reacciones se partió de cantidades similares de cDNA (Figura
-\ref{qef1a}).
-
-El cálculo del valor \(\Delta\Delta C_T\) implica restar a cada
-\(\Delta C_T\) el valor del \(\Delta C_T\) de un calibrador, que es una
-muestra utilizada como base para los resultados relativos. Al ser una
-resta de un valor arbitrario, la desviación del \(\Delta\Delta C_T\) es
-la misma que la del \(\Delta C_T\) . Una vez obtenidos estos valores, la
-cantidad de un gen problema, normalizado a una referencia endógena y
-relativa a un calibrador, viene dada por la fórmula:
-
-\begin{displaymath}
-\scalebox{1.5}{
-$2^{-\Delta\Delta C_T}$
-}
-\end{displaymath}
+En todas las muestras el valor de \(C_T\) obtenido para el gen
+EF-1\(\alpha\) fue similar, lo que indicó que las amplificaciones se
+desarrollaron de forma correcta y que en todas las reacciones se partió
+de cantidades similares de cDNA (Figura \ref{qef1a}).
 
 \begin{figure}[h!]
     \centering
@@ -1575,27 +1779,27 @@ $2^{-\Delta\Delta C_T}$
 
 \begin{figure}[h!]
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/qPCR/qtnfa}
+        \includegraphics[width=0.9\textwidth]{eps/qPCR/pdf/qtnfa}
         \caption{TNF-$\alpha$}
         \label{fig:qpcr:tnfa}
         \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/qPCR/qifng}
+        \includegraphics[width=0.9\textwidth]{eps/qPCR/pdf/qifng}
         \caption{IFN-$\gamma$}
         \label{fig:qpcr:ifng}
     \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/qPCR/qil1b}
+        \includegraphics[width=0.9\textwidth]{eps/qPCR/pdf/qil1b}
         \caption{IL-1$\beta$}
         \label{fig:qpcr:il1b}
     \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/qPCR/qinos}
+        \includegraphics[width=0.9\textwidth]{eps/qPCR/pdf/qinos}
         \caption{iNOS}
         \label{fig:qpcr:inos}
     \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/qPCR/qil12}
+        \includegraphics[width=0.9\textwidth]{eps/qPCR/pdf/qil12}
         \caption{IL-12}
         \label{fig:qpcr:il12}
     \end{subfigure}
@@ -1608,8 +1812,8 @@ $2^{-\Delta\Delta C_T}$
 
 \subsection{TNF-$\alpha$}
 
-Para el gen del factor de necrosis tumoral alfa
-(\ref{fig:qpcr}\subref{fig:qpcr:tnfa}) la expresión de transcrito se
+Para el gen del factor de necrosis tumoral alfa (Figura
+\ref{fig:qpcr}\subref{fig:qpcr:tnfa}) la expresión de transcrito se
 mantuvo constante en condiciones controles y tratadas hasta el día 14,
 donde aumentó súbitamente la cantidad relativa de mensajero en ambas
 circunstancias hasta llegar a su máximo \emph{peak} el día 21,
@@ -1618,8 +1822,8 @@ diferencia significativa con su control(\(p \leq 0,05\)).
 
 \subsection{IFN-$\gamma$}
 
-La expresión relativa del transcrito de Interferón gamma
-(\ref{fig:qpcr}\subref{fig:qpcr:ifng}) frente al gen de referencia en
+La expresión relativa del transcrito de Interferón gamma (Figura
+\ref{fig:qpcr}\subref{fig:qpcr:ifng}) frente al gen de referencia en
 condiciones control y tratadas se mantuvieron en bajas cantidades hasta
 el día 14, 7 días después hubo un peak significativo comparado con su
 control (\(p \leq 0,05\)), cabe destacar que los días 21 y 28 en
@@ -1629,30 +1833,46 @@ no significativo con sus pares tratados.
 \subsection{IL-1$\beta$}
 
 Al igual que los dos genes anteriores, la expresión de interleuquina 1
-beta (\ref{fig:qpcr}\subref{fig:qpcr:il1b}) se mantuvo baja los primeros
-14 días con respecto al control inicial, para luego el día 21 aumentar
-súbita y significativamente (\(p \leq 0,05\)) en condiciones tratadas
-frente a su control del día, finalmente el día 28 baja la expresión del
-transcrito mientras que el control se mantiene estable.
+beta (Figura \ref{fig:qpcr}\subref{fig:qpcr:il1b}) se mantuvo baja los
+primeros 14 días con respecto al control inicial, para luego el día 21
+aumentar súbita y significativamente (\(p \leq 0,05\)) en condiciones
+tratadas frente a su control del día, finalmente el día 28 baja la
+expresión del transcrito mientras que el control se mantiene estable.
 
 \subsection{iNOS}
 
-El gen de iNOS (\ref{fig:qpcr}\subref{fig:qpcr:inos}) el día 7 se empezó
-a transcribir demostrando un aumento en ambas condiciones frente al
-control inicial, para luego bajar su expresión casi al nivel del día 0,
-luego, en condiciones tratadas, este gen experimenta una gran expresión
-frente al gen de referencia (\(p \leq 0,05\)), siendo significativa el
-día 21, y subiendo hasta el día 28. En los peces controles, desde el día
-14 al 28 se mantuvo prácticamente constante.
+El gen de iNOS (Figura \ref{fig:qpcr}\subref{fig:qpcr:inos}) el día 7 se
+empezó a transcribir demostrando un aumento en ambas condiciones frente
+al control inicial, para luego bajar su expresión casi al nivel del día
+0, luego, en condiciones tratadas, este gen experimenta una gran
+expresión frente al gen de referencia (\(p \leq 0,05\)), siendo
+significativa el día 21, y subiendo hasta el día 28. En los peces
+controles, desde el día 14 al 28 se mantuvo prácticamente constante.
 
 \subsection{IL-12}
 
-El comportamiento de Interleuquina 12
-(\ref{fig:qpcr}\subref{fig:qpcr:inos}) tiene cierta tendencia comparado
+El comportamiento de Interleuquina 12 (Figura
+\ref{fig:qpcr}\subref{fig:qpcr:inos}) tiene cierta tendencia comparado
 con la expresión del gen para IL-1\(\beta\), ya que también se gatilla
 su expresión el día 14, aunque para el caso de esta citoquina, el día 28
 es su mayor \emph{peak} siendo significativo este con respecto a su
 control (\(p \leq 0,05\)).
+
+\subsection{Síntesis comparada del estudio}
+
+Las 5 moléculas presentan sobre expresión entre los días 21 y 28.
+
+La molécula que obtuvo una mayor up-regulación fue IL-1\(\beta\),
+llegando hasta casi 6 veces su cuantificación relativa frente al gen de
+referencia, la que obtuvo una menor up-regulación, aunque igualmente
+significativa fue iNOS llegando entre 1.5 a 2 veces de cambio con
+respecto al gen de referencia.
+
+El día con mayor sobre-expresión de los genes que codifican para estas
+moléculas fue el 21, teniendo up-regulaciones significativas con
+respecto a su control para las moléculas: IFN-\(\gamma\), IL-1\(\beta\)
+e iNOS, mientras que el día 28 las moléculas que tuvieron una
+up-regulación significativa fueron TNF-\(\alpha\) e IL-12.
 
 \clearpage
 
@@ -1677,14 +1897,13 @@ y=1,131x+0,02941
 \label{eq:BCA}
 \end{displaymath}
 
-Interpolando en la recta de calibrado (Figura \ref{curvabca}) las
-absorbancias obtenidas en el metodo BCA, se obtuvieron las siguientes
-concentraciones de proteínas.
+Las cuantificaciones interpoladas en la recta de calibrado (Figura
+\ref{curvabca}) se muestran en la Tabla \ref{tablaPROTEINAS}
 
 \begin{table}[h]
 \begin{center}
     \begin{threeparttable}
-      \caption{Concentraciones de Proteínas totales extraidas}\label{tablaPROTEINAS}
+      \caption{Concentraciones de Proteínas totales extraídas}\label{tablaPROTEINAS}
       \begin{tabular}{l r l r l r l r l r}
     \toprule
     \textbf{ID} & \textbf{µg/µL} & \textbf{ID} & \textbf{µL/µL} & \textbf{ID} & \textbf{µL/µL} & \textbf{ID} & \textbf{µL/µL} & \textbf{ID} & \textbf{µL/µL}\\
@@ -1707,13 +1926,10 @@ concentraciones de proteínas.
 
 \section{Validación de anticuerpos}
 
-Se realizó la validación cualitativa de los anticuerpos policlonales
-mono-específicos sintetizados por el grupo (Tabla
-\ref{tabla:anticuerpos}) usando como antígeno específico el péptido
-sintético (inmunógeno) con el cual fue inmunizado el huésped (conejo o
-ratón) al momento de producir el anticuerpo.
+Los resultados de la validación de los anticuerpos por ELISA indirecto
+fueron graficados en la Figura \ref{fig:pep}
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \begin{subfigure}{0.5\textwidth}
         \includegraphics[width=0.9\textwidth]{peptidos/tnfa}
         \caption{TNF-$\alpha$}
@@ -1762,38 +1978,34 @@ una curva con un \(R^2\) de 0,9934 (Figura \ref{fig:pep}
 
 \section{ELISAs Indirectos}
 
-Al evaluar mediante ELISA indirecto la presencia de las distintas
-moleculas en estudio en las branquias de las truchas arcoiris
+Al evaluar mediante ELISA indirecto la disponibilidad de las distintas
+moléculas en estudio en las branquias de las truchas arcoiris
 alimentadas con Zimosán A, se observó una clara diferencia entre los
 individuos control y los tratados (Figura \ref{fig:elisa}).
 
 \begin{figure}[h]
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/ELISA/etnfa}
+        \includegraphics[width=0.9\textwidth]{eps/ELISA/pdf/etnfa}
         \caption{TNF-$\alpha$}
         \label{fig:elisa:tnfa}
         \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/ELISA/eifng}
+        \includegraphics[width=0.9\textwidth]{eps/ELISA/pdf/eifng}
         \caption{IFN-$\gamma$}
         \label{fig:elisa:ifng}
     \end{subfigure}
-    \end{figure}
-
-\begin{figure}[h]
-        \ContinuedFloat
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/ELISA/eil1b}
+        \includegraphics[width=0.9\textwidth]{eps/ELISA/pdf/eil1b}
         \caption{IL-1$\beta$}
         \label{fig:elisa:il1b}
     \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/ELISA/einos}
+        \includegraphics[width=0.9\textwidth]{eps/ELISA/pdf/einos12}
         \caption{iNOS}
         \label{fig:elisa:inos}
     \end{subfigure}
     \begin{subfigure}{0.5\textwidth}
-        \includegraphics[width=0.9\textwidth]{eps/ELISA/eil12}
+        \includegraphics[width=0.9\textwidth]{eps/ELISA/pdf/eil12}
         \caption{IL-12}
         \label{fig:elisa:il12}
     \end{subfigure}
@@ -1806,9 +2018,9 @@ individuos control y los tratados (Figura \ref{fig:elisa}).
 
 \subsection{TNF-$\alpha$}
 
-Para TNFa (Figura \ref{fig:elisa} \subref{fig:elisa:tnfa}), respecto a
-su control inicial, evidenció un aumento paulatino de su
-biodisponibilidad partiendo del dia 7 al día 14, un aumento de
+Para TNF-\(\alpha\) (Figura \ref{fig:elisa} \subref{fig:elisa:tnfa}),
+respecto a su control inicial, evidenció un aumento paulatino de su
+biodisponibilidad partiendo del día 7 al día 14, un aumento de
 aproximadamente 4 veces el día 21 y finalmente un leve aumento el día
 28, este ultimo dia siendo significativo respecto a su control
 (\(p \leq 0,05\)).
@@ -1816,7 +2028,7 @@ aproximadamente 4 veces el día 21 y finalmente un leve aumento el día
 \subsection{IFN-$\gamma$}
 
 Esta molécula (Figura \ref{fig:elisa} \subref{fig:elisa:ifng}) tuvo un
-leve aumento en los dias 7 y 14 con respecto a su control,
+leve aumento en los días 7 y 14 con respecto a su control,
 evidenciandose el mayor aumento al día 21, el cual es significativo
 (\(p \leq 0,05\)) con respecto a su control, para finalmente disminuir
 su biodisponibilidad el día 28.
@@ -1826,18 +2038,19 @@ su biodisponibilidad el día 28.
 Para Interleuquina 1-\(\beta\) (Figura \ref{fig:elisa}
 \subref{fig:elisa:il1b}) se observó una gran biodisponibilidad de esta
 molécula en el control al inicio del tratamiento, pero esta alta
-biodisponibilidad baja y se estabiliza rapidamente al día 7, en el caso
+biodisponibilidad baja y se estabiliza rápidamente al día 7, en el caso
 de los peces alimentados con Zimosán A se observaron desde el día 7
-biodisponibilidades mayores a sus controles del día, siendo el dia 21 y
+biodisponibilidades mayores a sus controles del día, siendo el día 21 y
 28 diferentes significativamente (\(p \leq 0,05\)).
 
 \subsection{iNOS}
 
-Para la enzima Oxido Nitrico Sintasa inducible (Figura \ref{fig:elisa}
-\subref{fig:elisa:inos}) se obtuvo el dia 14 un súbito y significativo
+Para la enzima Oxido Nítrico Sintasa inducible (Figura \ref{fig:elisa}
+\subref{fig:elisa:inos}) se obtuvo el día 14 un súbito y significativo
 aumento de su biodisponibilidad comparado con todo el grupo control
 (\(p \leq 0,05\)), bajó el día 21 para finalmente subir paulatina y
-signficativamente el día 28 con respecto a su control (\(p \leq 0,05\)).
+significativamente el día 28 con respecto a su control
+(\(p \leq 0,05\)).
 
 \subsection{IL-12}
 
@@ -1848,80 +2061,99 @@ después de esta medición, al día 28, hubo un aumento significativo de
 aproximadamente 20 veces con respecto al control del día
 (\(p \leq 0,05\)).
 
+\subsection{Síntesis comparada del estudio}
+
+Los anticuerpos reconocen sus respectivos epítopes (Figura
+\ref{fig:pep}).
+
+Las 5 moléculas en estudio presentaron un aumento en su disponibilidad
+entre los días 21 y 28, incluso una presenta aumento el día 14.
+
+La mayor disponibilidad de proteína se observo a nivel de IFN-\(\gamma\)
+el día 21 y la menor fue para el caso de iNOS el día 28, aún así ambas
+disponibilidades mayores que su control significativamente
+
+El día con mayor disponibilidad de las proteínas en estudio fue el día
+28, donde TNF-\(\alpha\), IL-1\(\beta\), iNOS e IL-12 aumentaron su
+disponibilidad con respecto a sus controles sin tratamiento, mientras
+que el día 21 fue el día con menor disponibilidad de las moléculas
+estudiadas, en las cuales encontramos a IFN-\(\gamma\) e IL-1\(\beta\)
+
 \clearpage
 
 \section{Tinción Hematoxilina-eosina}
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics{gills}}
-    \caption[Microfotografías de branquias de trucha arcoiris]{Microfotografías de branquias de trucha arcoiris con tinción Hematoxilina-eosina: A) Operculo abierto exponiendo las branquias a extraer; B,C) Día 0; D) Día 14 Control; E) Día 14 Tratado; F) Día 21 Control; G) Día 21 Tratado; H) Día 28 Control; I) Día 28 Tratado. AB = Arco Branquial, B = Branquias, LP = Laminilla primaria, LS = Laminilla secundaria, CE = Células epiteliales CP = Células pilares}
+\includegraphics[width=1\textwidth]{gills}
+    \caption[Microfotografías de branquias de trucha arcoiris]{Microfotografías de branquias de trucha arcoiris con tinción Hematoxilina-eosina: A) Opérculo abierto exponiendo las branquias a extraer; B,C) Día 0; D) Día 14 Control; E) Día 14 Tratado; F) Día 21 Control; G) Día 21 Tratado; H) Día 28 Control; I) Día 28 Tratado. AB = Arco Branquial, B = Branquias, LP = Laminilla primaria, LS = Laminilla secundaria, CE = Células epiteliales CP = Células pilares}
     \label {fig:gills}
 \end{figure}
 
 Al realizar la tinción de Hematoxilina-eosina se pudo apreciar la
 integridad de los distintos cortes histológicos, los tejidos que los
-componen y asi como también los distintos tipos celulares que se
+componen y así como también los distintos tipos celulares que se
 pudieron encontrar (Figura \ref{fig:gills}). La branquia se observa
 completa, sin su arco branquial, demostrando una consistencia entre sus
-laminillas primarias y secundarias (Figura \ref{fig:gills}D,E), así como
-también la presencia de células pilares (Figura \ref{fig:gills}C) y
-células epiteliales (Figura \ref{fig:gills}E).
+laminillas primarias y secundarias (Figura \ref{fig:gills} D,E), así
+como también la presencia de células pilares (Figura \ref{fig:gills} C)
+y células epiteliales (Figura \ref{fig:gills} F).
 
 \section{Inmunofluorescencia}
 
 Habiendo comprobado la integridad de los tejidos muestreados se procedió
-a localizar las moleculas en estudio, usando los cortes cortes
-histológicos y la técnica de inmunofluorescencia descrita en
-\ref{sec:ifat} se observaron los siguientes resultados.
+a localizar las moléculas en estudio, usando los cortes cortes
+histológicos y la técnica de inmunofluorescencia descrita en la sección
+\ref{sec:ifat}, se observaron los siguientes resultados.
 
 \subsection{TNF-$\alpha$}
 
-Se pueden observar al menos 5 marcajes correspondientes a celulas de la
-laminilla secundaria las cuales mostraban producción de TNF-\(\alpha\)
+Se observa un marcaje positivo en células de la laminilla secundaria las
+cuales mostraban producción de TNF-\(\alpha\) (Figura
+\ref{fig:gills:tnfa}).
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics{ifat/tnfa}}
-    \caption[Microscopía Confocal para TNF-$\alpha$]{Microscopía confocal para TNF-$\alpha$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta: A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales.  Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+    \includegraphics[width=0.8\textwidth]{ifat/z/tnfa}
+    \caption[Microscopía Confocal para TNF-$\alpha$]{Microscopía confocal para TNF-$\alpha$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta: A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
     \label {fig:gills:tnfa}
 \end{figure}
 
-\subsection{IFNg-$\gamma$}
+\subsection{IFN-$\gamma$}
 
-Se encontraron aproximadamente 4 marcajes correspondientes a celulas de
-la laminilla secundaria, las cuales mostraban producción de interferón
-gamma.
+Se observa un marcaje positivo en células de la laminilla secundaria,
+las cuales mostraban producción de interferón gamma (Figura
+\ref{fig:gills:ifng}).
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics{ifat/ifng}}
-    \caption[Microscopía Confocal para IFN-$\gamma$]{Microscopía confocal para IFN-$\gamma$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+    \includegraphics[width=0.8\textwidth]{ifat/z/ifng}
+    \caption[Microscopía Confocal para IFN-$\gamma$]{Microscopía confocal para IFN-$\gamma$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
     \label {fig:gills:ifng}
 \end{figure}
 
 \subsection{IL-1$\beta$}
 
-Se encontraron aproximadamente 3 marcajes correspondientes a celulas de
-la laminilla secundaria, las cuales mostraban producción de
-IL-1\(\beta\).
+Se observa un marcaje positivo en células de la laminilla secundaria,
+las cuales mostraban producción de IL-1\(\beta\) (Figura
+\ref{fig:gills:il1b}).
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics{ifat/il1b}}
-    \caption[Microscopía Confocal para IL-1$\beta$]{Microscopía confocal para IL-1$\beta$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta.  Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+    \includegraphics[width=0.8\textwidth]{ifat/z/il1b}
+    \caption[Microscopía Confocal para IL-1$\beta$]{Microscopía confocal para IL-1$\beta$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
     \label {fig:gills:il1b}
 \end{figure}
 
 \subsection{iNOS}
 
-Al menos 2 marcajes se consideran positivos para la producción de iNOS
-en celulas de la laminilla secundaria.
+Se observa un marcaje positivo para la producción de iNOS en células de
+la laminilla secundaria (Figura \ref{fig:gills:inos}).
 
 \begin{figure}[h!]
     \centering
-    \fbox{\includegraphics{ifat/inos}}
-    \caption[Microscopía Confocal para iNOS]{Microscopía confocal para iNOS en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+    \includegraphics[width=0.8\textwidth]{ifat/inos}
+    \caption[Microscopía Confocal para iNOS]{Microscopía confocal para iNOS en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
     \label {fig:gills:inos}
 \end{figure}
 
@@ -1968,11 +2200,10 @@ TNFa &  &  &  &  \\
 \end{subtable}
 \end{table}
 
-Se obtuvieron los coeficientes de correlación de Pearson, en los cuales
-se obtuvo una correlación muy alta (\textgreater{}0.8) para el caso de
-los ensayos de qPCR (Tabla \ref{tab:corr}A), siendo el mas alto la
-correlación positiva para la dupla IFN-\(\gamma\)/TNF-\(\alpha\) con un
-R=0,99 y por el contrario, la dupla con menor correlación positiva fue
+Se obtuvo una correlación muy alta (\textgreater{}0.8) para el caso de
+los ensayos de qPCR (Tabla \ref{tab:corr}A), siendo la mayor correlación
+positiva la dupla IFN-\(\gamma\)/TNF-\(\alpha\) con un R=0,99 y por el
+contrario, la dupla con menor correlación positiva fue
 IL-1\(\beta\)/iNOS.
 
 En el caso de los ensayos de ELISA indirecto la dupla que obtuvo mayor
@@ -1980,7 +2211,7 @@ correlación positiva fue IFN-\(\gamma\)/TNF-\(\alpha\) con un R=0,89
 mientras que para el caso de la dupla IL-1\(\beta\)/TNF-\(\alpha\) se
 obtuvo una correlación negativa con un R=-0,82 (Tabla \ref{tab:corr}B).
 
-Finalmente con el fin de saber que marcadores se pueden usar
+Finalmente con el fin de saber qué marcadores se pueden usar
 indistintamente del ensayo que se ocupe (en este caso qPCR y ELISA) se
 correlacionaron los datos obtenidos por cada molécula en cada ensayo.
 
@@ -2007,103 +2238,72 @@ qIL-1$\beta$/eIL-1$\beta$ & 0,6 \\
 
 Para los casos de las moléculas TNF-\(\alpha\) e IFN-\(\gamma\) se
 obtuvieron correlaciones positivas \textgreater{} a 0,8 (Tabla
-\ref{tab:corrtotal}). \chapter{Discusiones}
+\ref{tab:corrtotal}). \chapter{Discusion}
 
 La perdida del equilibrio
 Ambiente\(\Leftrightarrow\)Patógeno\(\Leftrightarrow\)Hospedero es la
-causa de la mayoria de las enfermedades presentes en la acuicultura, y
+causa de la mayoría de las enfermedades presentes en la acuicultura, y
 es por eso que es estrictamente necesario cimentar las bases de una
 comprensión íntegra del sistema inmune, para así, poder generar
 tecnología que pueda sobreponerse a estos paradigmas. Esto tiene suma
 importancia sobretodo en la industria acuícola, la cual produce
 anualmente, y con un crecimiento constante, 148 millones de toneladas de
 pescado (FAO, 2012), las cuales se traducen aproximadamente en 217.500
-millones de dolares (USD), mas aún, de toda esa producción, 128 millones
+millones de dólares (USD), mas aún, de toda esa producción, 128 millones
 de toneladas fueron exclusivamente destinados a consumo humano, por lo
 que las perdidas por un brote de alguna enfermedad ascienden a millones
-de dolares, brotes que amenazan las año a año las operaciones acuicolas
+de dólares, brotes que amenazan las año a año las operaciones acuícolas
 al rededor del mundo.
 
-\section{Objetivo 1}
+Varios autores describen un aumento en la transcripción de los genes
+evaluados en esta tesis, Lokesh et al (2012) observan esto en la
+expresión de IFN-\(\gamma\) en \emph{G.morhua} usando una concentración
+de \(\beta\)-glucano al 1\% aunque este estudio fue evaluado en
+intestino. Skov et al (2012) demuestra la sobre-expresión de
+IFN-\(\gamma\) de hasta 111 veces de cambio con respecto a su control
+posterior a 59 días de tratamiento de inmersión con \(\beta\)-glucanos.
+En el caso de la expresión de la Interleukina 1-\(\beta\) Zhang et al.
+(2009) demostró en \emph{O.mykiss} que se produce una sobre expresión de
+este gen a partir del dia 7 luego de tratar vía inmersión con
+\(\beta\)-glucanos. En \emph{D.rerio} inyectados con \(\beta\)-glucanos
+Rodriguez et al. (2009) describe una sobreexpresión de IL-1\(\beta\) de
+hasta 60 veces con respecto a su control sin tratar. Finalmente, Zhang
+et al (2009) demostró la sobre-expresión del gen que codifica para
+TNF-\(\alpha\) luego de 14 días de inmersión con \(\beta\)-glucanos.
 
-Los inmunoestimulantes han surgido como una opción viable, escalable y
-económica para solventar parte de los problemas de la acuicultura,
-fortaleciendo su capacidad de respuesta inmune en distintos estadíos de
-desarrollo. Dentro de las formas en las cuales se pueden desplegar estos
-inmunoestimulantes podemos encontrar vacunas, suspensión oral y
-liberación en el alimento, entre otras.
-
-Para este proyecto se describió una dieta en base a \emph{pellets} de
-harina de pescado, los cuales contenían como inmunoestimulante el
-\(\beta\)-glucano \emph{Zimosán A}, proveniente de la levadura
-\emph{Saccharomyces cerevisiae}, en una razón del 0,3\%.
-
-Los peces se mantuvieron el CIAC alimentandose en dos grupos, control y
-tratado, el totalidad de la mortalidad fue del 100\%, ya que todos los
-peces se sacrificaron en los días determinado para ese fin dentro de la
-linea de tiempo del ensayo.
-
-Previo al desangramiento de cada pez se obtuvo el peso de cada
-organismo, con el fin de confeccionar un grafico para evaluar si la
-diferentes dietas generaban algun cambio en la masa del pez (Figura
-\ref{fig:pesos}). Esto no fue así ya que el peso de ambos grupos se
-mantuvo constante, los datos al ser correlacionados mediante el
-coeficiente de Pearson obtuvieron un R = 0,962, lo que indica una
-correlación positiva de casi un 100\%.
-
-\section{Objetivo 2}
-
-La extracción de RNA y su posterior cuantificación se mantuvo constante
-(Tabla \ref{tablaRNA}), demostrando que en la mayoría de los casos se
-trabajó prolijamente y sin mucha diferencia entre los distintos dias de
-muestreo. Los dos unicos casos en que se obtuvo una concentración muy
-baja fue en las muestras B2 y B41, con 63,3 y 40,20
-\si{\nano\gramo}/\si{\micro\litro} respectivamente. Esto puede haberse
-debido a una mala manipulacion del mortero, el cual alcanzaba
-temperaturas cercanas a los -150ºC al mantenerse constantemente con
-nitrógeno liquido,por lo tanto cuando se tomaba tejido pulverizado para
-agregar al tubo de homogeneización se podría haber perdido algo de
-muestra.
-
-Con el RNA extraído y cuantificado se procedió a sintetizar su DNA
-complementario, al haberse hecho esto con Kit y Termociclador salió todo
-bien sin ninguna complicación, con lo que finalmente se pudo empezar a
-realizar la estandarización de partidores.
-
-El primer par de partidores en estandarizar fue el de referncia, el cual
-tuvo una eficiencia de 96,9\% y solo un peak en la curva de disociación
-lo que nos corrobora que el primer, a 58ºC como temperatura de
-annealing, genera un solo producto y que cada ciclo dobla su cantidad
-inicial de templado (Figura \ref{fig:ef1a}). Para las demas parejas de
+El primer par de partidores en estandarizar fue el de referencia, el
+cual tuvo una eficiencia de 96,9\% y solo un peak en la curva de
+disociación lo que nos corrobora que el primer, a 58ºC como temperatura
+de annealing, genera un solo producto y que cada ciclo dobla su cantidad
+inicial de templado (Figura \ref{fig:ef1a}). Para las demás parejas de
 partidores correspondientes a los genes en estudio se observó la misma
-tendencia, generandose eficiencias de 105,5\% para el par de partidores
+tendencia, generándose eficiencias de 105,5\% para el par de partidores
 que amplifican para IL-12 a 58ºC (Figura \ref{fig:il12}), 115\% para el
 el par de partidores que amplifican para TNF-\(\alpha\) a 58ºC (Figura
 \ref{fig:tnfa}), 120,9\% para el par de partidores que amplifican para
 IFN-\(\gamma\) a 61,5ºC (Figura \ref{fig:ifng}), 105,9\% para el par de
-partidores que amplifican para IL-1\(\beta\) a 58ºC (Figure
+partidores que amplifican para IL-1\(\beta\) a 58ºC (Figura
 \ref{fig:il1b}) y finalmente 102\% para la pareja de partidores que
 amplifican para iNOS a 58ºC (Figura \ref{fig:inos}).
 
-Todas las eficiencias son similares, la unica que se escapa un poco del
-promedio es la eficiencia del par de partidores que amplifican para
+Todas las eficiencias son similares, la única que se escapa levemente
+del promedio es la eficiencia del par de partidores que amplifican para
 IFN-\(\gamma\), esto puede deberse a que el producto o amplicón que
 producen es muy pequeño (\textasciitilde{}51pb) (Tabla
 \ref{tabla:partidores}) y está en el limite de lo recomendado para la
-cuantificación por el metodo \(\Delta\Delta C_T\) (M. W. Pfaffl, 2001;
-Bustin et~al., 2009).
+cuantificación por el método \(\Delta\Delta C_T\) (Pfaffl, 2001; Bustin
+et~al., 2009).
 
 Teniendo ya estandarizados todos los partidores se procedió a evaluar
 las muestras biológicas del ensayo, en las cuales la tendencia demostró
 que la respuesta inmune empieza a aumentar pasado el día 14, ya que
 todos los peak de expresión se observaron en los días 21 y 28 según
-corresponda. (Figura \ref{fig:qpcr}), esto se condice con varios
+corresponda. (Figura \ref{fig:qpcr}), esto se corrobora con varios
 estudios donde los tiempos de respuesta frente a \(\beta\)-glucanos en
 tratamientos \emph{in vivo} rondan dentro o después de los 21 días
-(Casadei et~al., 2012; Skov et~al., 2012; Dobšíková et~al., 2013;
-Morales-Lange et~al., 2014).
+(Casadei et~al., 2012; Skov et~al., 2012; Dobšíková et~al., 2013).
 
-Para el caso de varios controles en distintas moleculas también se
+Para el caso de varios controles en distintas moléculas también se
 observo un aumento pasado este día, esto puede deberse a un estrés en
 los peces, el cual haya gatillado un aumento en la respuesta inmune como
 se ha demostrado en estudios anteriores (Bricknell y Dalmo, 2005;
@@ -2114,24 +2314,10 @@ para TNF-\(\alpha\) (Figura \ref{fig:qpcr}A), IFN-\(\gamma\) (Figura
 diferencias entre tratamientos siguen siendo estadísticamente
 significativas (\(p < 0,05\)).
 
-Teniendo estos datos en cuenta se puede inferir que el suplementar la
+Teniendo estos datos en cuenta se puede deducir que el suplementar la
 alimentación de los peces con \emph{Zimosán A} liberado en dieta
 promovería la expresión de los genes que codifican para distintas
 citoquinas pro-inflamatorias y moléculas efectoras de inmunidad.
-
-\section{Objetivo 3}
-
-Para cuantificar las proteínas extraídas se utilizó el método BCA, en el
-cual se obtuvo como resultado una curva de calibrado con un coeficiente
-\(R^2 = 0,9976\) lo que indica que la recta es lineal y las
-interpolaciones fueron válidas, esto así generando una cuantificación de
-proteínas estable en todas las muestras (Tabla \ref{tablaPROTEINAS}),
-demostrando a su vez la estandarización previa de los metodos usados en
-el Laboratorio.
-
-Los anticuerpos fueron a su vez validados usando ELISA indirecto,
-obteniendo distintas curvas evaluando su reacción con su antígeno
-correspondiente (Mason y Williams, 1980).
 
 Para los 5 anticuerpos usados en el estudio se obtuvieron curvas
 logarítmicas con un coeficiente \(R^2 > 0,97\), esto significa que a
@@ -2141,27 +2327,32 @@ la reacción. Con estos resultados se aprobó el uso de estos anticuerpos
 en ensayos de ELISA indirectos con muestra biológica como antígeno.
 
 Todas las moléculas en estudio aumentaron su biodisponibilidad con
-respecto a sus controles. Tomando en cuenta el dogma de la biología
-molecular debiese haber obtenido los peak de biodisponibilidad de
-Proteínas posteriormente a los de transcrito, y hubieron casos, en que
-hubo peaks al mismo día que en lo visto por PCR en tiempo real(Figuras
-\ref{fig:elisa} y \ref{fig:qpcr}). Esto se puede deber a que exista un
-intervalo de tiempo anterior al medido en que se pueda apreciar la
-diferencia entre ambas condiciones y la biodisponibilidad de proteínas
-que estamos observando corresponde a una traducción de transcrito de
-algún día anterior no evaluado, y finalmente, otra razón de este
-fenómeno sería la documentada presencia de leucocitos circulantes en las
-branquias (Rosario Castro et~al., 2014) los cuales estarían produciendo
-estas distintas moléculas reguladoras y efectoras de inmunidad.
+respecto a sus controles, observando una tendencia similar a lo
+demostrado por Morales-Lange et al (2014) en su estudio usando el
+\(\beta\)-glucano Laminarín. Chansue et al (2000). demostró en tilapia
+la disponibilidad luego del día 5 de tratamiento de TNF-\(\alpha\)
+usando \(\beta\)-glucanos en una concentración al 2\% entregados por vía
+oral. Tomando en cuenta el dogma de la biología molecular debiese haber
+obtenido los peak de biodisponibilidad de Proteínas posteriormente a los
+de transcrito, y hubieron casos, en que hubo peaks al mismo día que en
+lo visto por PCR en tiempo real(Figuras \ref{fig:elisa} y
+\ref{fig:qpcr}). Esto se puede deber a que exista un intervalo de tiempo
+anterior al medido en que se pueda apreciar la diferencia entre ambas
+condiciones y la biodisponibilidad de proteínas que estamos observando
+corresponde a una traducción de transcrito de algún día anterior no
+evaluado, y finalmente, otra razón de este fenómeno sería la documentada
+presencia de leucocitos circulantes en las branquias (Castro et~al.,
+2014) los cuales estarían produciendo estas distintas moléculas
+reguladoras y efectoras de inmunidad.
 
 Cabe destacar que la baja absorbancia obtenida en los ensayos se debe a
-que el efecto del Zimosán A a esa concentración produce solo un leve
-aumento en la respuesta inmune, lo cual está diseñado de esa forma, ya
-que con este estudio tampoco se espera que haya un estallido
-inflamatorio a nivel sistémico en el pez.
+que el efecto del \emph{Zimosán A} a esa concentración produce solo un
+leve aumento en la respuesta inmune, lo cual está diseñado de esa forma,
+ya que en este estudio tampoco se esperaba un estallido inflamatorio a
+nivel sistémico en el pez.
 
 Sin embargo, a pesar de lo anteriormente mencionado, en los muestreos
-posteriores al día 14 se aprecia un aumento notable en la
+posteriores al día 14 se aprecia un aumento sostenido en la
 biodisponibilidad de todas las moléculas, con diferencias significativas
 frente a sus controles, lo que corrobora lo visto a nivel de transcrito,
 la liberación de Zimosán A en dieta genera una respuesta inmune
@@ -2203,7 +2394,7 @@ concentraciones y vías de liberación de estos compuestos.
 \begin{figure}[h!]
 \centering
     \includegraphics[width=0.8\textwidth]{modelo}
-    \caption[Modelo molecular de respuesta inmune]{\textbf{Modelo molecular de respuesta inmune:} Generado a partir de los resultados obtenidos en tejido branquial de truchas arcoiris tratadas con \emph{Zimosán A} liberado en dieta, inmunoestimulante que llegaría a su receptor (¿$\beta$-glucano?, ¿Dectin-1 \emph{like}?), el cual generaría la cascada de señalización para promover una respuesta inmune sintetizando citoquinas como TNF-$\alpha$, IL-1$\beta$, IFN-$\gamma$ e IL-12 y a su vez promover un ambiente oxidativo con la síntesis de iNOS en células tipo NK}
+    \caption[Modelo molecular propuesto de respuesta inmune]{\textbf{Modelo molecular propuesto de respuesta inmune:} Generado a partir de los resultados obtenidos en tejido branquial de truchas arcoiris tratadas con \emph{Zimosán A} liberado en dieta, inmunoestimulante que llegaría a su receptor (¿$\beta$-glucano?, ¿Dectin-1 \emph{like}?), el cual generaría la cascada de señalización para promover una respuesta inmune sintetizando citoquinas como TNF-$\alpha$, IL-1$\beta$, IL-12 e IFN-$\gamma$ y a su vez promover un ambiente oxidativo con la síntesis de iNOS en células tipo NK}
     \label{fig:modelo}
 \end{figure}
 
@@ -2225,123 +2416,141 @@ Aghaallaei, N., Bajoghli, B., Schwarz, H., Schorpp, M., \& Boehm, T.
 transgenic for a cxcr3a:gfp reporter. \emph{Proceedings of the National
 Academy of Sciences of the United States of America}, \emph{107}(42),
 18079-84.
-doi:\href{http://dx.doi.org/10.1073/pnas.1000467107}{10.1073/pnas.1000467107}
 
-Ainsworth, A. (1992). Fish granulocytes: Morphology, distribution, and
-function. \emph{Annual Review of Fish Diseases}, \emph{2}, 123-148.
-doi:\href{http://dx.doi.org/10.1016/0959-8030(92)90060-B}{10.1016/0959-8030(92)90060-B}
+Ai, Q., Mai, K., Zhang, L., Tan, B., Zhang, W., Xu, W., \& Li, H.
+(2007). Effects of dietary beta-1, 3 glucan on innate immune response of
+large yellow croaker, Pseudosciaena crocea. \emph{Fish \& shellfish
+immunology}, \emph{22}(4), 394-402.
+
+Akramiene, D., Kondrotas, A., Didziapetriene, J., \& Kevelaitis, E.
+(2007). Effects of beta-glucans on the immune system. \emph{Medicina
+(Kaunas, Lithuania)}, \emph{43}(8), 597-606.
 
 Alvarez-Pellitero, P. (2008). Fish immunity and parasite infections:
 from innate immunity to immunoprophylactic prospects. \emph{Veterinary
 immunology and immunopathology}, \emph{126}(3-4), 171-98.
-doi:\href{http://dx.doi.org/10.1016/j.vetimm.2008.07.013}{10.1016/j.vetimm.2008.07.013}
+
+Athanasopoulou, S., Marioli, D., Mikrou, A., Papanastasiou, A. D., \&
+Zarkadis, I. K. (2009). Cloning and characterization of the trout
+perforin. \emph{Fish \& shellfish immunology}, \emph{26}(6), 908-12.
 
 Athman, R., \& Philpott, D. (2004). Innate immunity via Toll-like
 receptors and Nod proteins. \emph{Current opinion in microbiology},
 \emph{7}(1), 25-32.
-doi:\href{http://dx.doi.org/10.1016/j.mib.2003.12.013}{10.1016/j.mib.2003.12.013}
+
+Bagni, M., Romano, N., Finoia, M. G., Abelli, L., Scapigliati, G.,
+Tiscar, P. G., \ldots{} Marino, G. (2005). Short- and long-term effects
+of a dietary yeast beta-glucan (Macrogard) and alginic acid (Ergosan)
+preparation on immune response in sea bass (Dicentrarchus labrax).
+\emph{Fish \& shellfish immunology}, \emph{18}(4), 311-25.
 
 Barandica, L., \& Tort, L. (2008). Neuroendocrinología e inmunologia de
 la respuesta al estres en peces. \emph{Revista de la Academia Colombiana
 de Ciencias Exactas, Físicas y Naturales}, \emph{32}(123), 267-284.
-Recuperado a partir de
-\url{http://www.accefyn.org.co/revista/Vol/_32/123/267-284.pdf}
+
+Bei, J.-X., Suetake, H., Araki, K., Kikuchi, K., Yoshiura, Y., Lin,
+H.-R., \& Suzuki, Y. (2006). Two interleukin (IL)-15 homologues in fish
+from two distinct origins. \emph{Molecular immunology}, \emph{43}(7),
+860-9.
 
 Bengtén, E., Quiniou, S. M.-A., Stuge, T. B., Katagiri, T., Miller, N.
 W., Clem, L. W., \ldots{} Wilson, M. (2002). The IgH Locus of the
 Channel Catfish, Ictalurus punctatus, Contains Multiple Constant Region
 Gene Sequences: Different Genes Encode Heavy Chains of Membrane and
 Secreted IgD. \emph{The Journal of Immunology}, \emph{169}(5),
-2488-2497. Recuperado a partir de
-\url{http://jimmunol.org/content/169/5/2488.abstract}
+2488-2497.
 
 Bethke, J., Rojas, V., Berendsen, J., Cárdenas, C., Guzmán, F.,
-Gallardo, J. A., \& Mercado, L. (2012). Development of a new antibody
-for detecting natural killer enhancing factor (NKEF)-like protein in
+Gallardo, J. a, \& Mercado, L. (2012). Development of a new antibody for
+detecting natural killer enhancing factor (NKEF)-like protein in
 infected salmonids. \emph{Journal of fish diseases}, \emph{35}(5),
 379-88.
-doi:\href{http://dx.doi.org/10.1111/j.1365-2761.2012.01354.x}{10.1111/j.1365-2761.2012.01354.x}
 
 Bilen, S., Bulut, M., \& Bilen, A. M. (2011). Immunostimulant effects of
 Cotinus coggyria on rainbow trout (Oncorhynchus mykiss). \emph{Fish \&
 shellfish immunology}, \emph{30}(2), 451-5.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.12.013}{10.1016/j.fsi.2010.12.013}
+
+Bird, S., Zou, J., Kono, T., Sakai, M., Dijkstra, J. M., \& Secombes, C.
+(2005a). Characterisation and expression analysis of interleukin 2
+(IL-2) and IL-21 homologues in the Japanese pufferfish, Fugu rubripes,
+following their discovery by synteny. \emph{Immunogenetics},
+\emph{56}(12), 909-23.
+
+Bird, S., Zou, J., Savan, R., Kono, T., Sakai, M., Woo, J., \& Secombes,
+C. (2005b). Characterisation and expression analysis of an interleukin 6
+homologue in the Japanese pufferfish, Fugu rubripes. \emph{Developmental
+and comparative immunology}, \emph{29}(9), 775-89.
 
 Boehm, U., Klamp, T., Groot, M., \& Howard, J. C. (1997). Cellular
 responses to interferon-gamma. \emph{Annual review of immunology},
 \emph{15}, 749-95.
-doi:\href{http://dx.doi.org/10.1146/annurev.immunol.15.1.749}{10.1146/annurev.immunol.15.1.749}
 
 Bogdan, C. (2001). Nitric oxide and the immune response. \emph{Nature
 immunology}, \emph{2}(10), 907-16.
-doi:\href{http://dx.doi.org/10.1038/ni1001-907}{10.1038/ni1001-907}
 
-Bols, N. C., Brubacher, J. L., Ganassin, R. C., \& Lee, L. E. (2001).
-Ecotoxicology and innate immunity in fish. \emph{Developmental \&
-Comparative Immunology}, \emph{25}(8-9), 853-873.
-doi:\href{http://dx.doi.org/10.1016/S0145-305X(01)00040-4}{10.1016/S0145-305X(01)00040-4}
+Boltaña, S., Roher, N., Goetz, F. W., \& Mackenzie, S. A. (2011). PAMPs,
+PRRs and the genomics of gram negative bacterial recognition in fish.
+\emph{Developmental and comparative immunology}, \emph{35}(12),
+1195-203.
 
 Boschi, I., Randelli, E., Buonocore, F., Casani, D., Bernini, C.,
 Fausto, a M., \& Scapigliati, G. (2011). Transcription of T cell-related
 genes in teleost fish, and the European sea bass (Dicentrarchus labrax)
 as a model. \emph{Fish \& shellfish immunology}, \emph{31}(5), 655-62.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.10.001}{10.1016/j.fsi.2010.10.001}
+
+Boshra, H., Li, J., Peters, R., Hansen, J., Matlapudi, A., \& Sunyer, J.
+O. (2004). Cloning, expression, cellular distribution, and role in
+chemotaxis of a C5a receptor in rainbow trout: the first identification
+of a C5a receptor in a nonmammalian species. \emph{Journal of immunology
+(Baltimore, Md. : 1950)}, \emph{172}(7), 4381-90.
 
 Bowden, T. J. (2008). Modulation of the immune system of fish by their
 environment. \emph{Fish \& shellfish immunology}, \emph{25}(4), 373-83.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2008.03.017}{10.1016/j.fsi.2008.03.017}
 
 Bricknell, I., \& Dalmo, R. a. (2005). The use of immunostimulants in
 fish larval aquaculture. \emph{Fish \& shellfish immunology},
 \emph{19}(5), 457-72.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2005.03.008}{10.1016/j.fsi.2005.03.008}
+
+Brown, G. D., \& Gordon, S. (2001). Immune recognition. A new receptor
+for beta-glucans. \emph{Nature}, \emph{413}(6851), 36-7.
 
 Bustin, S. a, Benes, V., Garson, J. a, Hellemans, J., Huggett, J.,
 Kubista, M., \ldots{} Wittwer, C. T. (2009). The MIQE guidelines:
 minimum information for publication of quantitative real-time PCR
 experiments. \emph{Clinical chemistry}, \emph{55}(4), 611-22.
-doi:\href{http://dx.doi.org/10.1373/clinchem.2008.112797}{10.1373/clinchem.2008.112797}
 
 Casadei, E., Bird, S., González, J. L., Wadsworth, S., \& Secombes, C.
 J. (2012). Fish \& Shell fi sh Immunology The effect of peptidoglycan
 enriched diets on antimicrobial peptide gene expression in rainbow trout
 ( Oncorhynchus mykiss ). \emph{Fish and Shellfish Immunology},
 (December), 1-9.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2012.11.027}{10.1016/j.fsi.2012.11.027}
 
 Castro, R., Bernard, D., Lefranc, M. P., Six, a, Benmansour, a, \&
 Boudinot, P. (2011). T cell diversity and TcR repertoires in teleost
 fish. \emph{Fish \& shellfish immunology}, \emph{31}(5), 644-54.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.08.016}{10.1016/j.fsi.2010.08.016}
 
 Castro, R., Bromage, E., Abós, B., Pignatelli, J., {González Granja},
 A., Luque, A., \& Tafalla, C. (2014). CCR7 is mainly expressed in
 teleost gills, where it defines an IgD+IgM- B lymphocyte subset.
 \emph{Journal of immunology (Baltimore, Md. : 1950)}, \emph{192}(3),
 1257-66.
-doi:\href{http://dx.doi.org/10.4049/jimmunol.1302471}{10.4049/jimmunol.1302471}
 
-Chang, C.-i., Pleguezuelos, O., Zhang, Y.-a., Zou, J., \& Secombes, C.
-J. (2005). Identification of a novel cathelicidin gene in the rainbow
-trout, Oncorhynchus mykiss. \emph{Infection and immunity}, \emph{73}(8),
-5053-64.
-doi:\href{http://dx.doi.org/10.1128/IAI.73.8.5053-5064.2005}{10.1128/IAI.73.8.5053-5064.2005}
+Chang, M., Collet, B., Nie, P., Lester, K., Campbell, S., Secombes, C.
+J., \& Zou, J. (2011). Expression and functional characterization of the
+RIG-I-like receptors MDA5 and LGP2 in Rainbow trout (Oncorhynchus
+mykiss). \emph{Journal of virology}, \emph{85}(16), 8403-12.
 
-Chang, C.-I., Zhang, Y.-A., Zou, J., Nie, P., \& Secombes, C. J. (2006).
-Two cathelicidin genes are present in both rainbow trout (Oncorhynchus
-mykiss) and atlantic salmon (Salmo salar). \emph{Antimicrobial agents
-and chemotherapy}, \emph{50}(1), 185-95.
-doi:\href{http://dx.doi.org/10.1128/AAC.50.1.185-195.2006}{10.1128/AAC.50.1.185-195.2006}
+Chansue, N., Endo, M., Kono, T., \& Sakai, M. (2000). The Stimulation of
+Cytokine-like Proteins in Tilapia ( Oreochromis niloticus ) Orally
+Treated, \emph{13}, 271-278.
 
 Chettri, J. K., Kania, P. W., \& Buchmann, K. (2013). Immunomodulation
 of rainbow trout ( Oncorhynchus mykiss ) fry by bath exposure to a
 \(\beta\)-glucan from Euglena gracilis. \emph{Aquaculture Research},
 \emph{44}(9), 1407-1415.
-doi:\href{http://dx.doi.org/10.1111/j.1365-2109.2012.03145.x}{10.1111/j.1365-2109.2012.03145.x}
 
 Dalmo, R. a, \& Bøgwald, J. (2008). Beta-glucans as conductors of immune
 symphonies. \emph{Fish \& shellfish immunology}, \emph{25}(4), 384-96.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2008.04.008}{10.1016/j.fsi.2008.04.008}
 
 Dobšíková, R., Blahová, J., Mikulíková, I., Modrá, H., Prášková, E.,
 Svobodová, Z., \ldots{} Siwicki, A.-K. (2013). The effect of oyster
@@ -2349,54 +2558,56 @@ mushroom \(\beta\)-1.3/1.6-D-glucan and oxytetracycline antibiotic on
 biometrical, haematological, biochemical, and immunological indices, and
 histopathological changes in common carp (Cyprinus carpio L.).
 \emph{Fish \& shellfish immunology}, \emph{35}(6), 1813-23.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2013.09.006}{10.1016/j.fsi.2013.09.006}
 
-Ellis, A. E. (1977). The leucocytes of fish: A review. \emph{Journal of
-Fish Biology}, \emph{11}(5), 453-491.
-doi:\href{http://dx.doi.org/10.1111/j.1095-8649.1977.tb04140.x}{10.1111/j.1095-8649.1977.tb04140.x}
+Engstad, R. E., \& Robertsen, B. (1994). Specificity of a beta-glucan
+receptor on macrophages from Atlantic salmon (Salmo salar L.).
+\emph{Developmental and comparative immunology}, \emph{18}(5), 397-408.
 
-Ellis, A. E. (2001). Innate host defense mechanisms of fish against
-viruses and bacteria. \emph{Developmental and comparative immunology},
-\emph{25}(8-9), 827-39. Recuperado a partir de
-\url{http://www.ncbi.nlm.nih.gov/pubmed/11602198}
+Falco, A., Frost, P., Miest, J., Pionnier, N., Irnazarow, I., \& Hoole,
+D. (2012). Reduced inflammatory response to Aeromonas salmonicida
+infection in common carp (Cyprinus carpio L.) fed with \(\beta\)-glucan
+supplements. \emph{Fish \& shellfish immunology}, \emph{32}(6), 1051-7.
+
+Falco, A., Miest, J. J., Pionnier, N., Pietretti, D., Forlenza, M.,
+Wiegertjes, G. F., \& Hoole, D. (2014). \(\beta\)-Glucan-supplemented
+diets increase poly(I:C)-induced gene expression of Mx, possibly via
+Tlr3-mediated recognition mechanism in common carp (Cyprinus carpio).
+\emph{Fish \& shellfish immunology}, \emph{36}(2), 494-502.
 
 FAO. (2012). \emph{El estado mundial de la pesca y la acuicultura -
 2012} (p. 251).
 
 Fernández, A., Ruiz, I., \& Blas, I. D. (2002). El sistema inmune de los
 teleósteos (I): Células y órganos. \emph{Revista AquaTIC}, \emph{16}.
-Recuperado a partir de
-\url{http://www.revistaaquatic.com/aquatic/html/art1605/inmune.htm}
 
 Fields, B. N., Knipe, D. M., \& Howley, P. M. (2007). \emph{Fields'
 Virology}. Wolters Kluwer Health/Lippincott Williams \& Wilkins.
-Recuperado a partir de
-\url{http://books.google.es/books?id=5O0somr0w18C}
+
+Fischer, U., Koppang, E. O., \& Nakanishi, T. (2013). Teleost T and NK
+cell immunity. \emph{Fish \& shellfish immunology}, \emph{35}(2),
+197-206.
+
+Fornshell, G. (2002). Rainbow Trout --- Challenges and Solutions.
+\emph{Reviews in Fisheries Science}, \emph{10}(3-4), 545-557.
 
 Georgiadis, M., Gardner, I., \& Hedrick, R. (2001). The role of
 epidemiology in the prevention, diagnosis, and control of infectious
 diseases of fish. \emph{Preventive Veterinary Medicine}, \emph{48}(4),
 287-302.
-doi:\href{http://dx.doi.org/10.1016/S0167-5877(00)00202-6}{10.1016/S0167-5877(00)00202-6}
 
 Gomez, D., Sunyer, J. O., \& Salinas, I. (2013). The mucosal immune
 system of fish: the evolution of tolerating commensals while fighting
 pathogens. \emph{Fish \& shellfish immunology}, \emph{35}(6), 1729-39.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2013.09.032}{10.1016/j.fsi.2013.09.032}
 
 Gordon, S. (2002). Pattern recognition receptors: doubling up for the
-innate immune response. \emph{Cell}, \emph{111}(7), 927-30. Recuperado a
-partir de \url{http://www.ncbi.nlm.nih.gov/pubmed/12507420}
-
-Graves, S. S., Evans, D. L., Cobb, D., \& Dawe, D. L. (1984).
-Nonspecific cytotoxic cells in fish (Ictalurus punctatus). I. Optimum
-requirements for target cell lysis. \emph{Developmental and comparative
-immunology}, \emph{8}(2), 293-302. Recuperado a partir de
-\url{http://www.ncbi.nlm.nih.gov/pubmed/6734870}
+innate immune response. \emph{Cell}, \emph{111}(7), 927-30.
 
 Groot, C., \& Margolis, L. (1991). \emph{Pacific Salmon Life Histories}.
-University of British Columbia Press. Recuperado a partir de
-\url{http://books.google.es/books?id=I/_S0xCME0CYC}
+University of British Columbia Press.
+
+Gunimaladevi, I., Savan, R., \& Sakai, M. (2006). Identification,
+cloning and characterization of interleukin-17 and its family from
+zebrafish. \emph{Fish \& shellfish immunology}, \emph{21}(4), 393-403.
 
 Guselle, N. J., Markham, R. J. F., \& Speare, D. J. (2006). Short
 communication to rainbow trout , Oncorhynchus mykiss ( Walbaum ),
@@ -2406,7 +2617,11 @@ Hong, S., Zou, J., Collet, B., Bols, N. C., \& Secombes, C. J. (2004).
 Analysis and characterisation of IL-1beta processing in rainbow trout,
 Oncorhynchus mykiss. \emph{Fish \& shellfish immunology}, \emph{16}(3),
 453-9.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2003.08.002}{10.1016/j.fsi.2003.08.002}
+
+Huising, M. O., Meulen, T. van der, Flik, G., \& {Verburg-van Kemenade},
+B. M. L. (2004). Three novel carp CXC chemokines are expressed early in
+ontogeny and at nonimmune sites. \emph{European journal of biochemistry
+/ FEBS}, \emph{271}(20), 4094-106.
 
 Huising, M. O., Schijndel, J. E. van, Kruiswijk, C. P., Nabuurs, S. B.,
 Savelkoul, H. F. J., Flik, G., \& {Verburg-van Kemenade}, B. M. L.
@@ -2414,17 +2629,27 @@ Savelkoul, H. F. J., Flik, G., \& {Verburg-van Kemenade}, B. M. L.
 interleukin-12p40 genes in bony fishes signifies an expansion of the
 vertebrate heterodimeric cytokine family. \emph{Molecular immunology},
 \emph{43}(10), 1519-33.
-doi:\href{http://dx.doi.org/10.1016/j.molimm.2005.10.010}{10.1016/j.molimm.2005.10.010}
+
+Jault, C., Pichon, L., \& Chluba, J. (2004). Toll-like receptor gene
+family and TIR-domain adapters in Danio rerio. \emph{Molecular
+immunology}, \emph{40}(11), 759-71.
 
 Kawai, T., \& Akira, S. (2005). Pathogen recognition with Toll-like
 receptors. \emph{Current opinion in immunology}, \emph{17}(4), 338-44.
-doi:\href{http://dx.doi.org/10.1016/j.coi.2005.02.007}{10.1016/j.coi.2005.02.007}
+
+Kawai, T., \& Akira, S. (2010). The role of pattern-recognition
+receptors in innate immunity: update on Toll-like receptors.
+\emph{Nature immunology}, \emph{11}(5), 373-84.
+
+Kono, T., Bird, S., Sonoda, K., Savan, R., Secombes, C. J., \& Sakai, M.
+(2008). Characterization and expression analysis of an interleukin-7
+homologue in the Japanese pufferfish, Takifugu rubripes. \emph{The FEBS
+journal}, \emph{275}(6), 1213-26.
 
 Kumari, J., \& Sahoo, P. K. (2006). Dietary immunostimulants influence
 specific immune response and resistance of healthy and immunocompromised
 Asian catfish Clarias batrachus to Aeromonas hydrophila infection.
 \emph{Diseases of aquatic organisms}, \emph{70}(1-2), 63-70.
-doi:\href{http://dx.doi.org/10.3354/dao070063}{10.3354/dao070063}
 
 Kühlwein, H., Merrifield, D. L., Rawling, M. D., Foey, a D., \& Davies,
 S. J. (2014). Effects of dietary \(\beta\)-(1,3)(1,6)-D-glucan
@@ -2432,78 +2657,71 @@ supplementation on growth performance, intestinal morphology and
 haemato-immunological profile of mirror carp (Cyprinus carpio L.).
 \emph{Journal of animal physiology and animal nutrition}, \emph{98}(2),
 279-89.
-doi:\href{http://dx.doi.org/10.1111/jpn.12078}{10.1111/jpn.12078}
 
 Lazado, C. C., \& Caipang, C. M. A. (2014). Mucosal immunity and
 probiotics in fish. \emph{Fish \& shellfish immunology}, \emph{39}(1),
 78-89.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2014.04.015}{10.1016/j.fsi.2014.04.015}
+
+Lee, M. S., \& Kim, Y.-J. (2007). Signaling pathways downstream of
+pattern-recognition receptors and their cross talk. \emph{Annual review
+of biochemistry}, \emph{76}, 447-80.
+
+Li, J.-H., Shao, J.-Z., Xiang, L.-X., \& Wen, Y. (2007). Cloning,
+characterization and expression analysis of pufferfish interleukin-4
+cDNA: the first evidence of Th2-type cytokine in fish. \emph{Molecular
+immunology}, \emph{44}(8), 2078-86.
 
 Lin, S., Pan, Y., Luo, L., \& Luo, L. (2011). Effects of dietary
 \(\beta\)-1,3-glucan, chitosan or raffinose on the growth, innate
 immunity and resistance of koi (Cyprinus carpio koi). \emph{Fish \&
 shellfish immunology}, \emph{31}(6), 788-94.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2011.07.013}{10.1016/j.fsi.2011.07.013}
 
 Lokesh, J., Fernandes, J. M. O., Korsnes, K., Bergh, O., Brinchmann, M.
 F., \& Kiron, V. (2012). Transcriptional regulation of cytokines in the
 intestine of Atlantic cod fed yeast derived mannan oligosaccharide or
 \(\beta\)-glucan and challenged with Vibrio anguillarum. \emph{Fish \&
 shellfish immunology}, \emph{33}(3), 626-31.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2012.06.017}{10.1016/j.fsi.2012.06.017}
+
+Lucas, J. S., \& Southgate, P. C. (2012). \emph{Aquaculture: Farming
+Aquatic Animals and Plants} (2.ª ed.). Wiley-Blackwell.
+
+Løvoll, M., Fischer, U., Mathisen, G. S., Bøgwald, J., Ototake, M., \&
+Dalmo, R. a. (2007). The C3 subtypes are differentially regulated after
+immunostimulation in rainbow trout, but head kidney macrophages do not
+contribute to C3 transcription. \emph{Veterinary immunology and
+immunopathology}, \emph{117}(3-4), 284-95.
 
 MacMicking, J., Xie, Q. W., \& Nathan, C. (1997). Nitric oxide and
 macrophage function. \emph{Annual review of immunology}, \emph{15},
 323-50.
-doi:\href{http://dx.doi.org/10.1146/annurev.immunol.15.1.323}{10.1146/annurev.immunol.15.1.323}
 
 Magnadóttir, B. (2006). Innate immunity of fish (overview). \emph{Fish
 \& shellfish immunology}, \emph{20}(2), 137-51.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2004.09.006}{10.1016/j.fsi.2004.09.006}
 
-Maier, V. H., Dorn, K. V., Gudmundsdottir, B. K., \& Gudmundsson, G. H.
-(2008). Characterisation of cathelicidin gene family members in
-divergent fish species. \emph{Molecular immunology}, \emph{45}(14),
-3723-30.
-doi:\href{http://dx.doi.org/10.1016/j.molimm.2008.06.002}{10.1016/j.molimm.2008.06.002}
+Medzhitov, R., \& Janeway, C. A. (2000). How does the immune system
+distinguish self from nonself? \emph{Seminars in immunology},
+\emph{12}(3), 185-8; discussion 257-344.
 
-Mason, D. W., \& Williams, A. F. (1980). The kinetics of antibody
-binding to membrane antigens in solution and at the cell surface.
-\emph{The Biochemical journal}, \emph{187}(1), 1-20. Recuperado a partir
-de
-\url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1162489/\&tool=pmcentrez/\&rendertype=abstract}
-
-Mercado, L., Schmitt, P., Marshall, S. H., \& Arenas, G. (2005). Gill
-tissues of the mussel Mytilus edulis chilensis: A new source for
-antimicrobial peptides. \emph{Electronic Journal of Biotechnology},
-\emph{8}(3), 284-290.
-doi:\href{http://dx.doi.org/10.2225/vol8-issue3-fulltext-2}{10.2225/vol8-issue3-fulltext-2}
+Misra, C. K., Das, B. K., Mukherjee, S. C., \& Pattnaik, P. (2006).
+Effect of multiple injections of beta-glucan on non-specific immune
+response and disease resistance in Labeo rohita fingerlings. \emph{Fish
+\& shellfish immunology}, \emph{20}(3), 305-19.
 
 Morales-Lange, B., Bethke, J., Schmitt, P., \& Mercado, L. (2014).
 Phenotypical parameters as a tool to evaluate the immunostimulatory
 effects of laminarin in Oncorhynchus mykiss. \emph{Aquaculture
 Research}, n/a-n/a.
-doi:\href{http://dx.doi.org/10.1111/are.12426}{10.1111/are.12426}
 
 Mulero, I., {Pilar Sepulcre}, M., Roca, F. J., Meseguer, J.,
 García-Ayala, A., \& Mulero, V. (2008). Characterization of macrophages
 from the bony fish gilthead seabream using an antibody against the
 macrophage colony-stimulating factor receptor. \emph{Developmental and
 comparative immunology}, \emph{32}(10), 1151-9.
-doi:\href{http://dx.doi.org/10.1016/j.dci.2008.03.005}{10.1016/j.dci.2008.03.005}
 
 Narváez, E., Berendsen, J., Guzmán, F., Gallardo, J. a, \& Mercado, L.
 (2010). An immunological method for quantifying antibacterial activity
 in Salmo salar (Linnaeus, 1758) skin mucus. \emph{Fish \& shellfish
 immunology}, \emph{28}(1), 235-9.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2009.10.004}{10.1016/j.fsi.2009.10.004}
-
-Nascimento, D. S., Vale, A. do, Tomás, A. M., Zou, J., Secombes, C. J.,
-\& Santos, N. M. S. dos. (2007). Cloning, promoter analysis and
-expression in response to bacterial exposure of sea bass (Dicentrarchus
-labrax L.) interleukin-12 p40 and p35 subunits. \emph{Molecular
-immunology}, \emph{44}(9), 2277-91.
-doi:\href{http://dx.doi.org/10.1016/j.molimm.2006.11.006}{10.1016/j.molimm.2006.11.006}
 
 Oikawa, B. Y. S., \& Itazawa, Y. (1985). Gill and Body Surface Areas of
 the Carp in relation to Body Mass, With Special Reference To The
@@ -2512,72 +2730,90 @@ biology}, \emph{14}(117), 1-14.
 
 Olabuenaga, S. E. (2000). Sistema inmune en peces. \emph{Gayana
 (Concepción)}, \emph{64}(2).
-doi:\href{http://dx.doi.org/10.4067/S0717-65382000000200010}{10.4067/S0717-65382000000200010}
+
+Ooi, V. E., \& Liu, F. (2000). Immunomodulation and anti-cancer activity
+of polysaccharide-protein complexes. \emph{Current medicinal chemistry},
+\emph{7}(7), 715-29.
 
 Palić, D., Beck, L. S., Palić, J., \& Andreasen, C. B. (2011). Use of
 rapid cytochemical staining to characterize fish blood granulocytes in
 species of special concern and determine potential for function testing.
 \emph{Fish \& shellfish immunology}, \emph{30}(2), 646-52.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.12.024}{10.1016/j.fsi.2010.12.024}
 
 Peddie, S., Zou, J., \& Secombes, C. J. (2002). Immunostimulation in the
 rainbow trout (Oncorhynchus mykiss) following intraperitoneal
 administration of Ergosan. \emph{Veterinary Immunology and
 Immunopathology}, \emph{86}(1-2), 101-113.
-doi:\href{http://dx.doi.org/10.1016/S0165-2427(02)00019-3}{10.1016/S0165-2427(02)00019-3}
 
 Pfaffl, M. W. (2001). A new mathematical model for relative
 quantification in real-time RT-PCR. \emph{Nucleic acids research},
-\emph{29}(9), e45. Recuperado a partir de
-\href{http://www.ncbi.nlm.nih.gov/pubmed/55695 http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=55695/\&tool=pmcentrez/\&rendertype=abstract}{http://www.ncbi.nlm.nih.gov/pubmed/55695 http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=55695\textbackslash{}\&tool=pmcentrez\textbackslash{}\&rendertype=abstract}
+\emph{29}(9), e45.
+
+Pietretti, D., Vera-Jimenez, N. I., Hoole, D., \& Wiegertjes, G. F.
+(2013). Oxidative burst and nitric oxide responses in carp macrophages
+induced by zymosan, MacroGard(®) and selective dectin-1 agonists suggest
+recognition by multiple pattern recognition receptors. \emph{Fish \&
+shellfish immunology}, \emph{35}(3), 847-57.
+
+Pionnier, N., Falco, A., Miest, J. J., Shrive, A. K., \& Hoole, D.
+(2014). Feeding common carp Cyprinus carpio with \(\beta\)-glucan
+supplemented diet stimulates C-reactive protein and complement immune
+acute phase responses following PAMPs injection. \emph{Fish \& shellfish
+immunology}.
+
+Pulcini, D., Wheeler, P. A., Cataudella, S., Russo, T., \& Thorgaard, G.
+H. (2013). Domestication shapes morphology in rainbow trout Oncorhynchus
+mykiss. \emph{Journal of fish biology}, \emph{82}(2), 390-407.
 
 Razquin, B. E., Castillo, A., Lopez-Fierro, P., Alvarez, F., Zapata, A.,
 \& Villena, A. J. (1990). Ontogeny of IgM-producing cells in the
 lymphoid organs of rainbow trout, Salmo gairdneri Richardson: an immuno-
 and enzyme-histochemical study. \emph{Journal of Fish Biology},
 \emph{36}(2), 159-173.
-doi:\href{http://dx.doi.org/10.1111/j.1095-8649.1990.tb05592.x}{10.1111/j.1095-8649.1990.tb05592.x}
 
 Reis, M. I. R., Vale, A. do, Pereira, P. J. B., Azevedo, J. E., \& {Dos
 Santos}, N. M. S. (2012). Caspase-1 and IL-1\(\beta\) processing in a
 teleost fish. \emph{PloS one}, \emph{7}(11), e50450.
-doi:\href{http://dx.doi.org/10.1371/journal.pone.0050450}{10.1371/journal.pone.0050450}
+
+{Reyes Cerpa}, S., Maisey, K., Reyes-Lopez, F., Toro-Ascuy, D., Sandino,
+A. M., {Felipe Reyes-López, Daniela Toro-Ascuy}, A. M., \& Imarai, M.
+(2012). Fish Cytokines and Immune Response. En H. Turker (ed.),
+\emph{New advances and contributions to fish biology} (pp. 3-58).
+InTech.
+
+Roach, J. C., Glusman, G., Rowen, L., Kaur, A., Purcell, M. K., Smith,
+K. D., \ldots{} Aderem, A. (2005). The evolution of vertebrate Toll-like
+receptors. \emph{Proceedings of the National Academy of Sciences of the
+United States of America}, \emph{102}(27), 9577-82.
 
 Rodríguez, I., Chamorro, R., Novoa, B., \& Figueras, A. (2009).
 beta-Glucan administration enhances disease resistance and some innate
 immune responses in zebrafish (Danio rerio). \emph{Fish \& shellfish
 immunology}, \emph{27}(2), 369-73.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2009.02.007}{10.1016/j.fsi.2009.02.007}
 
 Rojas, V., Guzman, F., \& Morales-lange, B. (2012). Immunological
 strategy for detecting the pro-inflammatory cytokine TNF-alpha in
 salmonids. \emph{Electronic Journal of Biotechnology}, \emph{15}.
-doi:\href{http://dx.doi.org/10.2225/vol15-issue5-fulltext-19}{10.2225/vol15-issue5-fulltext-19}
 
 Rombout, J. H. W. M., Abelli, L., Picchietti, S., Scapigliati, G., \&
 Kiron, V. (2011). Teleost intestinal immunology. \emph{Fish \& shellfish
 immunology}, \emph{31}(5), 616-26.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.09.001}{10.1016/j.fsi.2010.09.001}
 
 Rondon-Barragan, I. (2010). Receptores similares a Toll en peces : el
 inicio de la divergencia. \emph{Investigación Veterinaria},
 \emph{11}(1), 15-30.
 
-Salazar-Mather, T., \& Hokeness, K. (2006). Cytokine and Chemokine
-Networks: Pathways to Antiviral Defense. En T. E. Lane (ed.),
-\emph{Chemokines and viral infection} (Vol. 303, pp. 29-46). Springer
-Berlin Heidelberg. Recuperado a partir de
-\url{http://dx.doi.org/10.1007/978-3-540-33397-5/_2}
+Russell, S., \& Lumsden, J. S. (2005). Function and heterogeneity of
+fish lectins. \emph{Veterinary immunology and immunopathology},
+\emph{108}(1-2), 111-20.
 
 Salinas, I., Zhang, Y.-A., \& Sunyer, J. O. (2011). Mucosal
 immunoglobulins and B cells of teleost fish. \emph{Developmental and
 comparative immunology}, \emph{35}(12), 1346-65.
-doi:\href{http://dx.doi.org/10.1016/j.dci.2011.11.009}{10.1016/j.dci.2011.11.009}
 
 Santana, P., Palacios, C., Narváez, E., \& Guzmán, F. (2012).
 Anti-peptide antibodies : A tool for detecting IL-8 in salmonids,
 \emph{15}.
-doi:\href{http://dx.doi.org/10.2225/vol15-issue5-fulltext-15}{10.2225/vol15-issue5-fulltext-15}
 
 Santos, N. M. dos, Taverne-Thiele, J. J., Barnes, A. C., Muiswinkel, W.
 B. van, Ellis, A. E., \& Rombout, J. H. (2001). The gill is a major
@@ -2585,12 +2821,10 @@ organ for antibody secreting cell production following direct immersion
 of sea bass (Dicentrarchus labrax, L.) in a Photobacterium damselae ssp.
 piscicida bacterin: an ontogenetic study. \emph{Fish \& shellfish
 immunology}, \emph{11}(1), 65-74.
-doi:\href{http://dx.doi.org/10.1006/fsim.2000.0295}{10.1006/fsim.2000.0295}
 
 Savan, R., \& Sakai, M. (2006). Genomics of fish cytokines.
 \emph{Comparative biochemistry and physiology. Part D, Genomics \&
 proteomics}, \emph{1}(1), 89-101.
-doi:\href{http://dx.doi.org/10.1016/j.cbd.2005.08.005}{10.1016/j.cbd.2005.08.005}
 
 Scapigliati, G., Romano, N., \& Abelli, L. (1999). Monoclonal antibodies
 in fish immunology : identification , ontogeny and activity of T- and
@@ -2598,144 +2832,165 @@ B-lymphocytes. \emph{Aquaculture}, \emph{172}, 3-28.
 
 Secombes, C. J., Wang, T., \& Bird, S. (2011). The interleukins of fish.
 \emph{Developmental and comparative immunology}, \emph{35}(12), 1336-45.
-doi:\href{http://dx.doi.org/10.1016/j.dci.2011.05.001}{10.1016/j.dci.2011.05.001}
+
+Selvaraj, V., Sampath, K., \& Sekar, V. (2005). Administration of yeast
+glucan enhances survival and some non-specific and specific immune
+parameters in carp (Cyprinus carpio) infected with Aeromonas hydrophila.
+\emph{Fish \& shellfish immunology}, \emph{19}(4), 293-306.
 
 Sernapesca. (2012). Anuario desembarques. Santiago de Chile: Gobierno de
-Chile. Recuperado a partir de \url{http://www.sernapesca.cl}
+Chile.
 
 Shao, Z. J. (2001). Aquaculture pharmaceuticals and biologicals: current
 perspectives and future possibilities. \emph{Advanced Drug Delivery
 Reviews}, \emph{50}(3), 229-243.
-doi:\href{http://dx.doi.org/10.1016/S0169-409X(01)00159-4}{10.1016/S0169-409X(01)00159-4}
 
 Sharpey-Schäfer, E. A., \& Carleton, H. M. (1938). Schafer's essentials
 of histology: descriptive and practical for the use of students. London
-; New York: Longmans, Green. Recuperado a partir de
-\href{http://catalog.hathitrust.org/Record/009241076 http://hdl.handle.net/2027/uc1./\$b439719}{http://catalog.hathitrust.org/Record/009241076 http://hdl.handle.net/2027/uc1.\textbackslash{}\$b439719}
+; New York: Longmans, Green.
 
 Skov, J., Kania, P. W., Holten-Andersen, L., Fouz, B., \& Buchmann, K.
 (2012). Immunomodulatory effects of dietary \(\beta\)-1,3-glucan from
 Euglena gracilis in rainbow trout (Oncorhynchus mykiss) immersion
 vaccinated against Yersinia ruckeri. \emph{Fish \& shellfish
 immunology}, \emph{33}(1), 111-20.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2012.04.009}{10.1016/j.fsi.2012.04.009}
 
 Smith, P. K., Krohn, R. I., Hermanson, G. T., Mallia, A. K., Gartner, F.
 H., Provenzano, M. D., \ldots{} Klenk, D. C. (1985). Measurement of
 protein using bicinchoninic acid. \emph{Analytical biochemistry},
-\emph{150}(1), 76-85. Recuperado a partir de
-\url{http://www.ncbi.nlm.nih.gov/pubmed/3843705}
+\emph{150}(1), 76-85.
+
+Stein, C., Caccamo, M., Laird, G., \& Leptin, M. (2007). Conservation
+and divergence of gene families encoding components of innate immune
+response systems in zebrafish. \emph{Genome biology}, \emph{8}(11),
+R251.
 
 Subpesca. (2013). Cuenta Pública de Estado de los Recursos. Santiago de
-Chile: Gobierno de Chile. Recuperado a partir de
-\url{http://www.subpesca.cl}
+Chile: Gobierno de Chile.
 
 Taechavasonyoo, A., Kondo, H., Nozaki, R., Suzuki, Y., \& Hirono, I.
 (2013). Identification of novel interleukin 1 beta family genes in
 Japanese flounder Paralichthys olivaceus. \emph{Fish \& shellfish
 immunology}, \emph{34}(1), 393-6.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2012.10.001}{10.1016/j.fsi.2012.10.001}
 
 Teles, M., Mackenzie, S., Boltaña, S., Callol, a, \& Tort, L. (2011).
 Gene expression and TNF-alpha secretion profile in rainbow trout
 macrophages following exposures to copper and bacterial
 lipopolysaccharide. \emph{Fish \& shellfish immunology}, \emph{30}(1),
 340-6.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2010.11.006}{10.1016/j.fsi.2010.11.006}
+
+Uribe, C., Folch, H., Enriquez, R., \& Moran, G. (2011). Innate and
+adaptive immunity in teleost fish : a review, \emph{2011}(10), 486-503.
 
 Volman, J. J., Ramakers, J. D., \& Plat, J. (2008). Dietary modulation
 of immune function by beta-glucans. \emph{Physiology \& behavior},
 \emph{94}(2), 276-84.
-doi:\href{http://dx.doi.org/10.1016/j.physbeh.2007.11.045}{10.1016/j.physbeh.2007.11.045}
+
+Wang, T., \& Secombes, C. J. (2013). The cytokine networks of adaptive
+immunity in fish. \emph{Fish \& shellfish immunology}, \emph{35}(6),
+1703-18.
+
+Wang, T., Holland, J. W., Bols, N., \& Secombes, C. J. (2005). Cloning
+and expression of the first nonmammalian interleukin-11 gene in rainbow
+trout Oncorhynchus mykiss. \emph{The FEBS journal}, \emph{272}(5),
+1136-47.
 
 Wang, T., Johnson, N., Zou, J., Bols, N., \& Secombes, C. J. (2004).
 Sequencing and expression of the second allele of the interleukin-1beta1
 gene in rainbow trout (Oncorhynchus mykiss): identification of a novel
 SINE in the third intron. \emph{Fish \& shellfish immunology},
 \emph{16}(3), 335-58.
-doi:\href{http://dx.doi.org/10.1016/S1050-4648(03)00114-1}{10.1016/S1050-4648(03)00114-1}
 
 Wang, W.-S., Hung, S.-W., Lin, Y.-H., Tu, C.-Y., Wong, M.-L., Chiou,
 S.-H., \& Shieh, M.-T. (2007). The effects of five different glycans on
 innate immune responses by phagocytes of hybrid tilapia and Japanese
 eels Anguilla japonica. \emph{Journal of aquatic animal health},
 \emph{19}(1), 49-59.
-doi:\href{http://dx.doi.org/10.1577/H06-020.1}{10.1577/H06-020.1}
 
 Whyte, S. K. (2007). The innate immune response of finfish--a review of
 current knowledge. \emph{Fish \& shellfish immunology}, \emph{23}(6),
 1127-51.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2007.06.005}{10.1016/j.fsi.2007.06.005}
 
 Wilson, J. M., \& Laurent, P. (2002). Fish gill morphology: inside out.
 \emph{The Journal of experimental zoology}, \emph{293}(3), 192-213.
-doi:\href{http://dx.doi.org/10.1002/jez.10124}{10.1002/jez.10124}
-
-Wimley, W. C. (2010). Describing the mechanism of antimicrobial peptide
-action with the interfacial activity model. \emph{ACS chemical biology},
-\emph{5}(10), 905-17.
-doi:\href{http://dx.doi.org/10.1021/cb1001558}{10.1021/cb1001558}
 
 Wittwer, C. T., Herrmann, M. G., Moss, A. a, \& Rasmussen, R. P. (1997).
 Continuous fluorescence monitoring of rapid cycle DNA amplification.
-1997. \emph{BioTechniques}, \emph{54}(6), 314-20. Recuperado a partir de
-\url{http://www.ncbi.nlm.nih.gov/pubmed/23905170}
+1997. \emph{BioTechniques}, \emph{54}(6), 314-20.
 
 Wu, F., Tyml, K., \& Wilson, J. X. (2008). iNOS expression requires
 NADPH oxidase-dependent redox signaling in microvascular endothelial
 cells. \emph{Journal of cellular physiology}, \emph{217}(1), 207-14.
-doi:\href{http://dx.doi.org/10.1002/jcp.21495}{10.1002/jcp.21495}
 
 Yang, K., Zhang, S., Chen, D., Zhang, A., Wang, X., \& Zhou, H. (2013).
 IFN-\(\gamma\)-activated lymphocytes boost nitric oxide production in
 grass carp monocytes/macrophages. \emph{Fish \& shellfish immunology},
 \emph{35}(5), 1635-41.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2013.09.017}{10.1016/j.fsi.2013.09.017}
 
 Yoshiura, Y., Kiryu, I., Fujiwara, A., Suetake, H., Suzuki, Y.,
-Nakanishi, T., \& Ototake, M. (2003). Identification and
+Nakanishi, T., \& Ototake, M. (2003a). Identification and
 characterization of Fugu orthologues of mammalian interleukin-12
 subunits. \emph{Immunogenetics}, \emph{55}(5), 296-306.
-doi:\href{http://dx.doi.org/10.1007/s00251-003-0582-9}{10.1007/s00251-003-0582-9}
 
-Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms.
-\emph{Nature}, \emph{415}(6870), 389-95.
-doi:\href{http://dx.doi.org/10.1038/415389a}{10.1038/415389a}
+Yoshiura, Y., Kiryu, I., Fujiwara, A., Suetake, H., Suzuki, Y.,
+Nakanishi, T., \& Ototake, M. (2003b). Identification and
+characterization of Fugu orthologues of mammalian interleukin-12
+subunits. \emph{Immunogenetics}, \emph{55}(5), 296-306.
+
+Zhang, J., Kong, X., Zhou, C., Li, L., Nie, G., \& Li, X. (2014a).
+Toll-like receptor recognition of bacteria in fish: Ligand specificity
+and signal pathways. \emph{Fish \& shellfish immunology}, \emph{41}(2),
+380-388.
 
 Zhang, L., Li, Y.-y., Chen, T., Xia, W., Zhou, Y., Wan, Y.-j., \ldots{}
 Xu, S.-q. (2011). Abnormal development of motor neurons in
 perfluorooctane sulphonate exposed zebrafish embryos.
 \emph{Ecotoxicology (London, England)}, \emph{20}(4), 643-52.
-doi:\href{http://dx.doi.org/10.1007/s10646-011-0604-6}{10.1007/s10646-011-0604-6}
 
-Zhang, L., Zhang, B.-C., \& Hu, Y.-H. (2014). Rock bream (Oplegnathus
+Zhang, L., Zhang, B.-C., \& Hu, Y.-H. (2014b). Rock bream (Oplegnathus
 fasciatus) IL-12p40: identification, expression, and effect on bacterial
 infection. \emph{Fish \& shellfish immunology}.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2014.05.026}{10.1016/j.fsi.2014.05.026}
 
 Zhang, Z., Swain, T., Bøgwald, J., Dalmo, R. a, \& Kumari, J. (2009).
 Bath immunostimulation of rainbow trout (Oncorhynchus mykiss) fry
 induces enhancement of inflammatory cytokine transcripts, while repeated
 bath induce no changes. \emph{Fish \& shellfish immunology},
 \emph{26}(5), 677-84.
-doi:\href{http://dx.doi.org/10.1016/j.fsi.2009.02.014}{10.1016/j.fsi.2009.02.014}
 
 Zhao, K., Huang, Z., Lu, H., Zhou, J., \& Wei, T. (2010). Induction of
 inducible nitric oxide synthase increases the production of reactive
 oxygen species in RAW264.7 macrophages. \emph{Bioscience reports},
 \emph{30}(4), 233-41.
-doi:\href{http://dx.doi.org/10.1042/BSR20090048}{10.1042/BSR20090048}
 
 Zhu, L.-Y., Nie, L., Zhu, G., Xiang, L.-X., \& Shao, J.-Z. (2012).
 Advances in research of fish immune-relevant genes: A comparative
 overview of innate and adaptive immunity in teleosts.
 \emph{Developmental and comparative immunology}.
-doi:\href{http://dx.doi.org/10.1016/j.dci.2012.04.001}{10.1016/j.dci.2012.04.001}
+
+Zou, J., Clark, M. S., \& Secombes, C. J. (2003a). Characterisation,
+expression and promoter analysis of an interleukin 10 homologue in the
+puffer fish, Fugu rubripes. \emph{Immunogenetics}, \emph{55}(5), 325-35.
+
+Zou, J., Grabowski, P. S., Cunningham, C., \& Secombes, C. J. (1999).
+Molecular cloning of interleukin 1beta from rainbow trout Oncorhynchus
+mykiss reveals no evidence of an ice cut site. \emph{Cytokine},
+\emph{11}(8), 552-60.
 
 Zou, J., Peddie, S., Scapigliati, G., Zhang, Y., Bols, N., Ellis, \&
-Secombes, C. (2003). Functional characterisation of the recombinant
+Secombes, C. (2003b). Functional characterisation of the recombinant
 tumor necrosis factors in rainbow trout, Oncorhynchus mykiss.
 \emph{Developmental \& Comparative Immunology}, \emph{27}(9), 813-822.
-doi:\href{http://dx.doi.org/10.1016/S0145-305X(03)00077-6}{10.1016/S0145-305X(03)00077-6}
+
+Zou, J., Yoshiura, Y., Dijkstra, J. M., Sakai, M., Ototake, M., \&
+Secombes, C. (2004). Identification of an interferon gamma homologue in
+Fugu, Takifugu rubripes. \emph{Fish \& shellfish immunology},
+\emph{17}(4), 403-9.
+
+Zwollo, P., Ray, J. C., Sestito, M., Kiernan, E., Wiens, G. D.,
+Kaattari, S., \ldots{} Epp, L. (2014). B cell signatures of
+BCWD-resistant and susceptible lines of rainbow trout: A shift towards
+more EBF-expressing progenitors and fewer mature B cells in resistant
+animals. \emph{Developmental and comparative immunology}, \emph{48}(1),
+1-12.
 
 \end{document}

@@ -18,7 +18,7 @@ Este trabajo sienta las bases concretas para que futuras investigaciones se pued
 \begin{figure}[h!]
 \centering
 	\includegraphics[width=0.8\textwidth]{modelo}
-	\caption[Modelo molecular propuesto de respuesta inmune]{\textbf{Modelo molecular propuesto de respuesta inmune:} Generado a partir de los resultados obtenidos en tejido branquial de truchas arcoiris tratadas con \emph{Zimosán A} liberado en dieta, inmunoestimulante que llegaría a su receptor (¿$\beta$-glucano?, ¿Dectin-1 \emph{like}?), el cual generaría la cascada de señalización para promover una respuesta inmune sintetizando citoquinas como TNF-$\alpha$, IL-1$\beta$, IFN-$\gamma$ e IL-12 y a su vez promover un ambiente oxidativo con la síntesis de iNOS en células tipo NK}
+	\caption[Modelo molecular propuesto de respuesta inmune]{\textbf{Modelo molecular propuesto de respuesta inmune:} Generado a partir de los resultados obtenidos en tejido branquial de truchas arcoiris tratadas con \emph{Zimosán A} liberado en dieta, inmunoestimulante que llegaría a su receptor (¿$\beta$-glucano?, ¿Dectin-1 \emph{like}?), el cual generaría la cascada de señalización para promover una respuesta inmune sintetizando citoquinas como TNF-$\alpha$, IL-1$\beta$, IL-12 e IFN-$\gamma$ y a su vez promover un ambiente oxidativo con la síntesis de iNOS en células tipo NK}
 	\label{fig:modelo}
 \end{figure}
 

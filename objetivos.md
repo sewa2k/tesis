@@ -1,6 +1,6 @@
 \chapter{Objetivo General}
 
-Establecer un modelo molecular basado en la cuantificación de diferentes parámetros de respuesta inmunológica expresada en tejido branquial \emph{O.mykiss} en respuesta a la liberación en dieta del $\beta$-glucano Zymosan A.
+Establecer un modelo molecular basado en la magnitud de la expresión y disponibilidad de diferentes parámetros de respuesta inmunológica en tejido branquial de \emph{O.mykiss} en respuesta a la liberación en dieta del $\beta$-glucano Zymosan A.
 
 \section{Objetivos Específicos}
 
