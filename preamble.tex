@@ -1,12 +1,14 @@
 \usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 \usepackage[no-math]{fontspec}
 \setmainfont{Minion Pro}
+\KOMAoptions{appendixprefix=true}
 %\usepackage{MnSymbol}
 %\usepackage[mathlf,textlf]{MinionPro}
 \setromanfont{Minion Pro}
 \DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\ }
 \usepackage[spanish, es-tabla]{babel}
 \newcommand{\ga}{ɑ}
+\usepackage[toc,page]{appendix}
 \usepackage{textcomp}
 \usepackage{graphicx}
 \graphicspath{{gfx/}}
@@ -89,4 +91,7 @@
 %\usepackage{array}
 %\newcolumntype{x}[1]{%
 %>{\centering\arraybackslash}m{#1}}%
+\renewcommand{\appendixname}{Anéxos}
+\renewcommand{\appendixtocname}{Anéxos}
+\renewcommand{\appendixpagename}{Anéxos}
 

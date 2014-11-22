@@ -4,8 +4,9 @@
     
         %\vspace*{1cm}
         
-\includegraphics[width=5cm]{unab}\\
+\includegraphics[width=4cm]{unab}\\
 \vspace{0.1cm}
+Universidad Andrés Bello\\
 Facultad de Ciencias Biológicas\\
 Escuela de Ingeniería en Biotecnología
 
@@ -39,7 +40,7 @@ Escuela de Ingeniería en Biotecnología
         
         
  
-        Octubre, 2014
+        Noviembre, 2014
         
  
  

@@ -4,11 +4,9 @@ Los análisis desarrollados en esta tesis demuestran que al tratar a \emph{O.myk
 
 Sintetizando:
 \begin{itemize}
-\item Se observa una respuesta inmune en tejido branquial de \emph{O.mykiss} al ser tratados con \emph{Zimosán A} liberado en dieta.
-\item Esta respuesta es cuantificable y detectable a nivel de transcrito y proteínas.
-\item Usando una concentración de 0,3\% de \emph{Zimosán A} esta respuesta puede ser detectada desde el día 21 de su tratamiento
-\item Si bien los 5 marcadores propuestos en este ensayo, se sugiere utilizar específicamente (por su coeficiente de correlación de Pearson) TNF-$\alpha$ e IFN-$\gamma$, ya sea a nivel de transcrito o proteína
-\item Los anticuerpos policlonales mono-específicos producidos por el Grupo de Marcadores Inmunológicos en Organismos Acuáticos del GIM-PUCV son una alternativa viable y económica para medir estos marcadores usando una pequeña cantidad de tejido.
+\item Zimosán A liberado en dieta posee la capacidad de generar una respuesta inmune en tejido branquial de \emph{O.mykiss.}
+\item Esta respuesta es detectable a nivel de transcrito y proteínas a partir del día 21 de tratamiento.
+\item TNF-$\alpha$ e IFN-$\gamma$ son los marcadores recomendados como indicadores de inmunoestimulación en tejido branquial, ya sea a nivel de transcrito o proteína.
 \end{itemize}
 
 El aumento de moléculas efectoras y reguladoras de inmunidad deben dotar al pez de una mejor respuesta inmune frente a los distintos patógenos a los que podrían estar enfrentados en el cultivo de esta especie. 
