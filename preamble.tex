@@ -1,8 +1,8 @@
 \usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
 \usepackage[no-math]{fontspec}
 \setmainfont{Minion Pro}
-\KOMAoptions{appendixprefix=true}
-%\usepackage{MnSymbol}
+\KOMAoptions{appendixprefix=false}
+\KOMAoptions{numbers = noenddot}
 %\usepackage[mathlf,textlf]{MinionPro}
 \setromanfont{Minion Pro}
 \DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\ }
@@ -19,7 +19,7 @@
 \clearscrheadfoot
 \ohead{\rightmark}
 \ihead{\leftmark}
-\cfoot{\pagemark}
+\ofoot{\pagemark}
 \automark[section]{chapter}
 \newcommand{\subindice}[1]{$_{\text{#1}}$}
 \usepackage{mathspec}
@@ -71,9 +71,10 @@
 % Adjust spacing between lines to 1.5
 \usepackage{setspace}
 	\onehalfspacing
-\renewcommand*{\chapterheadstartvskip}{\vspace*{0.5cm}}
-\renewcommand*{\chapterheadendvskip}{\vspace{1cm}}
-
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{0.5cm}}
+%\renewcommand*{\chapterheadendvskip}{\vspace{1cm}}
+%\renewcommand*\chapterheadstartvskip{\vspace*{1mm}}
+%\renewcommand*\chapterheadendvskip{\vspace*{1mm}}
 %\raggedbottom
 
 % Set colour of links to black so that they don't show up when printed

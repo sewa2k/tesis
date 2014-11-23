@@ -1,4 +1,12 @@
+\KOMAoption{headings}{small}
 \begin{appendices}
+	\chapter{Centro de investigaciones en acuicultura Curauma}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[angle=90, scale=0.7]{ciac}
+		\caption {Diagrama de flujo Centro de Investigaciones en Acuicultura Curauma}
+		\label {fig:ciac}
+	\end{figure}
 	\chapter{Identificantes}
 	\begin{table}[h!]
 		\begin{center}
