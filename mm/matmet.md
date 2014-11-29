@@ -7,22 +7,22 @@
 	\label {fig:esquema}
 \end{figure}
 
-\section{Material Biológico y Bioensayo}
+\section{Material Biológico y Bio-ensayo}
 \subsection{Peces}
 
-Ejemplares de truchas arcoiris con un peso promedio de 22,26 $\pm$ 1,7397g fueron obtenidas desde la piscicultura de Rio Blanco, ubicada a 35km de Los Andes, en la Quinta región de Valparaíso y fueron trasladados hasta el Centro de Investigaciones en Acuicultura Curauma (CIAC), ubicado en la provincia de Valparaíso. Fueron aclimatados durante 1 semana y se mantuvieron a 14º C durante toda la investigación.
+Ejemplares de truchas arcoíris con un peso promedio de 22,26 $\pm$ 1,7397g fueron obtenidas desde la piscicultura de Río Blanco, ubicada a 35km de Los Andes, en la Quinta región de Valparaíso y fueron trasladados hasta el Centro de Investigaciones en Acuicultura Curauma (CIAC), ubicado en la provincia de Valparaíso. Fueron aclimatados durante 1 semana y se mantuvieron a 14º C durante toda la investigación.
 
 \subsection{Dieta}
 
-La dieta base de las truchas consistió en un pellet que contenía 65\% de harina de pescado, 16,3\% harina de trigo, 16\% aceite de pescado, 0.1\% vitamina C, 1\% Premix Vitamínico, 1\% Premix minerales traza, 0.6\% Colina + Gluten de Maiz
+La dieta base de las truchas consistió en un pellet que contenía 65\% de harina de pescado, 16,3\% harina de trigo, 16\% aceite de pescado, 0.1\% vitamina C, 1\% Premix Vitamínico, 1\% Premix minerales traza, 0.6\% Colina + Gluten de Maíz
 
 \subsection{Parámetros fisicoquímicos del ensayo}
 
-Durante toda la experiencia se midió dia a dia la temperatura, pH, presión y saturación de oxigeno de cada estanque y modulo llenando una planilla dispuesta para ese fin por el CIAC.
+Durante toda la experiencia se midió día a día la temperatura, pH, presión y saturación de oxigeno de cada estanque y modulo llenando una planilla dispuesta para ese fin por el CIAC.
 
 \subsection{Anticuerpos}
 
-Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y conejos, inmunizados con epítopes sintéticos de las moléculas de interés. Estas moléculas han sido validadas en salmónidos, mediante técnicas estandarizadas en el Grupo de Marcadores Inmunológicos del Laboratorio de Genética e Inmunología Molecular de la Pontificia Universidad Católica de Valparaíso (GIM-PUCV) [@Narvaez2010; @Rojas2012; @Santana2012; @Bethke2012]
+Se utilizaron anticuerpos policlonales monoespecíficos, obtenidos en ratones y conejos, inmunizados con epítopes sintéticos de las moléculas de interés. Estas moléculas han sido validadas en salmónidos, mediante técnicas estandarizadas en el Grupo de Marcadores Inmunológicos del Laboratorio de Genética e Inmunología Molecular de la Pontificia Universidad Católica de Valparaíso (GIM-PUCV) [@Narvaez2010; @Rojas2012; @Santana2012; @Bethke2012]
 
 \begin{table}[h!]
 	\sffamily
@@ -33,7 +33,7 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 				\toprule
 				\multicolumn{4}{c}{} & \multicolumn{3}{c}{Dilución Anticuerpo} \\
 				\cmidrule(r){5-7}
-				Molécula (Anti) & Huesped & Origen & Secuencia epítope & ELISA & WB & IFAT \\
+				Molécula (Anti) & Huésped & Origen & Secuencia epítope & ELISA & WB & IFAT \\
 				\midrule
 				TNF-$\alpha$ & Conejo & Suero & \texttt{WRKDDGQAFSQGGFE} & 1:2000 & 1:500 & 1:500 \\
 				TNF-$\alpha$ & Ratón & Suero & \texttt{ } & - & 1:500 & - \\
@@ -58,7 +58,7 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 		    \caption{Lista de Anticuerpos Comerciales Usados}\label{tabla:anticuerpos-comerciales}
 		    	\begin{tabular}{l l l l l}
 				\toprule
-				Reactividad & Huesped & Conjugado & Dilución & Proveedor \\
+				Reactividad & Huésped & Conjugado & Dilución & Proveedor \\
 				\midrule
 				IgG (H+L) Ratón & Cabra & HRP & 1:7000 & Thermo Pierce (31430) \\
 				IgG (H+L) Conejo & Cabra & HRP & 1:5000 & Thermo Pierce (31460) \\
@@ -75,7 +75,7 @@ Se utilizarán anticuerpos policlonales monoespecíficos, obtenidos en ratones y
 
 \section{Desafío y Controles}
 
-Los especímenes de trucha arcoíris se alimentaran en dos grupos, inducidos y controles, el primer grupo tendrá una dieta al 3\% de su peso con un agregado del 0,3\% de Zimosán, los controles tendrán la misma alimentación excepto por el Zimosán, el cual será reemplazado con PBS.
+Los especímenes de trucha arcoíris se alimentaron en dos grupos, inducidos y controles, el primer grupo tuvo una dieta al 3\% de su peso con un agregado del 0,3\% de Zymosan, los controles tendrán la misma alimentación excepto por el Zymosan, el cual será reemplazado con PBS.
 
 \section{Muestreo}
 

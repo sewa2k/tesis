@@ -1,13 +1,13 @@
 \section{Extracción de RNA}\label{extraccionrna}
 
-La extracción de RNA se llevó acabo usando el Kit de OmegaBiotek E.Z.N.A Total RNA Kit II usando las instrucciones del fabricante, para el homogenizado adicional se usó el homogenizador de sobremesa FastPrep24 de MP Biomedicals con un programa de 4,5 movimientos por segundo durante 40 segundos usando como matriz 4 esferas metálicas de 2,388mm de diametro.
+La extracción de RNA se llevó acabo usando el Kit de OmegaBiotek E.Z.N.A Total RNA Kit II usando las instrucciones del fabricante, para el homogeneizado adicional se usó el homogeneizador de sobremesa FastPrep24 de MP Biomedicals con un programa de 4,5 movimientos por segundo durante 40 segundos usando como matriz 4 esferas metálicas de 2,388mm de diámetro.
 
 
 \subsection{Cuantificación e Integridad de RNA}
 El RNA se cuantificó usando el sistema espectrofotométrico ND-1000 de NanoDrop cargando 2\si{\micro\liter} del RNA previamente extraído, luego para verificar su integridad se corrió un gel de agarosa nativo al 0,8\%  durante 1 hora a 80V cargando 1µg de RNA por pocillo, el RNA se almacenó a -80ºC.
 
 \subsection{Síntesis de cDNA}
-La transcripción reversa para generar el DNA complementario al RNA previamente extraido se realizó usando el Kit M-MLV Reverse Transcriptase de Promega usando las instrucciones del fabricante con 1µg de RNA, la reacción se hizo en un Termociclador C1000 Touch de Bio-Rad.
+La transcripción reversa para generar el DNA complementario al RNA previamente extraído se realizó usando el Kit M-MLV Reverse Transcriptase de Promega usando las instrucciones del fabricante con 1µg de RNA, la reacción se hizo en un Termociclador C1000 Touch de Bio-Rad.
 
 Para asegurar que las amplificaciones eran obtenidas a partir del cDNA y no de restos de DNA genómico no eliminado por el tratamiento con DNAsa I, previo a las reacciones de retrotranscripción, se realizaron reacciones de PCR control en las que como molde se utilizaron los RNAs extraídos. El tratamiento con DNAsa I se repetía, si era necesario, hasta que en todos los casos se obtenía una amplificación nula, de manera que el RNA molde para las reacciones de retrotranscripción estuviese totalmente libre de DNA genómico.
 

@@ -1,0 +1,22 @@
+\chapter{Resultados}
+
+Los resultados se expresarán en base a su relación con los objetivos específicos.
+\vfill
+\clearpage
+
+\epigraph{\textbf{Objetivo 1}: ``Implementar un sistema de alimentación que permita realizar la administración oral de zimosán y sus respectivos controles a O.mykiss.''}
+
+\section{Bioensayo}
+
+Se implementó el sistema de alimentación para las truchas arcoiris en el CIAC, donde se contó con 2 módulos de 3 estanques cada uno, dos de los cuales fueron destinados a la alimentación con la dieta suplementada con zimosán (estanques 2 y 5) y otros dos a la dieta control (estanques 3 y 6) (Fig. \ref{fig:ciac}).
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{peso2}
+	\caption {Crecimiento promedio de truchas en estudio}
+	\label {fig:pesos}
+\end{figure}
+
+No se observó ningún cambio significativo entre los pesos registrados para la dieta control y la dieta suplementada con Zimosán (Figura \ref{fig:pesos}), lo que indica que este $\beta$-glucano no genera un crecimiento a nivel de masa muscular comparado con el grupo sin tratamiento.
+
+\clearpage

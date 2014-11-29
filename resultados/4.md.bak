@@ -1,0 +1,55 @@
+
+\section{Tinción Hematoxilina-eosina}
+
+\begin{figure}[h!]
+	\centering
+\includegraphics[width=1\textwidth]{gills}
+	\caption[Microfotografías de branquias de trucha arcoiris]{Microfotografías de branquias de trucha arcoiris con tinción Hematoxilina-eosina: A) Opérculo abierto exponiendo las branquias a extraer; B,C) Día 0; D) Día 14 Control; E) Día 14 Tratado; F) Día 21 Control; G) Día 21 Tratado; H) Día 28 Control; I) Día 28 Tratado. AB = Arco Branquial, B = Branquias, LP = Laminilla primaria, LS = Laminilla secundaria, CE = Células epiteliales CP = Células pilares}
+	\label {fig:gills}
+\end{figure}
+
+Al realizar la tinción de Hematoxilina-eosina se pudo apreciar la integridad de los distintos cortes histológicos, los tejidos que los componen y así como también los distintos tipos celulares que se pudieron encontrar (Figura \ref{fig:gills}). La branquia se observa completa, sin su arco branquial, demostrando una consistencia entre sus laminillas primarias y secundarias (Figura \ref{fig:gills} D,E), así como también la presencia de células pilares (Figura \ref{fig:gills} C) y células epiteliales (Figura \ref{fig:gills} F).
+
+\section{Inmunofluorescencia}
+
+Habiendo comprobado la integridad de los tejidos muestreados se procedió a localizar las moléculas en estudio, usando los cortes cortes histológicos y la técnica de inmunofluorescencia descrita en la sección \ref{sec:ifat}, se observaron los siguientes resultados.
+
+\subsection*{TNF-$\alpha$}
+
+Se observa un marcaje positivo en células de la laminilla secundaria las cuales mostraban producción de TNF-$\alpha$ (Figura \ref{fig:gills:tnfa}).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ifat/z/zoom/tnfa}
+	\caption[Microscopía Confocal para TNF-$\alpha$]{Microscopía confocal para TNF-$\alpha$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta: A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+	\label {fig:gills:tnfa}
+\end{figure}
+
+\subsection*{IFN-$\gamma$}
+
+Se observa un marcaje positivo en células de la laminilla secundaria, las cuales mostraban producción de interferón gamma (Figura \ref{fig:gills:ifng}).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ifat/z/zoom/ifng}
+	\caption[Microscopía Confocal para IFN-$\gamma$]{Microscopía confocal para IFN-$\gamma$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+	\label {fig:gills:ifng}
+\end{figure}
+
+\subsection*{IL-1$\beta$}
+
+Se observa un marcaje positivo en células de la laminilla secundaria, las cuales mostraban producción de IL-1$\beta$ (Figura \ref{fig:gills:il1b}).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ifat/z/zoom/il1b}
+	\caption[Microscopía Confocal para IL-1$\beta$]{Microscopía confocal para IL-1$\beta$ en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+	\label {fig:gills:il1b}
+\end{figure}
+
+\subsection*{iNOS}
+Se observa un marcaje positivo para la producción de iNOS en células de la laminilla secundaria (Figura \ref{fig:gills:inos}).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ifat/z/zoom/inos}
+	\caption[Microscopía Confocal para iNOS]{Microscopía confocal para iNOS en cortes histológicos de branquias de trucha arcoiris tratadas con Zimosán A liberado en dieta:  A) Control con tinción Syto9; B) Control con tinción Alexa Fluor; C) \emph{Merge} entre ambos canales; D) Tratado con tinción Syto9; E) Tratado con tinción Alexa Fluor; F) \emph{Merge} entre ambos canales. Flechas ($\leftarrow$) = Marcaje del anticuerpo}
+	\label {fig:gills:inos}
+\end{figure}
+\clearpage

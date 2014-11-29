@@ -1,0 +1,74 @@
+\epigraph{\textbf{Objetivo 4}: ``Correlacionar el nivel de expresión y detección de moléculas de respuesta inmune evaluadas en tejido branquial.''}
+
+\section{Correlación}
+
+Con el fin de relacionar los valores de actividad transcripcional obtenida por qPCR entre los marcadores y a su vez, los valores de la disponibilidad de estos obtenida por ELISA y, por lo tanto, de esta manera evidenciar una relación de coincidencia se obtuvieron matrices de correlación de Pearson para estos dos métodos.
+
+\begin{table}[h!]
+\centering
+\caption[Matrices de correlación de las moléculas en estudio]{Matrices de correlación de las moléculas en estudio, para qPCR y ELISA}\label{tab:corr}
+\begin{subtable}{.5\textwidth}
+\centering
+
+\begin{tabular}{lrrrr}
+\toprule
+   & TNF-$\alpha$ & iNOS & IL-1$\beta$ & IL-12 \\ 
+  \midrule
+TNFa &  &  &  &  \\ 
+  iNOS &  {\color{OliveGreen}0,81}  &  &  &  \\ 
+  IL-1$\beta$ &  {\color{OliveGreen}0,98}  &  0,72  &  &  \\ 
+  IL-12 &  {\color{OliveGreen}0,94}  &  {\color{OliveGreen}0,87}  &  {\color{OliveGreen}0,86}  &  \\ 
+  IFN-$\gamma$ &  {\color{OliveGreen}0,99} &  {\color{OliveGreen}0,85}  &  {\color{OliveGreen}0,95}  &  {\color{OliveGreen}0,97}  \\ 
+   \bottomrule
+   \end{tabular}
+
+\caption{qPCR}
+\end{subtable}%
+\begin{subtable}{.5\textwidth}
+\centering
+
+\begin{tabular}{lrrrr}
+\toprule
+   		& TNF-$\alpha$ & iNOS & IL-1$\beta$ & IL-12 \\ 
+  \midrule
+  TNF-$\alpha$ & & & & \\
+  iNOS &  0,31  &  &  &  \\ 
+  IL-1$\beta$ & {\color{red}-0,81}  & -0,55  &  &  \\ 
+  IL-12 &  0,20  & -0,15  & -0,02  &  \\ 
+  IFN-$\gamma$ &  {\color{OliveGreen}0,89}  &  0,30  & -0,75  & -0,25  \\ 
+   \bottomrule
+   \end{tabular}
+
+\caption{ELISA}
+\end{subtable}
+\end{table}
+
+Se obtuvo una correlación muy alta (>0.8) entre todos los marcadores para el caso de los ensayos de qPCR (Tabla \ref{tab:corr}A), siendo la mayor correlación positiva la dupla IFN-$\gamma$/TNF-$\alpha$ con un R=0,99, también se puede destacar la alta correlación de los pares IFN-$\gamma$/iNOS - TNF-$\alpha$/iNOS (R=0,87 y 0,81 respectivamente) y por el contrario, la dupla con menor correlación positiva fue IL-1$\beta$/iNOS con un R=0,72.
+
+\begin{table}[h!]
+\centering
+\begin{threeparttable}
+\caption{Correlación de Pearson para una misma molécula y distintos ensayos}
+\label{r.pcr}\label{tab:corrtotal}
+\begin{tabularx}{10cm}{X r}
+  \toprule
+ 	Dupla	&  R \\
+  \midrule
+qTNF-$\alpha$/eTNF-$\alpha$	& {\color{OliveGreen}0,96} \\
+qIFN-$\gamma$/eIFN-$\gamma$	& {\color{OliveGreen}0,83} \\
+qIL-12/eIL-12 & 0,52 \\
+qiNOS/eiNOS	& 0,02 \\
+qIL-1$\beta$/eIL-1$\beta$ & 0,6 \\
+ \bottomrule
+   \end{tabularx}
+   \begin{tablenotes}
+	\item q = qPCR; e = ELISA
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+En el caso de los ensayos de ELISA indirecto la dupla que obtuvo mayor correlación positiva fue IFN-$\gamma$/TNF-$\alpha$ con un R=0,89 y luego, siguiendo lo observado a nivel de actividad transcripcional se observa una correlación positiva entre el par IFN-$\gamma$/iNOS y TNF-$\alpha$/iNOS, y por el contrario la dupla IL-1$\beta$/TNF-$\alpha$ obtuvo una correlación negativa con un R=-0,82 (Tabla \ref{tab:corr}B).
+
+Por otra parte se cruza el analisis entre las dos técnicas para visualizar que marcadores pueden ser evaluados indistintamente utilizando tanto uno como otro método, asi pudiendo adaptar las necesidades del trabajo de campo con la instrumentación y personal disponible (Tabla \ref{tab:corrtotal}).
+
+Para los casos de las moléculas TNF-$\alpha$ e IFN-$\gamma$ se obtuvieron correlaciones positivas > a 0,8 (Tabla \ref{tab:corrtotal}) lo que demuestra el uso de estos marcadores moleculares como mejores indicadores del efecto inmunomodulador del β-glucano en tejido branquial indistintamente del ensayo que se utilice.

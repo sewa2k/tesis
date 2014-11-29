@@ -5,7 +5,7 @@
 	\begin{acronym}
 	\acro{bsa}[BSA]{\emph{Bovine albumine serum}, Albúmina de suero bovino}
 	\acro{cdna}[cDNA]{DNA complementario}
-	\acro{ciac}[CIAC]{Centro de Investigacíones en Acuicultura Curauma}
+	\acro{ciac}[CIAC]{Centro de Investigaciones en Acuicultura Curauma}
 	\acro{dna}[DNA]{\emph{Deoxyribonucleic Acid}, Ácido desoxirribonucleico}
 	\acro{elisa}[ELISA]{\emph{Enzyme linked immuno-sorbent assay}, Ensayo de inmunoabsorción ligado a enzimas}
 	\acro{fao}[FAO]{\emph{Food and Agriculture Organization of the United Nations}, Organización de las Naciones Unidas para la Alimentación y la Agricultura}

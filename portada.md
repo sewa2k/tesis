@@ -19,7 +19,7 @@ Escuela de Ingeniería en Biotecnología
         \vspace{1.5cm}
  
         Proyecto de tesis presentado como parte de los requisitos para obtener el grado de \\
-        \large{\textsc{Magister en Biotecnología}}\\ 
+        \large{\textsc{Magíster en Biotecnología}}\\ 
         
         \vspace{2.5cm}        
         presentado por:\\

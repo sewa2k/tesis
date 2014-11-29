@@ -1,9 +1,9 @@
 \section{ELISA Indirecto}\label{ELISAs}
 
-Para validar los anticuerpos en estudio y ademas, determinar posteriormente la presencia de las moléculas en estudio se realizaron ensayos de ELISA -del inglés \emph{Enzyme Linked Immunosorbent Assay}- Indirecto.
+Para validar los anticuerpos en estudio y además, determinar posteriormente la presencia de las moléculas en estudio se realizaron ensayos de ELISA -del inglés \emph{Enzyme Linked Immunosorbent Assay}- Indirecto.
 
 \subsection{Activación de la placa}
-La placa de 96 pocillos PolySorp\textregistered (\emph{nunc\texttrademark}) se activó \emph{overnight} en duplicado con 30ng de proteínas totales previamente extraidas de branquias usando PBS 1X para diluir según sea necesario. Todas las muestras se sembraron en duplicado, y como blanco se utilizó PBS 1X. Luego se lavó 3 veces cada pocillo con 200µL de PBS 1X-Tween20 0,05\% (PBST 0,05\%). 
+La placa de 96 pocillos PolySorp\textregistered (\emph{nunc\texttrademark}) se activó \emph{overnight} en duplicado con 30ng de proteínas totales previamente extraídas de branquias usando PBS 1X para diluir según sea necesario. Todas las muestras se sembraron en duplicado, y como blanco se utilizó PBS 1X. Luego se lavó 3 veces cada pocillo con 200µL de PBS 1X-Tween20 0,05\% (PBST 0,05\%). 
 
 \subsection{Bloqueo de sitios inespecíficos}
 Para bloquear los sitios inespecíficos donde no se unió el antígeno se usó BSA diluida (200µL por pocillo)en PBS 1X al 1\% (PBSA 1\%) incubando la placa cubierta con parafilm por 2 horas a 37ºC con agitación leve y luego lavando la placa 3 veces con 200µL PBST 0,05\% usando un lavador de microplacas. 
