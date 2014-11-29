@@ -16,7 +16,7 @@ Ejemplares de truchas arcoiris con un peso promedio de 22,26 $\pm$ 1,7397g fuero
 
 La dieta base de las truchas consistió en un pellet que contenía 65\% de harina de pescado, 16,3\% harina de trigo, 16\% aceite de pescado, 0.1\% vitamina C, 1\% Premix Vitamínico, 1\% Premix minerales traza, 0.6\% Colina + Gluten de Maiz
 
-\subsection{Parametros fisicoquimicos del ensayo}
+\subsection{Parámetros fisicoquímicos del ensayo}
 
 Durante toda la experiencia se midió dia a dia la temperatura, pH, presión y saturación de oxigeno de cada estanque y modulo llenando una planilla dispuesta para ese fin por el CIAC.
 

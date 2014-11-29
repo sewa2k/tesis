@@ -1,17 +1,17 @@
 \chapter{Conclusiones}
 
-Los análisis desarrollados en esta tesis demuestran que al tratar a \emph{O.mykiss} con \emph{Zimosan A} liberado en dieta, hay una respuesta inmune en su tejido branquial, detectable a nivel de transcrito y proteína, por lo cual se da por aceptada la hipótesis planteada en este trabajo.
+Los análisis desarrollados en esta tesis demuestran que al tratar a \emph{O.mykiss} con \emph{Zimosan A} liberado en dieta, hay una respuesta inmune en su tejido branquial, detectable a nivel de transcrito y proteína.
 
-Sintetizando:
+Los marcadores moleculares utilizados se correlacionan positivamente entre ellos cuando son evaluados con tecnicas moleculares (qPCR), mientras que a nivel de proteína sólo tres marcadores (TNF$\alpha$/IFN-$\gamma$/iNOS) lo hacen positivamente.
+
 \begin{itemize}
-\item Zimosán A liberado en dieta posee la capacidad de generar una respuesta inmune en tejido branquial de \emph{O.mykiss.}
-\item Esta respuesta es detectable a nivel de transcrito y proteínas a partir del día 21 de tratamiento.
-\item TNF-$\alpha$ e IFN-$\gamma$ son los marcadores recomendados como indicadores de inmunoestimulación en tejido branquial, ya sea a nivel de transcrito o proteína.
+\item Zimosán A liberado en dieta posee la capacidad de inmunomodulación en tejido branquial de \emph{O.mykiss.}
+\item La respuesta inmune cuantificable a nivel de transcrito y proteína, puede evaluarse indistintamente utilizando los marcadores TNF-$\alpha$ e IFN-$gamma$
 \end{itemize}
 
-El aumento de moléculas efectoras y reguladoras de inmunidad deben dotar al pez de una mejor respuesta inmune frente a los distintos patógenos a los que podrían estar enfrentados en el cultivo de esta especie, sobretodo moléculas de respuesta secundaria como IFN-$\gamma$ e iNOS, las cuales, según lo observado a nivel de proteína generan una respuesta sutil frente al tratamiento con este $\beta$-glucano.
+Los marcadores TNF$\alpha$ e IFN-$\gamma$ son indicadores moleculares de inmunoestimulación en tejido branquial por Zymosan liberado en dieta evaluables indistintamente a nivel de transcrito y proteínas.
 
-Este trabajo sienta las bases concretas para que futuras investigaciones se puedan centrar en el uso de $\beta$-glucanos, en especial \emph{Zimosán A}, como inmunoestimulantes en distintas etapas de crecimiento del pez, así como también la prueba de distintas concentraciones y vías de liberación de estos compuestos.
+Este trabajo sienta las bases concretas para que futuras investigaciones se puedan centrar en el uso de $\beta$-glucanos, en especial \emph{Zymosan A}, como inmunoestimulantes en distintas etapas de crecimiento del pez, así como también la prueba de distintas concentraciones, vías de liberación de estos compuestos y evaluación de desafíos frente a distintos patógenos.
 
 \begin{figure}[h!]
 \centering

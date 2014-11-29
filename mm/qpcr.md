@@ -4,10 +4,10 @@ La extracción de RNA se llevó acabo usando el Kit de OmegaBiotek E.Z.N.A Total
 
 
 \subsection{Cuantificación e Integridad de RNA}
-El RNA se cuantificó usando el sistema espectrofotométrico ND-1000 de NanoDrop cargando 2\si{\micro\liter} del RNA previamente extraído, luego para verificar su integridad se corrió un gel de agarosa nativo al 0,8\%  durante 1 hora a 80V cargando 1\si{\micro\gram} de RNA por pocillo, el RNA se almacenó a -80ºC.
+El RNA se cuantificó usando el sistema espectrofotométrico ND-1000 de NanoDrop cargando 2\si{\micro\liter} del RNA previamente extraído, luego para verificar su integridad se corrió un gel de agarosa nativo al 0,8\%  durante 1 hora a 80V cargando 1µg de RNA por pocillo, el RNA se almacenó a -80ºC.
 
-\subsection{Sintesis de cDNA}
-La transcripción reversa para generar el DNA complementario al RNA previamente extraido se realizó usando el Kit M-MLV Reverse Transcriptase de Promega usando las instrucciones del fabricante con 1\si{\micro\gram} de RNA, la reacción se hizo en un Termociclador C1000 Touch de Bio-Rad.
+\subsection{Síntesis de cDNA}
+La transcripción reversa para generar el DNA complementario al RNA previamente extraido se realizó usando el Kit M-MLV Reverse Transcriptase de Promega usando las instrucciones del fabricante con 1µg de RNA, la reacción se hizo en un Termociclador C1000 Touch de Bio-Rad.
 
 Para asegurar que las amplificaciones eran obtenidas a partir del cDNA y no de restos de DNA genómico no eliminado por el tratamiento con DNAsa I, previo a las reacciones de retrotranscripción, se realizaron reacciones de PCR control en las que como molde se utilizaron los RNAs extraídos. El tratamiento con DNAsa I se repetía, si era necesario, hasta que en todos los casos se obtenía una amplificación nula, de manera que el RNA molde para las reacciones de retrotranscripción estuviese totalmente libre de DNA genómico.
 
@@ -15,7 +15,7 @@ Para asegurar que las amplificaciones eran obtenidas a partir del cDNA y no de r
 \section{PCR en Tiempo Real (qPCR)}
 La cuantificación por PCR a tiempo real permite monitorizar la reacción de PCR al 
 mismo tiempo que ésta tiene lugar. Se empleó como estrategia para realizar la cuantificación el uso de la sonda SYBR Green® del kit Brilliant III Ultra-Fast (Agillent) [@Wittwer1997]. 
-Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima ``\emph{Taq} DNA Polimerasa'', dNTPs, MgCl2 y el tampón de PCR, e incorpora, como su nombre 
+Las reacciones de PCR se llevaron a cabo en un termociclador a tiempo real CFX96 (Bio-Rad). Esta mezcla incluye, en las cantidades adecuadas y listo para su uso, la enzima ``\emph{Taq} DNA Polimerasa'', dNTPs, MgCl\subindice{2} y el tampón de PCR, e incorpora, como su nombre 
 indica, el colorante SYBR Green I, que detecta DNA de doble hélice, por lo que no es 
 necesario el uso de sondas específicas. Las muestras se amplificaron por duplicado en 
 placas de 96 pocillos para reacciones ópticas (Hard-Shell de Bio-Rad) (Figura \ref{fig:placapcr}).
@@ -94,9 +94,9 @@ minutos a 95ºC (activación enzimática), seguido por 39 ciclos de 5 segundos a
 					\toprule
 					 										& \textbf{1 Reacción} \\
 					\midrule
-					Brilliant III Ultra-Fast SYBR Green MM 	& 5\si{\micro\litro} \\
-					Partidores (F+R) 1,5\si{\micro\molar} 	& 4\si{\micro\litro} \\
-					Muestra (1:4) 							& 1\si{\micro\litro} \\
+					Brilliant III Ultra-Fast SYBR Green MM 	& 5µL \\
+					Partidores (F+R) 1,5\si{\micro\molar} 	& 4µL \\
+					Muestra (1:4) 							& 1µL \\
 					\textbf{Total por reacción} 			& 10m\si{\litro} \\
 					\bottomrule
 				\end{tabularx}
