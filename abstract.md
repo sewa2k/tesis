@@ -1,34 +1,3 @@
-\frontmatter
-\newenvironment{dedicatoria}
-  {\clearpage           % we want a new page
-   \thispagestyle{empty}% no header and footer
-   \vspace*{\stretch{1}}% some space at the top 
-   \itshape             % the text is in italics
-   \raggedleft          % flush to the right margin
-  }
-  {\par % end the paragraph
-   \vspace{\stretch{3}} % space at bottom is three times that at the top
-   \clearpage           % finish off the page
-  }
-
-\begin{dedicatoria}
-	Dedicada a mi Familia y a la Cuca
-\end{dedicatoria}
-\chapter{Agradecimientos}
-\thispagestyle{empty}
-En primer lugar le agradezco a mi Familia: Mamá, Papá, Pao, Lole, Maquita, Rodrigo, Espe y Matilda por estar siempre conmigo, apoyándome en todas estas locuras científicas en las que me meto, Los Amo!, siguiendo en primer lugar quiero también agradecer a mi polola Javiera, si bien la tesis la hice yo, ella fue la que siempre me hinchó para que escribiera un poco mas, mi fan nº 1, Te Amo Hermosa!. A mi segunda-familia los Muñoz-Díaz, a mis tíos Alfredo y a la tía Nina por costearme gran parte de la carrera, y a todos quienes sin querer olvidé mencionar acá. Sin todos ustedes no estaría aquí escribiendo estas frases cursis.
-
-Le agradezco también al Dr. Luis Mercado, por haber confiado en mi hace 4 años (mediante el gentil auspicio de la Dra. María Verónica Rojas), y según me comentó ese día para evitar el \emph{in-breeding} en el laboratorio, permitiendo a un alumno de Universidad Privada unirse al Grupo de Marcadores Inmunológicos en Organismos Acuáticos y así realizar una pasantía, mi práctica profesional, mi tesis de pregrado y la presente, y también por darme la oportunidad de hacer clases de Laboratorio de Biología Celular, donde descubrí el gusto que tengo por la docencia.
-A la Dra. Paulina Schmitt me gustaría agradecerle por haberme adoptado en su proyecto Fondecyt, así como también su simpatía y paciencia al enseñarme todo lo relacionado con este mundo que es la Biología Molecular. A la Dra. Paula Santana por enseñarme con esa simpatía característica de ella lo que es el orden del Lab y los pormenores de trabajar con Proteínas y el cuidado asociado a estas. A Claudio,  Byron y Daniel ya que me ayudaron siempre cuando tuve dudas sobre protocolos o en el escrito, a la Dra. Jimena Cortés por enseñarme tan sutilmente a expresarme cuando estoy exponiendo o defendiendo, así como también las clases \emph{enclochadas} de Lenguaje y frases típicas Hispano-Colombianas. Y por supuesto a todos y cada uno de los miembros del Grupo de marcadores inmunológicos en organismos acuáticos, que de una u otra forma apoyaron ya sea ayudando en experimento o incluso dando palabras de ánimo cuando los PCR no salían o los blancos en los ELISAs preliminares marcaban mas que las muestras.
-
-A la Dra. María Isabel Oliver, quien siempre estuvo dispuesta a atender mis dudas, que no eran pocas y, aunque yo era un hinchador por excelencia, siempre me atendió con una sonrisa en la cara. A todos los revisores externos de este escrito: Diana, René, Cristián y a todas las personas que estuvieron presentes durante mi tiempo en la Universidad Andrés Bello y la Pontificia Universidad Católica de Valparaíso.
-
-\begin{center}
-	¡Gracias Totales!
-\end{center}
-
-\clearpage
-
 \chapter{Resumen}
 
 La pérdida del equilibrio Ambiente $\leftrightarrow$ Patógeno $\leftrightarrow$ Hospedero es la causa de la mayoría de las enfermedades presentes en la acuicultura, y es por eso que es estrictamente necesario cimentar las bases de una comprensión íntegra del sistema inmune de peces, para así, poder generar tecnología que pueda sobreponerse a estos paradigmas. Esto tiene suma importancia sobretodo en la industria acuícola, la cual produce anualmente, 158 millones de toneladas de pescado, las cuales se traducen aproximadamente en 217.500 millones de dólares (USD), más aún, de toda esa producción, 136 millones de toneladas son exclusivamente destinadas a consumo humano. Esto demuestra el potencial presente en esta industria, la que se ve año a año afectada por mortalidades debidas a la perdida del equilibrio antes mencionado, generándose cuantiosas pérdidas a nivel comercial. 
@@ -55,15 +24,16 @@ Las herramientas generadas en esta tesis son un gran aporte para mejorar los an�
 
 The loss of balance between Environment $\leftrightarrow$ Pathogen $\leftrightarrow$ Host is one of the main causes of fish diseases in the global aquaculture. Because of this,  a comprehensive understanding of the fish immune system is required to generate new approaches that can overcome this paradigm. This is especially important in the fish farming industry, which produces annually 158 million tons of fish equals to approximately 217,500 million dollars. Furthermore, 136 million tons of this global production is exclusively focused on human consumption. This demonstrates the importance of this industry and the need of controlling the massive losses of commercial and human capital because fish mortalities. 
 
-Immunostimulants have emerged as viable, scalable and economical option to solve in part the problems of aquaculture, strengthening the immune response of farmed species at different stages of development.  . Several strategies for inducing immunomodulation, such as vaccines, exposure to immunostimulants baths, inclusion of immunostimulants  in the food,  among others, are currently available.
+Immunostimulants have emerged as viable, scalable and economical option to solve in part the problems of aquaculture, strengthening the immune response of farmed species at different stages of development.  . Several strategies for inducing immunomodulation, such as vaccines, exposure to immunostimulants baths, inclusion of immunostimulants in the food, among others, are currently available.
 
 The inclusion of immunostimulants diets is a strategy that has been proven to be a viable option for non-invasive delivery. A crucial fact on this subject is to establish the proper evaluation of the immunomodulatory effect. 
 
 Mucosal immunity has recently been considered to be fundamental in teleost because its diversity and features. The gills of fish are the largest tissue in many teleost species in terms of exposed surface,. This organ  has a central role in the maintenance of the homeostasis of the fish because the intake of nutrients and substances function and by forming an active barrier against pathogen entry. Several studies showed the existence of related immune cells, such as macrophages, granulocytes and lymphocytes B and T in the gills, showing the potential of this organ to assess the effect of immunomodulatory molecules and their intake effect on fish. 
 
-In this study we evaluated the immune response in the gill tissue of rainbow trout fed with 0.3\% zymosan-supplemented diet. Gills were dissected at 0, 7, 14, 21 and 28 days during the experimental trial to assessed the expression of different regulatory and effector immune molecules.
-Because their central role in the immune response, the regulators and effectors immune molecules were  : TNF-α, IL-1β, IL-12, IFN-γ and iNOS. Results on the gene expression by qPCR showed that the expression of several immune genes to the zymosan supplemented diet increase after 21 days of treatment, which is maintained until day 28 in most of the cases. The availability of these molecules at the protein level was observed from day 21 by indirect ELISA. Through immunohistochemical fluorescence analysis in the gill tissue, it was found that the increase in transcriptional activity of the pro-inflammatory TNF-α and the macrophage activator IFN-γ was correlated with the availability of the protein. 
+In this study we evaluated the immune response in gill tissue of rainbow trout fed with 0.3\% zymosan-supplemented diet. Gills were dissected at 0, 7, 14, 21 and 28 days during the experimental trial, and the expressions of different regulatory and effector immune molecules was assessed. The immune responsiveness was quantified and characterized considering the expression and availability of regulatory molecules and immune effector. Because their central role in the immune response, the selected regulators and effectors immune molecules were: TNF-α, IL-1β, IL-12, IFN-γ and iNOS.
 
-Finally, , a correlation matrix was generated with the obtained data. It was determined that the oral immunostimulation with a Zymosan A supplemented diet can be evaluated from the third week of feeding using quantification parameters, either at the transcriptional level as well as availability of proteins, for TNF-α and IFN-γ. 
+A transcriptional evaluation of these markers was done, it was found that the transcriptional evidence is reflected in protein availability and also was demonstrated the presence of TNF-$\alpha$, IL-1$\beta$, IFN-$\gamma$ and iNOS in the secondary lamellae of gill epithelium.
+
+With these data it was demonstrated that there is a correlation between the molecular level quantification and protein availability. Especially was found that the use of TNF-$\alpha$ and IFN-$\gamma$ as molecular markers are the best indicators of immunomodulatory effect of $\beta$-glucan in gill tissue.
 
 The tools generated in this study are a great contribution to improve the analysis of the immunostimulatory effects of supplemented diets in fish. We succeed in establishing a non-invasive method of delivery of immunostimulants determining immune response markers and the precise time points to evaluate the immunomodulation in  the rainbow trout.
